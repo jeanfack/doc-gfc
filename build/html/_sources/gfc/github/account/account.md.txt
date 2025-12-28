@@ -16,6 +16,24 @@
 
 ::::{grid}
 :::{grid-item-card}
+What are the three types of GitHub accounts ?
+:::
+
+:::{grid-item-card}
+**Personal**, **Organization**, and **Enterprise**.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts
+:::
+::::
+
+
+::::{grid}
+:::{grid-item-card}
 What are the differences between organization members and external collaborators in GitHub ?
 :::
 
@@ -59,3 +77,38 @@ Which option is not available for GitHub two-factor authentication ?
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is the purpose of **P**ersonal **A**ccess **T**okens (PATs) in GitHub ?
+:::
+
+:::{grid-item-card}
+To authenticate to GitHub API or command line.
+:::
+
+:::{grid-item-card}
+Personal access tokens (PATs) in GitHub serve as an alternative to passwords for authentication when interacting with GitHub API or the command line.\
+Users generate tokens and tie them to specific permissions for repositories or organizations.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Which of the following authentication methods is considered the most secure way to authenticate with 2FA on GitHub Enterprise ?
+:::
+
+:::{grid-item-card}
+Security keys
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/supply-chain-security/end-to-end-supply-chain/securing-accounts
+:::
+::::
