@@ -26,10 +26,11 @@ He wants to undo that specific commit.\
 :::
 
 :::{grid-item-card}
-{bdg-primary}`NOTES`
 
+```{note}
 Commit sans push => `git commit --amend` \
 Commit avec push => `git revert <SHA>`
+```
 :::
 
 :::{grid-item-card}

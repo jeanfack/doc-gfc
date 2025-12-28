@@ -25,9 +25,9 @@ Users are redirected to the Identity Provider (IdP) to authenticate.
 
 :::{grid-item-card}
 With SAML SSO, when a user accesses resources within a GitHub organization, GitHub redirects the user to the identity provider (IdP) for authentication. After successful authentication, the IdP redirects the user back to GitHub to access organization resources.\
-{bdg-primary}`Example`
-
+```{admonition} Example
 When an employee tries to access a repository in their organization's GitHub account, they are redirected to the company's login page to authenticate using their corporate credentials.
+```
 :::
 
 :::{grid-item-card}
