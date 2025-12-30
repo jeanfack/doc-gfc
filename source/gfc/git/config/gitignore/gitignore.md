@@ -70,3 +70,37 @@ Peter Griffin should edit the `.git/info/exclude` file in the root of his reposi
 * https://docs.github.com/en/get-started/git-basics/ignoring-files?platform=linux#excluding-local-files-without-creating-a-gitignore-file
 :::
 ::::
+
+::::{grid}
+:::{grid-item-card}
+What is the significance of maintaining multiple `.gitignore` files in a repository ?
+:::
+
+:::{grid-item-card}
+It allows for more granular control over which files are ignored in different directories.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/git-basics/ignoring-files
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+How does Git handle conflicting settings between `.gitignore` files in parent and child directories ?
+:::
+
+:::{grid-item-card}
+It prioritizes settings from child directories.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+https://docs.github.com/en/get-started/git-basics/ignoring-files
+:::
+::::

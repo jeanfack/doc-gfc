@@ -204,6 +204,116 @@ Then contact GitHub support to run garbage collection and invalidate the Git cac
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Stewie Griffin was working on a project when his dog unexpectedly jumped on his keyboard, causing some unintended changes to be saved in a file.\
+Fortunately, he hadn't committed those changes yet.\
+Now, Stewie wants to revert the file back to its state as it was in the last commit.\
+Which Git command should Stewie use to accomplish this ?
+:::
+
+:::{grid-item-card}
+`git checkout -- <filename>`
+:::
+
+:::{grid-item-card}
+Stewie Griffin should use the `git checkout -- <filename>` command to undo the local changes in the file.\
+This command reverts the file back to its state as it was in the last commit.\
+By using `--` followed by the filename, Stewie instructs Git to discard the changes made to that specific file.\
+:::
+
+:::{grid-item-card}
+* https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-local-changes
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What is the name of the most recent commit on the current Git branch ?
+:::
+
+:::{grid-item-card}
+`HEAD`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/intro-to-git/1-what-is-vc
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Chris Griffin wants to include all the changes made to tracked files in his next commit without explicitly staging them using `git add`.\
+Which command should he use to achieve this ?
+:::
+
+:::{grid-item-card}
+`git commit -a`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://git-scm.com/docs/git-commit/fr#git-commit-spanclasssynopsiscode-acodespan
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+By default, what is the initial branch called in a freshly created GitHub repository ?
+:::
+
+:::{grid-item-card}
+`main`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#about-the-default-branch
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Stewie wants to push his changes to his repository on GitHub.
+How can he skip checks for an individual commit when pushing it to his GitHub repository ?
+:::
+
+:::{grid-item-card}
+Add the line `skip-checks: true` after commit description, before the closing quotation, and after two empty lines.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#skipping-and-requesting-checks-for-individual-commits
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What is a recommended practice for writing a Git commit message subject line ?
+:::
+
+:::{grid-item-card}
+Start with a capital letter and use the imperative, present tense.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/4-exercise-create-pr
+:::
+::::
+
 <!--
 ::::{grid}
 :::{grid-item-card}
