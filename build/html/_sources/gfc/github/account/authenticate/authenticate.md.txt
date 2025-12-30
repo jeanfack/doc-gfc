@@ -13,6 +13,37 @@
 :::{grid-item-card} Source
 :::
 ::::
+## Glossaire
+
+::::{grid}
+:::{grid-item-card}
+* SAML
+* SSO
+* SCIM
+* IdP
+* IAM
+:::
+
+:::{grid-item-card}
+* Security Assertion Markup Language
+* Single Sign-On
+* System for Cross-domain Identity Management
+* Identity Provider
+* Identity and Access Management
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* 
+* 
+* 
+* 
+* [IAM](https://docs.github.com/en/enterprise-cloud@latest/admin/concepts/identity-and-access-management/identity-and-access-management-fundamentals)
+:::
+::::
+
 
 ## A2F
 
@@ -61,6 +92,25 @@ Security keys
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Where can you find the option to enable two-factor authentication (2FA) in GitHub ?
+:::
+
+:::{grid-item-card}
+In the "Access" section under "Password and authentication" in the user "Settings".
+:::
+
+:::{grid-item-card}
+![](../../../../_include/gfc/github/account/authenticate/img/E3Q28.png)
+:::
+
+:::{grid-item-card}
+* https://github.com/settings/security
+:::
+::::
+
+
 ## PAT
 
 ::::{grid}
@@ -82,7 +132,64 @@ Users generate tokens and tie them to specific permissions for repositories or o
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What distinguishes `Fine-Grained Personal Access Tokens` from `Personal Access Tokens (Classic)` in GitHub ?
+:::
+
+:::{grid-item-card}
+* `Fine-Grained Tokens` have broader access permissions compared to `Personal Access Tokens (Classic)`.
+* {bdg-success}`Correct` `Fine-Grained Tokens` expire, while `Personal Access Tokens (Classic)` are allowed to live forever.
+* `Personal Access Tokens (Classic)` are targeted at specific repositories, while `Fine-Grained Tokens` have access to all repositories by default.
+* `Personal Access Tokens (Classic)` offer more granular control over permissions than `Fine-Grained Tokens`.
+:::
+
+:::{grid-item-card}
+`Fine-Grained Personal Access Tokens` in GitHub offer more precise control over permissions compared to Personal Access Tokens (Classic).\
+While `Personal Access Tokens (Classic)` have broad access scopes and can live indefinitely, `Fine-Grained Tokens` have over 50 granular permissions and expire after a specified duration.\
+`Fine-Grained Tokens` only have access to repositories or organizations explicitly granted, whereas `Personal Access Tokens (Classic)` have access to all repositories by default.
+
+* *Right Option:* `Fine-Grained Tokens` expire, while `Personal Access Tokens (Classic)` are allowed to live forever.
+* *Wrong Option:* `Fine-Grained Tokens` have broader access permissions compared to `Personal Access Tokens (Classic)`.\
+It is incorrect because `Fine-Grained Tokens` provide more specific, limited access compared to `Personal Access Tokens (Classic)`.
+* *Wrong Option:* `Personal Access Tokens (Classic)` offer more granular control over permissions than `Fine-Grained Tokens`.\
+It is incorrect because it is the reverse of the actual distinction. `Personal Access Tokens (Classic)` offer broader access permissions, while `Fine-Grained Tokens` provide more granular control.
+* *Wrong Option:* `Personal Access Tokens (Classic)` are targeted at specific repositories, while `Fine-Grained Tokens` have access to all repositories by default.\
+It is incorrect because `Fine-Grained Tokens` do not have access to all repositories by default; they only have access to explicitly granted repositories.
+
+![](../../../../_include/gfc/github/account/authenticate/img/E3Q33.png)
+:::
+
+:::{grid-item-card}
+* https://github.blog/security/application-security/introducing-fine-grained-personal-access-tokens-for-github/#fine-grained-personal-access-tokens-in-action
+* https://docs.github.com/en/enterprise-server@3.10/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#fine-grained-personal-access-tokens
+:::
+::::
+
 ## SSO
+::::{grid}
+:::{grid-item-card}
+What is the purpose of SAML SSO in GitHub organization management ?
+:::
+
+:::{grid-item-card}
+To allow users to sign in to all their applications with one set of credentials.
+:::
+
+:::{grid-item-card}
+SAML SSO in GitHub organization management allows users to sign in to all their applications with one set of credentials authenticated by the identity provider (IdP).
+
+```{admonition} Example
+An employee logs into GitHub using their company's single sign-on (SSO) system, which also provides access to other enterprise applications.
+```
+:::
+
+:::{grid-item-card}
+https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/2-user-identity-access-management
+:::
+::::
+
+
 ::::{grid}
 :::{grid-item-card}
 How does SAML SSO work with GitHub Enterprise ?
@@ -103,6 +210,25 @@ When an employee tries to access a repository in their organization's GitHub acc
 * https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/3-authentication
 :::
 ::::
+
+
+::::{grid}
+:::{grid-item-card}
+Which type of user authentication is employed in order to verify a user's identity against a known identity provider ?
+:::
+
+:::{grid-item-card}
+SAML Single Sign-on (SAML SSO)
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/3-authentication
+:::
+::::
+
 
 ::::{grid}
 :::{grid-item-card}
@@ -125,6 +251,26 @@ Single sign-on (SSO).
 * https://learn.microsoft.com/en-gb/training/modules/github-introduction-administration/3-how-github-authentication-works
 :::
 ::::
+
+## IdP
+
+::::{grid}
+:::{grid-item-card}
+Which identity provider (IdP) allows team synchronization for managing team membership within organizations on GitHub Enterprise Cloud ?
+:::
+
+:::{grid-item-card}
+Microsoft Entra ID
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-saml-for-enterprise-iam#supported-idps
+:::
+::::
+
 
 ::::{grid}
 :::{grid-item-card}
