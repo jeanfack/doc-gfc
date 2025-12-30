@@ -3,8 +3,8 @@
    
    git > command                                             <gfc/git/command/command.md>
    git > config > .gitignore                                 <gfc/git/config/gitignore/gitignore.md>
-   github > account                                          <gfc/github/authenticate/account.md>
-   github > authenticate                                     <gfc/github/authenticate/authenticate.md>
+   github > account > account                                <gfc/github/account/account/account.md>
+   github > account > authenticate                           <gfc/github/account/authenticate/authenticate.md>
    github > organizations                                    <gfc/github/organizations/organizations.md>
    github > insights                                         <gfc/github/insights/insights.md>
    github > insights > Pulse                                 <gfc/github/insights/pulse/pulse.md>
