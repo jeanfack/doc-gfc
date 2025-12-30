@@ -3,9 +3,9 @@
    
    git > command                                             <gfc/git/command/command.md>
    git > config > .gitignore                                 <gfc/git/config/gitignore/gitignore.md>
-   github > account                                          <gfc/github/account/account.md>
-   github > account > secret-team                            <gfc/github/account/secret-team/secret-team.md>
-   github > account > SSO                                    <gfc/github/account/SSO/SSO.md>
+   github > account                                          <gfc/github/authenticate/account.md>
+   github > authenticate                                     <gfc/github/authenticate/authenticate.md>
+   github > organizations                                    <gfc/github/organizations/organizations.md>
    github > insights                                         <gfc/github/insights/insights.md>
    github > insights > Pulse                                 <gfc/github/insights/pulse/pulse.md>
    github > insights > Contributors                          <gfc/github/insights/contributors/contributors.md>

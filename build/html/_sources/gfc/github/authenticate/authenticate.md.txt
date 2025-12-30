@@ -1,4 +1,4 @@
-# SSO
+# Authenticate
 
 ::::{grid}
 :::{grid-item-card} Question
@@ -14,6 +14,9 @@
 :::
 ::::
 
+## PAT
+
+## SSO
 ::::{grid}
 :::{grid-item-card}
 How does SAML SSO work with GitHub Enterprise ?
@@ -24,7 +27,7 @@ Users are redirected to the Identity Provider (IdP) to authenticate.
 :::
 
 :::{grid-item-card}
-With SAML SSO, when a user accesses resources within a GitHub organization, GitHub redirects the user to the identity provider (IdP) for authentication. After successful authentication, the IdP redirects the user back to GitHub to access organization resources.\
+With SAML SSO, when a user accesses resources within a GitHub organization, GitHub redirects the user to the identity provider (IdP) for authentication. After successful authentication, the IdP redirects the user back to GitHub to access organization resources.
 ```{admonition} Example
 When an employee tries to access a repository in their organization's GitHub account, they are redirected to the company's login page to authenticate using their corporate credentials.
 ```

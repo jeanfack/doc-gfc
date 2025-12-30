@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" /><link rel="next" title="Secret-Team" href="secret-team/secret-team.html" /><link rel="prev" title=".gitignore config file" href="../../git/config/gitignore/gitignore.html" />
+<link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" /><link rel="next" title="Organizations" href="../organizations/organizations.html" /><link rel="prev" title="Account" href="account.html" />
 
     <!-- Generated with Sphinx 8.2.3 and Furo 2024.08.06 -->
-        <title>Account - GitHub Foundation Certification Helper</title>
+        <title>Authenticate - GitHub Foundation Certification Helper</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=c309799c" />
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
@@ -182,7 +182,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -205,9 +205,9 @@
   <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../git/command/command.html">git &gt; command</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../git/config/gitignore/gitignore.html">git &gt; config &gt; .gitignore</a></li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">github &gt; account</a></li>
-<li class="toctree-l1"><a class="reference internal" href="secret-team/secret-team.html">github &gt; account &gt; secret-team</a></li>
-<li class="toctree-l1"><a class="reference internal" href="SSO/SSO.html">github &gt; account &gt; SSO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="account.html">github &gt; account</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">github &gt; authenticate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../organizations/organizations.html">github &gt; organizations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../insights/insights.html">github &gt; insights</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../insights/pulse/pulse.html">github &gt; insights &gt; Pulse</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../insights/contributors/contributors.html">github &gt; insights &gt; Contributors</a></li>
@@ -244,7 +244,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../../../_sources/gfc/github/account/account.md.txt" title="View this page">
+  <a class="muted-link" href="../../../_sources/gfc/github/authenticate/authenticate.md.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -258,14 +258,14 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section class="tex2jax_ignore mathjax_ignore" id="account">
-<h1>Account<a class="headerlink" href="#account" title="Link to this heading"></a></h1>
+          <section class="tex2jax_ignore mathjax_ignore" id="authenticate">
+<h1>Authenticate<a class="headerlink" href="#authenticate" title="Link to this heading"></a></h1>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
 <div class="sd-col sd-d-flex-row docutils">
@@ -302,25 +302,35 @@ Source</div>
 </div>
 </div>
 </div>
+<section id="pat">
+<h2>PAT<a class="headerlink" href="#pat" title="Link to this heading"></a></h2>
+</section>
+<section id="sso">
+<h2>SSO<a class="headerlink" href="#sso" title="Link to this heading"></a></h2>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">What are the three types of GitHub accounts ?</p>
+<p class="sd-card-text">How does SAML SSO work with GitHub Enterprise ?</p>
 </div>
 </div>
 </div>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text"><strong>Personal</strong>, <strong>Organization</strong>, and <strong>Enterprise</strong>.</p>
+<p class="sd-card-text">Users are redirected to the Identity Provider (IdP) to authenticate.</p>
 </div>
 </div>
 </div>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
+<p class="sd-card-text">With SAML SSO, when a user accesses resources within a GitHub organization, GitHub redirects the user to the identity provider (IdP) for authentication. After successful authentication, the IdP redirects the user back to GitHub to access organization resources.</p>
+<div class="admonition-example admonition">
+<p class="admonition-title">Example</p>
+<p class="sd-card-text">When an employee tries to access a repository in their organization’s GitHub account, they are redirected to the company’s login page to authenticate using their corporate credentials.</p>
+</div>
 </div>
 </div>
 </div>
@@ -328,40 +338,7 @@ Source</div>
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <ul class="simple">
-<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts">https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts</a></p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row docutils">
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">What are the differences between organization members and external collaborators in GitHub ?</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">External collaborators cannot be team maintainers.</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<ul class="simple">
-<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization">https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/3-authentication">https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/3-authentication</a></p></li>
 </ul>
 </div>
 </div>
@@ -373,7 +350,15 @@ Source</div>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">Which option is not available for GitHub two-factor authentication ?</p>
+<p class="sd-card-text">As the owner of your organization, you want to ensure that everyone who is signed in to your corporate network can access the GitHub website without having to sign in again.<br />
+What type of technology would you use to achieve this?</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Single sign-on (SSO).</p>
 </div>
 </div>
 </div>
@@ -381,28 +366,10 @@ Source</div>
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <ul class="simple">
-<li><p class="sd-card-text">GitHup Mobile.</p></li>
-<li><p class="sd-card-text"><span class="sd-sphinx-override sd-badge sd-bg-success sd-bg-text-success">-&gt;</span> GitHub App.</p></li>
-</ul>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p class="sd-card-text"><em>Attention au piège avec <strong>GitHub Mobile</strong> et <strong>Authentication App</strong> qui sont 2 méthodes valides</em></p>
-</div>
-<ul class="simple">
-<li><p class="sd-card-text">SMS.</p></li>
-<li><p class="sd-card-text">Security Key.</p></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<ul class="simple">
-<li><p class="sd-card-text"><strong>SMS</strong>: Receive authentication codes via text message to a mobile phone number linked to your GitHub account.</p></li>
-<li><p class="sd-card-text"><strong>Authentication App</strong>: Use an authentication app like Google Authenticator, Authy, or similar apps to generate authentication codes.</p></li>
-<li><p class="sd-card-text"><strong>Security Key</strong>: Use a physical security key, such as a YubiKey, to provide an additional layer of security. This method is often considered more secure than SMS or authentication apps.</p></li>
-<li><p class="sd-card-text"><strong>GitHub Mobile</strong>: You can use GitHub Mobile for 2FA when signing into your GitHub account in a web browser. 2FA with GitHub Mobile does not rely on TOTP, and instead uses public-key cryptography to secure your account.</p></li>
+<li><p class="sd-card-text">Single sign-on is the right technology to allow network users to access the GitHub website without extra sign-ins.</p></li>
+<li><p class="sd-card-text">Two-factor authentication requires each user to sign in by using a second means of identifying themselves, like using an authenticator app on their phones.</p></li>
+<li><p class="sd-card-text">Personal Access Tokens provide access for the git client or web API by using a cryptographic key. You don’t use them to access the GitHub website.</p></li>
+<li><p class="sd-card-text">SSH keys provide access for the git client through a username and password. You don’t use them to access the GitHub website.</p></li>
 </ul>
 </div>
 </div>
@@ -411,7 +378,7 @@ Source</div>
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <ul class="simple">
-<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication">https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://learn.microsoft.com/en-gb/training/modules/github-introduction-administration/3-how-github-authentication-works">https://learn.microsoft.com/en-gb/training/modules/github-introduction-administration/3-how-github-authentication-works</a></p></li>
 </ul>
 </div>
 </div>
@@ -423,22 +390,20 @@ Source</div>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">What is the purpose of <strong>P</strong>ersonal <strong>A</strong>ccess <strong>T</strong>okens (PATs) in GitHub ?</p>
+<p class="sd-card-text">Which identity providers are supported for enabling team synchronization in GitHub ?</p>
 </div>
 </div>
 </div>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">To authenticate to GitHub API or command line.</p>
+<p class="sd-card-text">Microsoft Entra ID, Okta.</p>
 </div>
 </div>
 </div>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">Personal access tokens (PATs) in GitHub serve as an alternative to passwords for authentication when interacting with GitHub API or the command line.<br />
-Users generate tokens and tie them to specific permissions for repositories or organizations.</p>
 </div>
 </div>
 </div>
@@ -446,7 +411,7 @@ Users generate tokens and tie them to specific permissions for repositories or o
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <ul class="simple">
-<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/enterprise-cloud&#64;latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization#prerequisites">https://docs.github.com/en/enterprise-cloud&#64;latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization#prerequisites</a></p></li>
 </ul>
 </div>
 </div>
@@ -458,14 +423,53 @@ Users generate tokens and tie them to specific permissions for repositories or o
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">Which of the following authentication methods is considered the most secure way to authenticate with 2FA on GitHub Enterprise ?</p>
+<p class="sd-card-text">What permissions are required to enable team synchronization with Microsoft Entra ID ?</p>
 </div>
 </div>
 </div>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">Security keys</p>
+<p class="sd-card-text">Read all user’s full profiles.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">To enable team synchronization for Microsoft Entra ID, the installation needs the following permissions:</p>
+<ul class="simple">
+<li><p class="sd-card-text">Read all user’s full profiles.</p></li>
+<li><p class="sd-card-text">Sign in and read user profiles.</p></li>
+<li><p class="sd-card-text">Read directory data.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/5-team-synchronization">https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/5-team-synchronization</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Which protocol allows synchronization of user identity information between an identity provider (IdP) and GitHub ?</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">SCIM</p>
 </div>
 </div>
 </div>
@@ -479,7 +483,7 @@ Users generate tokens and tie them to specific permissions for repositories or o
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <ul class="simple">
-<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/code-security/supply-chain-security/end-to-end-supply-chain/securing-accounts">https://docs.github.com/en/code-security/supply-chain-security/end-to-end-supply-chain/securing-accounts</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/4-authorization">https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/4-authorization</a></p></li>
 </ul>
 </div>
 </div>
@@ -487,29 +491,30 @@ Users generate tokens and tie them to specific permissions for repositories or o
 </div>
 </div>
 </section>
+</section>
 
         </article>
       </div>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="secret-team/secret-team.html">
+          <a class="next-page" href="../organizations/organizations.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Secret-Team</div>
+                <div class="title">Organizations</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../../git/config/gitignore/gitignore.html">
+          <a class="prev-page" href="account.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title"><code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> config file</div>
+                <div class="title">Account</div>
                 
               </div>
             </a>
@@ -531,8 +536,28 @@ Users generate tokens and tie them to specific permissions for repositories or o
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Authenticate</a><ul>
+<li><a class="reference internal" href="#pat">PAT</a></li>
+<li><a class="reference internal" href="#sso">SSO</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
