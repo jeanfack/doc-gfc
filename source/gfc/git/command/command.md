@@ -14,6 +14,8 @@
 :::
 ::::
 
+## git commit
+
 ::::{grid}
 :::{grid-item-card}
 Chris Griffin just pushed his latest changes to GitHub but realizes that one of the commits contains a critical error.\
@@ -77,55 +79,6 @@ BFG Repo-Cleaner or `git filter-repo` command.
 
 ::::{grid}
 :::{grid-item-card}
-How can you create a new branch in Git using the terminal ?
-:::
-
-:::{grid-item-card}
-`git checkout -b <branch-name>`
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-Peter Griffin wants to ignore a file that is already checked into his Git repository.\
-What command should he use to untrack the file before adding a rule to ignore it ?
-:::
-
-:::{grid-item-card}
-`git rm --cached <FILENAME>`
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-What does git status do in Git ?
-:::
-
-:::{grid-item-card}
-Shows the state of the working tree and staging area.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
 Which type of commits are excluded from the Commit graph ?
 :::
 
@@ -137,52 +90,6 @@ Merge commits.
 :::
 
 :::{grid-item-card}
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-Peter wants to rename his local branch named `feature-1` to `new-feature` on the remote repository named `origin`.\
-Which Git command should he use?
-:::
-
-:::{grid-item-card}
-`git push origin feature-1:new-feature`
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#renaming-branches
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-Which of the following describes the primary states a file can be in within a Git repository ?\
-*Choose TWO correct answers*.
-:::
-
-:::{grid-item-card}
-* `Unstracked`.
-* `Tracked`.
-:::
-
-:::{grid-item-card}
-The primary states for a file in a Git repository are:
-* `Untracked`: An initial state of a file when it isn't yet part of the Git repository. Git is unaware of its existence.
-* `Tracked`: A tracked file is one that Git is actively monitoring. It can be in one of the following substates:
-  - `Unmodified`: The file is tracked, but it hasn't been modified since the last commit.
-  - `Modified`: The file has been changed since the last commit, but these changes aren't yet staged for the next commit.- 
-  - `Staged`: The file has been modified, and the changes have been added to the staging area (also known as the index). These changes are ready to be committed.
-
-![](../../../_include/gfc/git/command/img/lifecycle.png)
-:::
-
-:::{grid-item-card}
-* https://git-scm.com/book/ms/v2/Git-Basics-Recording-Changes-to-the-Repository
-* https://learn.microsoft.com/en-us/training/modules/introduction-to-github/3-components-of-github-flow
 :::
 ::::
 
@@ -206,46 +113,6 @@ Then contact GitHub support to run garbage collection and invalidate the Git cac
 
 ::::{grid}
 :::{grid-item-card}
-Stewie Griffin was working on a project when his dog unexpectedly jumped on his keyboard, causing some unintended changes to be saved in a file.\
-Fortunately, he hadn't committed those changes yet.\
-Now, Stewie wants to revert the file back to its state as it was in the last commit.\
-Which Git command should Stewie use to accomplish this ?
-:::
-
-:::{grid-item-card}
-`git checkout -- <filename>`
-:::
-
-:::{grid-item-card}
-Stewie Griffin should use the `git checkout -- <filename>` command to undo the local changes in the file.\
-This command reverts the file back to its state as it was in the last commit.\
-By using `--` followed by the filename, Stewie instructs Git to discard the changes made to that specific file.\
-:::
-
-:::{grid-item-card}
-* https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-local-changes
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-What is the name of the most recent commit on the current Git branch ?
-:::
-
-:::{grid-item-card}
-`HEAD`
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://learn.microsoft.com/en-us/training/modules/intro-to-git/1-what-is-vc
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
 Chris Griffin wants to include all the changes made to tracked files in his next commit without explicitly staging them using `git add`.\
 Which command should he use to achieve this ?
 :::
@@ -259,23 +126,6 @@ Which command should he use to achieve this ?
 
 :::{grid-item-card}
 * https://git-scm.com/docs/git-commit/fr#git-commit-spanclasssynopsiscode-acodespan
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-By default, what is the initial branch called in a freshly created GitHub repository ?
-:::
-
-:::{grid-item-card}
-`main`
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#about-the-default-branch
 :::
 ::::
 
@@ -313,6 +163,168 @@ Start with a capital letter and use the imperative, present tense.
 * https://learn.microsoft.com/en-us/training/modules/contribute-open-source/4-exercise-create-pr
 :::
 ::::
+
+## git checkout
+
+::::{grid}
+:::{grid-item-card}
+How can you create a new branch in Git using the terminal ?
+:::
+
+:::{grid-item-card}
+`git checkout -b <branch-name>`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Stewie Griffin was working on a project when his dog unexpectedly jumped on his keyboard, causing some unintended changes to be saved in a file.\
+Fortunately, he hadn't committed those changes yet.\
+Now, Stewie wants to revert the file back to its state as it was in the last commit.\
+Which Git command should Stewie use to accomplish this ?
+:::
+
+:::{grid-item-card}
+`git checkout -- <filename>`
+:::
+
+:::{grid-item-card}
+Stewie Griffin should use the `git checkout -- <filename>` command to undo the local changes in the file.\
+This command reverts the file back to its state as it was in the last commit.\
+By using `--` followed by the filename, Stewie instructs Git to discard the changes made to that specific file.\
+:::
+
+:::{grid-item-card}
+* https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-local-changes
+:::
+::::
+
+## git rm
+
+::::{grid}
+:::{grid-item-card}
+Peter Griffin wants to ignore a file that is already checked into his Git repository.\
+What command should he use to untrack the file before adding a rule to ignore it ?
+:::
+
+:::{grid-item-card}
+`git rm --cached <FILENAME>`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+::::
+
+## git push
+
+::::{grid}
+:::{grid-item-card}
+Peter wants to rename his local branch named `feature-1` to `new-feature` on the remote repository named `origin`.\
+Which Git command should he use?
+:::
+
+:::{grid-item-card}
+`git push origin feature-1:new-feature`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#renaming-branches
+:::
+::::
+
+## status
+
+::::{grid}
+:::{grid-item-card}
+What does git status do in Git ?
+:::
+
+:::{grid-item-card}
+Shows the state of the working tree and staging area.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Which of the following describes the primary states a file can be in within a Git repository ?\
+*Choose TWO correct answers*.
+:::
+
+:::{grid-item-card}
+* `Unstracked`.
+* `Tracked`.
+:::
+
+:::{grid-item-card}
+The primary states for a file in a Git repository are:
+* `Untracked`: An initial state of a file when it isn't yet part of the Git repository. Git is unaware of its existence.
+* `Tracked`: A tracked file is one that Git is actively monitoring. It can be in one of the following substates:
+  - `Unmodified`: The file is tracked, but it hasn't been modified since the last commit.
+  - `Modified`: The file has been changed since the last commit, but these changes aren't yet staged for the next commit.- 
+  - `Staged`: The file has been modified, and the changes have been added to the staging area (also known as the index). These changes are ready to be committed.
+
+![](../../../_include/gfc/git/command/img/lifecycle.png)
+:::
+
+:::{grid-item-card}
+* https://git-scm.com/book/ms/v2/Git-Basics-Recording-Changes-to-the-Repository
+* https://learn.microsoft.com/en-us/training/modules/introduction-to-github/3-components-of-github-flow
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What is the name of the most recent commit on the current Git branch ?
+:::
+
+:::{grid-item-card}
+`HEAD`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/intro-to-git/1-what-is-vc
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+By default, what is the initial branch called in a freshly created GitHub repository ?
+:::
+
+:::{grid-item-card}
+`main`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#about-the-default-branch
+:::
+::::
+
+## others
 
 <!--
 ::::{grid}
