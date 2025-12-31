@@ -93,15 +93,129 @@ By navigating to the `Insights` tab in the repository and selecting `Pulse`.
 
 ## Contributors
 
+::::{grid}
+:::{grid-item-card}
+Meg is a developer who has been actively contributing to a GitHub repository, but she notices that her contributions are not showing up in the contributors graph.\
+She wants to troubleshoot the issue.\
+What could be a possible reason why Meg's contributions are not appearing in the repository's contributors graph?
+:::
+
+:::{grid-item-card}
+Meg's commits haven't been merged into the default branch.
+:::
+
+:::{grid-item-card}
+If you don't appear in a repository's contributors graph, it may be because:
+* You aren't one of the top 100 contributors.
+* Your commits haven't been merged into the default branch.
+* The email address you used to author the commits isn't connected to your account on GitHub.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors#troubleshooting-contributors
+:::
+::::
+
 ## Community
 
 ## Traffic
+
+::::{grid}
+:::{grid-item-card}
+Adam West is a project manager for a software development team using GitHub to host their repositories.\
+He wants to analyze the traffic to their project repository and understand where the visitors are coming from and which content is generating the most interest.\
+Which GitHub feature should Adam use to get this information ?
+:::
+
+:::{grid-item-card}
+Traffic
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository
+:::
+::::
 
 ## Commits
 
 ## Code frequency
 
+::::{grid}
+:::{grid-item-card}
+Peter, a software engineer, wants to analyze the changes made to a GitHub repository.
+:::
+
+:::{grid-item-card}
+Code frequency graph
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/analyzing-changes-to-a-repositorys-content#visualizing-additions-and-deletion-to-content-in-a-repository
+:::
+::::
+
 ## Dependency graph
+
+::::{grid}
+:::{grid-item-card}
+How does GitHub help reduce the overhead of staying on top of security considerations for project dependencies ?
+:::
+
+:::{grid-item-card}
+By offering dependency graphs and automated dependency alerts.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts#dependabot-alerts-for-vulnerable-dependencies
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+When is the dependency graph automatically updated ?
+:::
+
+:::{grid-item-card}
+When a change is pushed to the default branch affecting manifest or lock files.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#about-the-dependency-graph
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Lois is a developer working on a project hosted on GitHub.\
+She wants to identify all the dependencies her project relies on. Which feature should she use ?
+:::
+
+:::{grid-item-card}
+Dependency Graph
+:::
+
+:::{grid-item-card}
+Lois can use the Dependency Graph feature on GitHub to identify all the project's dependencies. 
+This feature provides a summary of the manifest and lock files stored in the repository and any submitted dependencies. 
+It supports various package ecosystems and displays dependencies and dependents, along with license information and vulnerability severity.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/understanding-connections-between-repositories#viewing-the-dependencies-of-a-repository
+:::
+::::
 
 ## Network
 

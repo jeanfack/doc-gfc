@@ -17,10 +17,6 @@
    notifications                                    <gfc/github/notifications/notifications.md>
    organizations                                    <gfc/github/organizations/organizations.md>
    insights                                         <gfc/github/insights/insights.md>
-   insights > Contributors                          <gfc/github/insights/contributors/contributors.md>
-   insights > Traffic                               <gfc/github/insights/traffic/traffic.md>
-   insights > Code Frequency                        <gfc/github/insights/code_frequency/code_frequency.md>
-   insights > Dependency Graph                      <gfc/github/insights/dependency_graph/dependency_graph.md>
    issues > Issues                                  <gfc/github/issues/issues.md>
    issues > Label                                   <gfc/github/issues/label/label.md>
    issues > Milestones                              <gfc/github/issues/milestones/milestones.md>
