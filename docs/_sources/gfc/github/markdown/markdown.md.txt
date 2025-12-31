@@ -52,6 +52,37 @@ How can you add a link in a wiki page using Markdown syntax ?
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Which of the following is a valid Markdown syntax ?
+:::
+
+:::{grid-item-card}
+* `<-- This content will no appear in the rendered Markdown -->`
+* `(link text for page)[URL to a page]`
+* `*Will appear as bold text in the rendered Markdown*`
+* {bdg-success}`Correct` `# Will appear as a heading line in the rendered Markdown`
+* `- Will apear as a ordered list in the rendered Markdown`
+:::
+
+:::{grid-item-card}
+* `<-- This content will no appear in the rendered Markdown -->`\
+{bdg-danger}`Incorrect` missing `!` in open tag `<!--`
+* `(link text for page)[URL to a page]`\
+{bdg-danger}`Incorrect` it reverse : `[text](URL)`
+* `*Will appear as bold text in the rendered Markdown*`\
+{bdg-danger}`Incorrect` one `*`  for `*italic*`, two `*` for `**bold**`
+* `# Will appear as a heading line in the rendered Markdown`\
+{bdg-success}`Correct` 
+* `- Will apear as a ordered list in the rendered Markdown`\
+{bdg-danger}`Incorrect` the `-` is for unordered list. For ordered list, use number `1. text`
+:::
+
+:::{grid-item-card}
+:::
+::::
+
+
 ## Slash command
 
 ### Primary purpose
