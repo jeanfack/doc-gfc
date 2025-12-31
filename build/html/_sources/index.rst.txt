@@ -20,8 +20,6 @@
    introduction                                     <gfc/github/introduction/introduction.md>
    issues > Issues                                  <gfc/github/issues/issues/issues.md>
    issues > Pull Requests                           <gfc/github/issues/pull_requests/pull_requests.md>   
-   issues > issues > Label                          <gfc/github/issues/issues/label/label.md>
-   issues > issues > Milestones                     <gfc/github/issues/issues/milestones/milestones.md>
    plan > Plan                                      <gfc/github/plan/plan.md>
    project                                          <gfc/github/project/project.md>
    repository > config > CODEOWNERS                 <gfc/github/repository/config/CODEOWNERS/CODEOWNERS.md>
