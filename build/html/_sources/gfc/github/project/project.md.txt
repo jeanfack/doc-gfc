@@ -299,8 +299,45 @@ GitHub frequently updates its features and workflows, so for the most accurate a
 :::
 ::::
 
-
 ## Field
+
+### `Single select`
+
+::::{grid}
+:::{grid-item-card}
+What field can you use in order to make a Priority grouping like High, Medium, and Low in your Project ?
+:::
+
+:::{grid-item-card}
+`Single select`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-single-select-fields
+:::
+::::
+
+### `Iteration`
+
+::::{grid}
+:::{grid-item-card}
+What does an iteration field help you do in Projects ?
+:::
+
+:::{grid-item-card}
+Allows you to create sequential phases of your project and group issues and pull request based on the phase.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-iteration-fields
+:::
+::::
 
 ## Label
 
