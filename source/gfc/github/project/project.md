@@ -291,6 +291,7 @@ Auto-closing issues: There is a blog post regarding this workflow (GitHub Change
 Your answers should depend only on the current official documentation.\
 Recent updates, blog posts, or new workflows (e.g., Auto-add sub-issues) will not be included in the test.\
 GitHub frequently updates its features and workflows, so for the most accurate and up-to-date information, always refer to the official documentation and changelogs.
+```
 :::
 
 :::{grid-item-card}
