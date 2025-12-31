@@ -199,8 +199,26 @@ Information is automatically synced to the project as changes are made.
 ::::
 
 
+## Open-Source
 
-## Inner-Source and Open-Source
+::::{grid}
+:::{grid-item-card}
+What is the purpose of a pull request in an open-source project ?
+:::
+
+:::{grid-item-card}
+To propose changes to the project.
+:::
+
+:::{grid-item-card}
+A pull request is a formal way to propose changes to an open-source project. It contains a title, description, and one or more commits that constitute the changes being proposed.\
+Pull requests facilitate discussion, code review, and collaboration among project contributors before the changes are merged into the main codebase.
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/3-contribute
+:::
+::::
 
 ::::{grid}
 :::{grid-item-card}
@@ -218,6 +236,139 @@ Publish the code as a stand-alone library (dependency).
 * https://learn.microsoft.com/en-us/training/modules/contribute-open-source/5-next-steps
 :::
 ::::
+
+::::{grid}
+:::{grid-item-card}
+What benefits do GitHub actions bring to open-source projects ?
+:::
+
+:::{grid-item-card}
+Provides packaged scripts for automating tasks in a software development workflow.
+:::
+
+:::{grid-item-card}
+GitHub Actions are packaged scripts that automate various tasks in a software-development workflow directly within GitHub.\
+These actions can perform actions such as running tests, deploying applications, and interacting with external services.\
+By using GitHub Actions, developers can streamline their workflows, improve productivity, and maintain consistency across projects.\
+Additionally, GitHub Actions contribute to the open-source ecosystem by providing a standardized way to automate repetitive tasks and enhance project efficiency.
+
+
+
+```{Admonition} Example
+Imagine you're maintaining an open-source project hosted on GitHub, and you want to automate the process of running tests whenever a new pull request is submitted.\
+You can create a GitHub Action that triggers test execution whenever changes are made to the codebase.\
+This action ensures that all proposed changes undergo thorough testing, helping maintain code quality and reliability.
+```
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/github-actions-automate-tasks/2-github-actions-automate-development-tasks
+:::
+::::
+
+
+## Inner-Source
+
+::::{grid}
+:::{grid-item-card}
+What is InnerSource ?
+:::
+
+:::{grid-item-card}
+haring of source code within the organization.
+:::
+
+:::{grid-item-card}
+InnerSource is a development methodology where engineers collaborate on proprietary software using best practices from large-scale open source projects.\
+It involves sharing code within an organization to encourage collaboration and improve the quality of the codebase.
+
+This approach enables teams to work together more effectively, leverage existing internal projects, and build software faster.
+
+InnerSource principles are inspired by successful open source projects and emphasize transparency, open collaboration, and community-driven development.
+:::
+
+:::{grid-item-card}
+* https://github.com/resources/articles/innersource
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+How does innersource promote code reuse within an organization ?
+:::
+
+:::{grid-item-card}
+By enabling teams to discover, customize, and reuse existing internal projects.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://github.com/resources/articles/innersource
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What role do open source workflow practices play in InnerSource adoption?
+:::
+
+:::{grid-item-card}
+They facilitate collaboration, visibility, and code reuse.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://about.gitlab.com/topics/version-control/what-is-innersource/#benefits-of-inner-source
+:::
+::::
+
+### Success program
+
+::::{grid}
+:::{grid-item-card}
+What is the recommended approach for measuring the success of an InnerSource program ?
+:::
+
+:::{grid-item-card}
+Tracking the number of external contributors and their contributions.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/2-manage-innersource-program
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Suppose your team has been tracking data of all kinds since your InnerSource program went live three months ago.\
+Which of the following metrics indicates your program is a great success ?
+:::
+
+:::{grid-item-card}
+* A growing rate of bug reports that are quickly closed because they cannot be reproduced.
+* {bdg-success}`Correct` A dramatic rise in pull requests that address bugs in your software.
+* A steady decline in new issues.
+* Monitoring the frequency of commits made by each team.
+:::
+
+:::{grid-item-card}
+* A dramatic rise in pull requests that address bugs in your software indicates that more people are motivated to improve the quality of your software and are making the investment themselves.
+* Bug reports don't necessarily mean that your software quality is improving.
+* A decline in new issues may be an indication that users are satisfied with your software, or it could mean that they have low confidence that reporting issues and requesting features will produce progress. This metric alone is not enough to infer success.
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/2-manage-innersource-program
+:::
+::::
+
 
 ## Build-In Workflow
 
