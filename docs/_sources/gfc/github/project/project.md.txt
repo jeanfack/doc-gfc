@@ -152,29 +152,6 @@ What sets Projects apart from Projects Classic in GitHub ?\
 :::
 ::::
 
-## Inner-Source and Open-Source
-
-::::{grid}
-:::{grid-item-card}
-What is a recommended course of action when your code can be reused across multiple projects ?
-:::
-
-:::{grid-item-card}
-Publish the code as a stand-alone library (dependency).
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/5-next-steps
-:::
-::::
-
-## Build-In Workflow
-
-## Field
-
 ## organization-owned
 
 ::::{grid}
@@ -202,5 +179,144 @@ When creating an organization-owned GitHub Project, which of the following state
 :::
 ::::
 
+## issues and Pull Requests
 
+::::{grid}
+:::{grid-item-card}
+How are GitHub Projects updated when changes are made to issues and pull requests ?
+:::
+
+:::{grid-item-card}
+Information is automatically synced to the project as changes are made.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects#staying-up-to-date
+:::
+::::
+
+
+
+## Inner-Source and Open-Source
+
+::::{grid}
+:::{grid-item-card}
+What is a recommended course of action when your code can be reused across multiple projects ?
+:::
+
+:::{grid-item-card}
+Publish the code as a stand-alone library (dependency).
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/5-next-steps
+:::
+::::
+
+## Build-In Workflow
+
+::::{grid}
+:::{grid-item-card}
+Meg is managing a GitHub project with a large number of issues and pull requests.\
+She wants to ensure that the project remains organized.\
+Which of the following actions can Meg take to automatically manage items in her project ?
+:::
+
+:::{grid-item-card}
+Configure built-in workflows to automatically archive items based on specific criteria.
+:::
+
+:::{grid-item-card}
+By configuring built-in workflows to automatically archive items based on specific criteria such as status (open, closed, merged), reason (completed, reopened, not planned), and last updated date, Meg can ensure that the project stays organized and does not exceed the item limit.\
+This automation helps in managing the project efficiently without manual intervention.
+
+```{admonition} Example
+Meg sets up a workflow to automatically archive closed issues and pull requests that have not been updated in the last month.\
+By doing so, she ensures that inactive items are archived, reducing clutter in the project and staying within the item limit.\
+GitHub automatically handles the archiving process based on the criteria defined in the workflow.
+```
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/archiving-items-automatically
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What happens when Peter enables an auto-add workflow in GitHub for an existing project board ?
+:::
+
+:::{grid-item-card}
+The workflow will not add existing items to the project board, but it will add new items that meet the filter criteria.
+:::
+
+:::{grid-item-card}
+When Peter enables an auto-add workflow in GitHub for an existing project board, existing items matching the criteria will not be automatically added.\
+However, the workflow will add new items as they are created or updated if they match the specified filter criteria.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/adding-items-automatically#about-automatically-adding-items
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+How many default workflows are enabled when a project initializes in GitHub Projects ?
+:::
+
+:::{grid-item-card}
+Two
+:::
+
+:::{grid-item-card}
+When a GitHub Project is initialized, two workflows are enabled by default:
+* When issues or pull requests in the project are closed, their status is automatically set to Done.
+* When pull requests in the project are merged, their status is automatically set to Done.
+
+Other automation workflows, such as `auto-adding issues` to the project or `auto-closing issues`, are available but not enabled by default and require manual configuration.
+
+```{admonition} UPDATE
+Auto-closing issues: There is a blog post regarding this workflow (GitHub Changelog – April 25, 2024), which mentions that for new projects it is enabled by default, but the official documentation still lists it as requiring manual configuration.
+```
+
+```{admonition} IMPORTANT NOTE FOR TESTS
+Your answers should depend only on the current official documentation.\
+Recent updates, blog posts, or new workflows (e.g., Auto-add sub-issues) will not be included in the test.\
+GitHub frequently updates its features and workflows, so for the most accurate and up-to-date information, always refer to the official documentation and changelogs.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations
+:::
+::::
+
+
+## Field
+
+## Label
+
+::::{grid}
+:::{grid-item-card}
+Why would a company need labels in GitHub for its projects ?
+:::
+
+:::{grid-item-card}
+To categorize and prioritize issues, pull requests, and discussions.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* ttps://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels
+:::
+::::
 
