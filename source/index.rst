@@ -24,6 +24,7 @@
    markdown                                         <gfc/github/markdown/markdown.md>
    marketplace                                      <gfc/github/marketplace/marketplace.md>
    plan > Plan                                      <gfc/github/plan/plan.md>
+   profile                                          <gfc/github/profile/profile.md>
    project                                          <gfc/github/project/project.md>
    repository > config > CODEOWNERS                 <gfc/github/repository/config/CODEOWNERS/CODEOWNERS.md>
    repository > config > PULL_REQUEST_TEMPLATE      <gfc/github/repository/config/PULL_REQUEST_TEMPLATE/PULL_REQUEST_TEMPLATE.md>
