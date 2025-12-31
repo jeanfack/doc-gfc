@@ -13,6 +13,7 @@
 :::{grid-item-card} Source
 :::
 ::::
+
 ## Glossaire
 
 ::::{grid}
@@ -54,7 +55,7 @@ Which option is not available for GitHub two-factor authentication ?
 
 :::{grid-item-card}
 * GitHup Mobile.
-* {bdg-success}`->` GitHub App.
+* {bdg-success}`Correct` GitHub App.
 
 ```{danger}
 *Attention au piège avec **GitHub Mobile** et **Authentication App** qui sont 2 méthodes valides*
