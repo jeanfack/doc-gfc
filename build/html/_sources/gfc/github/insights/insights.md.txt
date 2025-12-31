@@ -27,7 +27,7 @@ Only people with write or admin access to the project.
 :::
 
 :::{grid-item-card}
-![](../../../_include/gfc/github/insights/img/Insights.png)
+![](../../../_include/gfc/github/insights/overview/img/Insights.png)
 :::
 
 :::{grid-item-card}
@@ -54,6 +54,23 @@ Items that have been archived or deleted.
 ::::
 
 ## Pulse
+
+::::{grid}
+:::{grid-item-card}
+What is the purpose of the Pulse feature on GitHub ?
+:::
+
+:::{grid-item-card}
+To view a summary of a repository's pull request, issue, and commit activity.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/using-pulse-to-view-a-summary-of-repository-activity#about-pulse
+:::
+::::
 
 ::::{grid}
 :::{grid-item-card}
@@ -90,8 +107,26 @@ By navigating to the `Insights` tab in the repository and selecting `Pulse`.
 :::
 ::::
 
-
 ## Contributors
+
+::::{grid}
+:::{grid-item-card}
+Barbara Pewterschmidt is a project manager overseeing a GitHub repository for a software development project.\
+She wants to acknowledge and recognize the top contributors to the project.\
+Where can Barbara view the top 100 contributors to the repository, excluding merge commits and empty commits ?
+:::
+
+:::{grid-item-card}
+**Contributors graph**
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors#about-contributors
+:::
+::::
 
 ::::{grid}
 :::{grid-item-card}
@@ -109,6 +144,25 @@ If you don't appear in a repository's contributors graph, it may be because:
 * You aren't one of the top 100 contributors.
 * Your commits haven't been merged into the default branch.
 * The email address you used to author the commits isn't connected to your account on GitHub.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors#troubleshooting-contributors
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Mort Goldman is a GitHub user who has been working on a project and making commits to the "gh-pages" branch.\
+However, he notices that his contributions don't show up in the repository's contributors graph.\
+Why might commits on the "gh-pages" branch not appear in the repository's contributors graph on GitHub ?
+:::
+
+:::{grid-item-card}
+The "gh-pages" branch is not a default branch of the repository.
+:::
+
+:::{grid-item-card}
 :::
 
 :::{grid-item-card}
@@ -139,7 +193,65 @@ Traffic
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How frequently does the information in the referring sites and popular content sections of GitHub's traffic graph update ?
+:::
+
+:::{grid-item-card}
+Daily
+:::
+
+:::{grid-item-card}
+The referring sites and popular content sections of GitHub's traffic graph update on a daily basis.\
+However, full clones and visitor information are updated hourly.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository
+:::
+::::
+
 ## Commits
+
+::::{grid}
+:::{grid-item-card}
+How can you visualize commits made to a repository over the past year on GitHub ?
+:::
+
+:::{grid-item-card}
+Through the **Commit graph**, which displays commits by week.
+:::
+
+:::{grid-item-card}
+The **Commit graph** on GitHub allows users to visualize all commits made to a repository in the past year, excluding merge commits.\
+It shows commits for the entire year by week, providing insights into the repository's commit frequency and activity over time.
+
+![](../../../_include/gfc/github/insights/commits/img/E4Q9.png)
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/analyzing-changes-to-a-repositorys-content#visualizing-commits-in-a-repository
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Meg, a developer, wants to analyze the commit patterns of a GitHub repository for a specific week to understand the average number of commits made each day.\
+Which graph should Meg refer to in order to see this information ?
+:::
+
+:::{grid-item-card}
+**Commit graph**
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/analyzing-changes-to-a-repositorys-content#visualizing-commits-in-a-repository
+:::
+::::
 
 ## Code frequency
 
@@ -161,6 +273,24 @@ Code frequency graph
 ::::
 
 ## Dependency graph
+
+::::{grid}
+:::{grid-item-card}
+Peter wants to know which repositories and packages are dependent on his open-source project hosted on GitHub.
+Which feature should he use ?
+:::
+
+:::{grid-item-card}
+**Dependency Graph**
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/understanding-connections-between-repositories#viewing-the-dependencies-of-a-repository
+:::
+::::
 
 ::::{grid}
 :::{grid-item-card}
@@ -217,7 +347,62 @@ It supports various package ecosystems and displays dependencies and dependents,
 :::
 ::::
 
+### Dependabot
+
+::::{grid}
+:::{grid-item-card}
+What's the best way to ensure that you're integrating the most secure versions of your project dependencies ?
+:::
+
+:::{grid-item-card}
+Enable **Dependabot** for your repository.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts#dependabot-alerts-for-vulnerable-dependencies
+:::
+::::
+
 ## Network
+
+::::{grid}
+:::{grid-item-card}
+Barbara is a developer working on a collaborative project hosted on GitHub.\
+She wants to visualize the branch history of the entire repository network to understand the recent commits and branches.\
+Which feature should Barbara use to view the branch history of the entire repository network, including fork branches ?
+:::
+
+:::{grid-item-card}
+**Network graph**
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/understanding-connections-between-repositories#viewing-a-repositorys-network
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What information does the network graph of a repository on GitHub display ?
+:::
+
+:::{grid-item-card}
+The branch history of the entire repository network, including fork branches.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/understanding-connections-between-repositories#viewing-a-repositorys-network
+:::
+::::
 
 ## Forks
 
