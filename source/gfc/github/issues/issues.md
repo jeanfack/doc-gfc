@@ -28,10 +28,6 @@ You can create a maximum of 100 saved replies.
 If you've reached the maximum limit, you can delete saved replies that you no longer use or edit existing saved replies.
 
 You can also use the GitHub-provided "Duplicate issue" saved reply to mark an issue as a duplicate and track it with a similar issue.
-
-```{note}
-This question is important for the exam, and you may see a similar question on the exam.
-```
 :::
 
 :::{grid-item-card}
