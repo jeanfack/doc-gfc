@@ -83,3 +83,20 @@ Git is a Distributed Version Control System (DVCS), while GitHub is a centralize
 * https://docs.github.com/en/get-started/start-your-journey/about-github-and-git
 :::
 ::::
+
+## License type
+
+::::{grid}
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository#searching-github-by-license-type
+:::
+::::
