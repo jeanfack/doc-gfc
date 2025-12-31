@@ -17,7 +17,6 @@
    notifications                                    <gfc/github/notifications/notifications.md>
    organizations                                    <gfc/github/organizations/organizations.md>
    insights                                         <gfc/github/insights/insights.md>
-   insights > Pulse                                 <gfc/github/insights/pulse/pulse.md>
    insights > Contributors                          <gfc/github/insights/contributors/contributors.md>
    insights > Traffic                               <gfc/github/insights/traffic/traffic.md>
    insights > Code Frequency                        <gfc/github/insights/code_frequency/code_frequency.md>
