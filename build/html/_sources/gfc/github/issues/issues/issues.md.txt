@@ -76,6 +76,23 @@ You can assign multiple people to each issue or pull request, including yourself
 
 ::::{grid}
 :::{grid-item-card}
+Who can create an issue in a repository where issues are enabled ?
+:::
+
+:::{grid-item-card}
+Anyone with read access.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 In how many ways can you create GitHub Issues ?
 :::
 
@@ -245,5 +262,62 @@ By editing the pull request description and removing the keyword.
 
 :::{grid-item-card}
 * https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Peter is working on a branch in a GitHub repository called "ProjectA."\
+He encounters an issue that is related to a bug in another repository called "ProjectB."\
+Can Peter link an issue from "ProjectB" to his pull request in "ProjectA" to provide context to the reviewers ?
+:::
+
+:::{grid-item-card}
+Yes, GitHub allows linking issues from different repositories to pull requests.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword
+:::
+::::
+
+## Pinning
+
+::::{grid}
+:::{grid-item-card}
+How many important issues can be pinned above the issues list in a GitHub repository ?
+:::
+
+:::{grid-item-card}
+Three
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-cloud@latest/issues/tracking-your-work-with-issues/administering-issues/pinning-an-issue-to-your-repository
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Peter Griffin is a project manager overseeing a software development project hosted on GitHub.\
+He wants to highlight three critical issues that need immediate attention from the development team.\
+Who among the following individuals has the authority to pin these important issues to the repository ?
+:::
+
+:::{grid-item-card}
+People with write access to the repository.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-cloud@latest/issues/tracking-your-work-with-issues/administering-issues/pinning-an-issue-to-your-repository
 :::
 ::::
