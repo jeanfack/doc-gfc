@@ -49,5 +49,6 @@ Only apps owned by organizations.
 :::
 
 :::{grid-item-card}
+* https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps
 :::
 ::::
