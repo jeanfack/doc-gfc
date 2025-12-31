@@ -14,6 +14,25 @@
 :::
 ::::
 
+## Subscriptions
+
+::::{grid}
+:::{grid-item-card}
+How can you remain informed about the latest comments in an issue ?
+:::
+
+:::{grid-item-card}
+By subscribing to the issue.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+::::
+
+
 ## Default subscriptions
 
 ::::{grid}

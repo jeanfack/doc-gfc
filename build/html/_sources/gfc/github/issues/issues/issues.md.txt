@@ -1,0 +1,148 @@
+# Issues
+
+::::{grid}
+:::{grid-item-card} Question
+:::
+
+:::{grid-item-card} Réponse
+:::
+
+:::{grid-item-card} Explication
+:::
+
+:::{grid-item-card} Source
+:::
+::::
+
+## Introduction
+
+::::{grid}
+:::{grid-item-card}
+What advantages do GitHub issue forms offer ?\
+*Choose TWO correct answers.*
+:::
+
+:::{grid-item-card}
+* Labels can be automatically added to issues created.
+* People can be automatically assigned to issues created.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Who can assign issues and pull requests in a GitHub repository ?
+:::
+
+:::{grid-item-card}
+Only users with write access
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/assigning-issues-and-pull-requests-to-other-github-users
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Who can be assigned an issue in a GitHub repository ?\
+*Choose TWO correct answers.*
+:::
+
+:::{grid-item-card}
+* Anyone with write permissions to the repository.
+* Anyone who has commented on the issue or pull request.
+:::
+
+:::{grid-item-card}
+You can assign multiple people to each issue or pull request, including yourself, anyone who has commented on the issue or pull request, anyone with write permissions to the repository, and organization members with read permissions to the repository.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/assigning-issues-and-pull-requests-to-other-github-users
+:::
+::::
+
+## Create
+
+::::{grid}
+:::{grid-item-card}
+In how many ways can you create GitHub Issues ?
+:::
+
+:::{grid-item-card}
+6
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+https://learn.microsoft.com/en-us/training/modules/introduction-to-github/4-collaborative-platform
+:::
+::::
+
+##  Saved replies
+
+::::{grid}
+:::{grid-item-card}
+Which of the following statements about saved replies are true ?\
+*Choose THREE correct answers.*
+:::
+
+:::{grid-item-card}
+* Saved replies save time by allowing you to create reusable responses for issues and pull requests.
+* GitHub provides a "Duplicate issue" saved reply for marking duplicate issues.
+* Saved replies are tied to your personal account.
+:::
+
+:::{grid-item-card}
+About saved replies
+
+You can use a saved reply to respond to an issue or pull request.
+
+Saved replies allow you to create a reusable response to issues and pull requests.
+Save time by creating a saved reply for the responses you use most frequently.
+
+Once you've added a saved reply, it can be used in issues, pull requests, and discussions.
+Saved replies are tied to your personal account.
+Once they're created, you'll be able to use them across repositories and organizations.
+
+You can create a maximum of 100 saved replies.
+If you've reached the maximum limit, you can delete saved replies that you no longer use or edit existing saved replies.
+
+You can also use the GitHub-provided "Duplicate issue" saved reply to mark an issue as a duplicate and track it with a similar issue.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/about-saved-replies
+:::
+::::
+
+## link
+
+::::{grid}
+:::{grid-item-card}
+How can you unlink an issue that was linked using a keyword ?
+:::
+
+:::{grid-item-card}
+By editing the pull request description and removing the keyword.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword
+:::
+::::

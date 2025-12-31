@@ -18,11 +18,10 @@
    organizations                                    <gfc/github/organizations/organizations.md>
    insights                                         <gfc/github/insights/insights.md>
    introduction                                     <gfc/github/introduction/introduction.md>
-   issues > Issues                                  <gfc/github/issues/issues.md>
-   issues > Label                                   <gfc/github/issues/label/label.md>
-   issues > Milestones                              <gfc/github/issues/milestones/milestones.md>
-   issues > Permalink                               <gfc/github/issues/permalink/permalink.md>
-   issues > Pull Request                            <gfc/github/issues/pull_request/pull_request.md>
+   issues > Issues                                  <gfc/github/issues/issues/issues.md>
+   issues > Pull Requests                           <gfc/github/issues/pull_requests/pull_requests.md>   
+   issues > issues > Label                          <gfc/github/issues/issues/label/label.md>
+   issues > issues > Milestones                     <gfc/github/issues/issues/milestones/milestones.md>
    plan > Plan                                      <gfc/github/plan/plan.md>
    project                                          <gfc/github/project/project.md>
    repository > config > CODEOWNERS                 <gfc/github/repository/config/CODEOWNERS/CODEOWNERS.md>
