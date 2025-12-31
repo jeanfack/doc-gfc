@@ -16,6 +16,8 @@
 
 ## type:repo
 
+### Syntaxe
+
 ::::{grid}
 :::{grid-item-card}
 Peter Griffin wants to find GitHub repositories related to cats that have 10 or fewer stars.\
@@ -43,6 +45,8 @@ https://docs.github.com/en/search-github/searching-on-github/searching-for-repos
 
 
 ## type:issue,pr
+
+### Syntaxe
 
 ::::{grid}
 :::{grid-item-card}
@@ -288,7 +292,7 @@ You can also use this URL to directly to see all the active tasks in the reposit
 :::
 ::::
 
-## Github CLI
+### Github CLI
 
 ::::{grid}
 :::{grid-item-card}
@@ -317,5 +321,26 @@ Which of the following options, based on the provided reference, would help you 
 
 :::{grid-item-card}
 * https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests?tool=cli#using-search-to-filter-issues-and-pull-requests
+:::
+::::
+
+### Sort
+
+::::{grid}
+:::{grid-item-card}
+Donna is managing a GitHub repository for a software project with multiple contributors.\
+She wants to prioritize reviewing the pull requests based on their activity and engagement.\
+Which sorting option should she choose to see the pull requests?
+:::
+
+:::{grid-item-card}
+The most commented pull requests.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#sorting-issues-and-pull-requests
 :::
 ::::

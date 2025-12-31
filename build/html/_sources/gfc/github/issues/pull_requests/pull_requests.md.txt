@@ -14,7 +14,7 @@
 :::
 ::::
 
-## Introduction
+## Create/Assign
 
 ::::{grid}
 :::{grid-item-card}
@@ -33,40 +33,51 @@ Only users with write access
 :::
 ::::
 
+## Review
+
 ::::{grid}
 :::{grid-item-card}
-What happens to draft pull requests in terms of merging ?
+Peter Griffin has been asked to review a pull request.\
+While going through it, he spots several minor coding errors and typos.\
+How should he approach the review?
 :::
 
 :::{grid-item-card}
-They cannot be merged.
+Start a review and fix obvious typos inline.\
+Add comments in places that require further discussion or offer educational value.\
+Complete the review with changes requested.
 :::
 
 :::{grid-item-card}
-Draft pull requests cannot be merged until they are converted to regular pull requests.
+Contributors always appreciate when reviewers show an interest in getting their code merged.\
+However, you should only approve a pull request when it's ready to merge.\
+If the problems with a pull request are minor, it's often worth working with the contributor to fix them so the other changes can be merged.
 :::
 
 :::{grid-item-card}
-* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#converting-a-pull-request-to-a-draft
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review
 :::
 ::::
 
 ::::{grid}
 :::{grid-item-card}
-What happens if you delete a branch after its pull request has been merged into the main branch ?
+What should you do if your pull request requires some changes according to the reviewer's feedback  ?
 :::
 
 :::{grid-item-card}
-GitHub automatically updates pull requests targeting the deleted branch.
+Make the requested changes and push new commits to the same pull request.
 :::
 
 :::{grid-item-card}
 :::
 
 :::{grid-item-card}
-* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#working-with-branches
+* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/3-contribute
 :::
 ::::
+
+
+## Notification
 
 ::::{grid}
 :::{grid-item-card}
@@ -84,6 +95,28 @@ Custom
 * https://learn.microsoft.com/en-us/training/modules/contribute-open-source/4-exercise-create-pr
 :::
 ::::
+
+## File change tab
+
+::::{grid}
+:::{grid-item-card}
+Peter is reviewing a pull request for a project on GitHub. He notices a section of code in one of the files that he has a question about.\
+Which of the following actions can Peter take to address his question?
+:::
+
+:::{grid-item-card}
+Peter can comment on specific files or sections of a file in the pull request's Files changed tab.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-comments-to-a-pull-request
+:::
+::::
+
+## Link
 
 ::::{grid}
 :::{grid-item-card}
@@ -104,22 +137,49 @@ To show that someone is working on the issue.
 
 ::::{grid}
 :::{grid-item-card}
-What options are available for merging a pull request ?
+Peter is working on a project and has created a pull request (PR) to fix an issue.
+However, the PR is on a feature branch and not the default branch.
+What will happen to the special keywords in the PR description in this case ?
 :::
 
 :::{grid-item-card}
-* `Create a merge commit`,
-* `Squash and merge`,
-* `Rebase and merge`.
+The special keywords will be ignored, and no links will be created.
 :::
 
 :::{grid-item-card}
+When a PR targets a repository's default branch, special keywords in the PR description are interpreted to create links to relevant issues.\
+However, if the PR's base is any other branch, the keywords are ignored, and no links are created.
 :::
 
 :::{grid-item-card}
-* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request?tool=webui#merging-a-pull-request
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#about-linked-issues-and-pull-requests
 :::
 ::::
+
+## Permalink
+
+::::{grid}
+:::{grid-item-card}
+Stewie is working on a software project hosted on GitHub and wants to share a specific line of code from a file in the project with his colleague, Meg.\
+However, Stewie wants to ensure that the link he shares remains valid even if changes are made to the file in the future.\
+Which of the following options should Stewie use to create a link to the specific line of code ?
+:::
+
+:::{grid-item-card}
+Stewie should use the "Permalink" option provided by GitHub to create a permanent link and share it with Meg.
+:::
+
+:::{grid-item-card}
+GitHub provides the option to create a permanent link to a specific line or range of lines of code in a file or pull request. This permanent link, known as a permalink, ensures that the shared link remains valid even if changes are made to the file in the future. By using the "Permalink" option, Stewie can generate a URL that directly points to the specific line of code he wants to share with Meg. This link will render as a code snippet in the original repository and as a URL in other repositories.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet
+:::
+::::
+
+
+## Lifecycle
 
 ::::{grid}
 :::{grid-item-card}
@@ -152,6 +212,103 @@ This question is important for the exam, and you may see a similar question on t
 :::
 ::::
 
+### `Draft`
+
+::::{grid}
+:::{grid-item-card}
+What is the significance of creating a draft pull request ?
+:::
+
+:::{grid-item-card}
+It allows contributors to ask for guidance or help without signaling completion.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* vhttps://learn.microsoft.com/en-us/training/modules/contribute-open-source/3-contribute
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What happens to draft pull requests in terms of merging ?
+:::
+
+:::{grid-item-card}
+They cannot be merged.
+:::
+
+:::{grid-item-card}
+Draft pull requests cannot be merged until they are converted to regular pull requests.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#converting-a-pull-request-to-a-draft
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What happens regarding code owner review when a pull request is marked as a draft ?
+:::
+
+:::{grid-item-card}
+Code owners are not automatically requested to review the draft pull request.
+:::
+
+:::{grid-item-card}
+Draft pull requests cannot be merged, and code owners are not automatically requested to review draft pull requests.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests
+:::
+::::
+
+### `Open`
+
+### `Merged`
+
+::::{grid}
+:::{grid-item-card}
+What options are available for merging a pull request ?
+:::
+
+:::{grid-item-card}
+* `Create a merge commit`,
+* `Squash and merge`,
+* `Rebase and merge`.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request?tool=webui#merging-a-pull-request
+:::
+::::
+
+#### Delete branch
+
+::::{grid}
+:::{grid-item-card}
+What happens if you delete a branch after its pull request has been merged into the main branch ?
+:::
+
+:::{grid-item-card}
+GitHub automatically updates pull requests targeting the deleted branch.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#working-with-branches
+:::
+::::
+
 ::::{grid}
 :::{grid-item-card}
 Why is deleting a branch in the GitHub flow considered a good practice ?
@@ -179,84 +336,5 @@ Consider a scenario where you're collaborating on a project with multiple team m
 
 :::{grid-item-card}
 * https://docs.github.com/en/get-started/using-github/github-flow#delete-your-branch
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-What happens regarding code owner review when a pull request is marked as a draft ?
-:::
-
-:::{grid-item-card}
-Code owners are not automatically requested to review the draft pull request.
-:::
-
-:::{grid-item-card}
-Draft pull requests cannot be merged, and code owners are not automatically requested to review draft pull requests.
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-Peter is working on a project and has created a pull request (PR) to fix an issue.
-However, the PR is on a feature branch and not the default branch.
-What will happen to the special keywords in the PR description in this case ?
-:::
-
-:::{grid-item-card}
-The special keywords will be ignored, and no links will be created.
-:::
-
-:::{grid-item-card}
-When a PR targets a repository's default branch, special keywords in the PR description are interpreted to create links to relevant issues.\
-However, if the PR's base is any other branch, the keywords are ignored, and no links are created.
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#about-linked-issues-and-pull-requests
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-Peter is reviewing a pull request for a project on GitHub. He notices a section of code in one of the files that he has a question about.\
-Which of the following actions can Peter take to address his question?
-:::
-
-:::{grid-item-card}
-Peter can comment on specific files or sections of a file in the pull request's Files changed tab.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request#adding-comments-to-a-pull-request
-:::
-::::
-
-## Permalink
-
-::::{grid}
-:::{grid-item-card}
-Stewie is working on a software project hosted on GitHub and wants to share a specific line of code from a file in the project with his colleague, Meg.\
-However, Stewie wants to ensure that the link he shares remains valid even if changes are made to the file in the future.\
-Which of the following options should Stewie use to create a link to the specific line of code ?
-:::
-
-:::{grid-item-card}
-Stewie should use the "Permalink" option provided by GitHub to create a permanent link and share it with Meg.
-:::
-
-:::{grid-item-card}
-GitHub provides the option to create a permanent link to a specific line or range of lines of code in a file or pull request. This permanent link, known as a permalink, ensures that the shared link remains valid even if changes are made to the file in the future. By using the "Permalink" option, Stewie can generate a URL that directly points to the specific line of code he wants to share with Meg. This link will render as a code snippet in the original repository and as a URL in other repositories.
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet
 :::
 ::::
