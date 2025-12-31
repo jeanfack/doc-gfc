@@ -17,6 +17,7 @@
    notifications                                    <gfc/github/notifications/notifications.md>
    organizations                                    <gfc/github/organizations/organizations.md>
    insights                                         <gfc/github/insights/insights.md>
+   introduction                                     <gfc/github/introduction/introduction.md>
    issues > Issues                                  <gfc/github/issues/issues.md>
    issues > Label                                   <gfc/github/issues/label/label.md>
    issues > Milestones                              <gfc/github/issues/milestones/milestones.md>
