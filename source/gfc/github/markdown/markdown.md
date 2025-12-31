@@ -136,3 +136,22 @@ This feature is useful for presenting information in a structured and organized 
 :::
 ::::
 
+#### /table
+
+::::{grid}
+:::{grid-item-card}
+Lois, a software developer, wants to improve the documentation within her GitHub repository by inserting a Markdown table into a comment.\
+How can a developer insert a Markdown table into a GitHub comment or description ?
+:::
+
+:::{grid-item-card}
+By using the `/table` slash command and specifying the number of columns and rows.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/about-slash-commands#using-slash-commands
+:::
+::::
