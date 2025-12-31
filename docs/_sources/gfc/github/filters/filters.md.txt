@@ -46,7 +46,7 @@ https://docs.github.com/en/search-github/searching-on-github/searching-for-repos
 
 ## type:issue,pr
 
-### Syntaxe
+### Syntax
 
 ::::{grid}
 :::{grid-item-card}
