@@ -26,4 +26,3 @@
    repository > config                              <gfc/github/repository/config/config.md>
    repository > doc                                 <gfc/github/repository/doc/doc.md>
    repository > repository                          <gfc/github/repository/repository/repository.md>
-   tags                                             <gfc/github/tags/tags.md>
