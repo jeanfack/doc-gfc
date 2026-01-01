@@ -218,48 +218,6 @@ If you do, redirects to the renamed repository will no longer work.
 :::
 ::::
 
-## Topics
-
-::::{grid}
-:::{grid-item-card}
-Brian Griffin is a software developer who is interested in contributing to open source projects related to machine learning.\
-He wants to explore repositories in this subject area to find projects to contribute to and discover new solutions.\
-Which feature of GitHub would be most helpful for Brian in this scenario ?
-:::
-
-:::{grid-item-card}
-**Topics**
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-Brian, a developer, is working on a private repository for a proprietary project for his company.\
-He wants to organize the repository by adding specific **topics** relevant to the project's technology stack and functionalities.\
-What is the visibility status of **topic** names created within a private repository on GitHub ?
-:::
-
-:::{grid-item-card}
-* {bdg-success}`Correct` **Topic** names created in private repositories are always public.
-:::
-
-:::{grid-item-card}
-GitHub maintains the visibility of **topic** names as public, regardless of whether they are created within private repositories.
-This means that even though the repository itself is private and inaccessible to others, the **topics** associated with it are visible to all GitHub users.
-:::
-
-:::{grid-item-card}
-https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository
-:::
-::::
-
 ## Branch protection
 
 ::::{grid}
