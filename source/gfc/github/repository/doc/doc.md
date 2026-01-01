@@ -103,6 +103,8 @@ This makes relative links more reliable for users who clone the repository.
 
 ## `SECURITY.md`
 
+### Primary Purpose
+
 ::::{grid}
 :::{grid-item-card}
 What is a security policy in GitHub ?
