@@ -232,9 +232,9 @@ They can view the gist regardless of the author's permissions.
 :::
 ::::
 
-### gh-pages
+## gh-pages
 
-#### Primary purpose
+### Primary purpose
 
 ::::{grid}
 :::{grid-item-card}
@@ -272,7 +272,7 @@ Organization site
 :::
 ::::
 
-#### Private
+### Private
 
 ::::{grid}
 :::{grid-item-card}
@@ -293,5 +293,44 @@ If you have sensitive data in your site's repository, you may want to remove the
 
 :::{grid-item-card}
 * https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#publishing-sources-for-github-pages-sites
+:::
+::::
+
+## Stars
+
+::::{grid}
+:::{grid-item-card}
+Lois has starred numerous repositories on GitHub related to various programming languages and frameworks.\
+She wants to organize them into different categories for easier access.\
+How can Lois organize her starred repositories into public lists on GitHub ?
+:::
+
+:::{grid-item-card}
+By creating public lists that appear on her stars page using the "Lists" feature.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars#organizing-starred-repositories-with-lists
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Stewie wants to know who has starred a repository called "awesome-quiz-experts-practice-test". How can he view the list of users who have starred this repository ?
+:::
+
+:::{grid-item-card}
+Visit https://github.com/awesome-quiz-experts-practice-test/stargazers
+:::
+
+:::{grid-item-card}
+Stewie can view the list of users who have starred the "awesome-quiz-experts-practice-test" repository by adding `/stargazers` to the end of the repository URL - https://github.com/awesome-quiz-experts-practice-test/stargazers.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars#viewing-who-has-starred-a-repository
 :::
 ::::
