@@ -1,4 +1,4 @@
-# `CODEOWNERS` config file
+# Config
 
 ::::{grid}
 :::{grid-item-card} Question
@@ -13,6 +13,8 @@
 :::{grid-item-card} Source
 :::
 ::::
+
+## `CODEOWNERS`
 
 ::::{grid}
 :::{grid-item-card}
