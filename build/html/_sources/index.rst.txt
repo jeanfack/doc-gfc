@@ -27,4 +27,4 @@
    profile                                          <gfc/github/profile/profile.md>
    project                                          <gfc/github/project/project.md>
    repository > config                              <gfc/github/repository/config/config.md>
-   repository > policy > SECURITY                   <gfc/github/repository/policy/SECURITY/SECURITY.md>
+   repository > doc                                 <gfc/github/repository/doc/doc.md>
