@@ -3,7 +3,7 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../../../../genindex.html" /><link rel="search" title="Search" href="../../../../search.html" /><link rel="prev" title="Doc" href="../doc/doc.html" />
+<link rel="index" title="Index" href="../../../../genindex.html" /><link rel="search" title="Search" href="../../../../search.html" /><link rel="next" title="Tags" href="../../tags/tags.html" /><link rel="prev" title="Doc" href="../doc/doc.html" />
 
     <!-- Generated with Sphinx 8.2.3 and Furo 2024.08.06 -->
         <title>Repository - GitHub Foundation Certification Helper</title>
@@ -229,6 +229,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../config/config.html">repository &gt; config</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../doc/doc.html">repository &gt; doc</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">repository &gt; repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tags/tags.html">tags</a></li>
 </ul>
 
 </div>
@@ -574,6 +575,170 @@ They cannot make any other changes to the content, such as pushing new commits o
 <ul class="simple">
 <li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories#about-repository-archival">https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories#about-repository-archival</a></p></li>
 </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Glenn maintains a repository on GitHub for a project that is no longer actively maintained.<br />
+He wants to make the repository read-only for all users and indicate its inactive status.<br />
+Which action should he take ?</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">Archive</span></code> de directory</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Glenn should <code class="docutils literal notranslate"><span class="pre">archive</span></code> the repository to make it read-only for all users and indicate that it’s no longer actively maintained.<br />
+Archiving a repository is the appropriate action for indicating its inactive status.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories">https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="renaming">
+<h2>Renaming<a class="headerlink" href="#renaming" title="Link to this heading"></a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">What should you avoid doing if you create a new repository under your account in the future after renaming a repository ?</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Reuse the original name of the renamed repository.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">When you rename a repository, all existing information, with the exception of project site URLs, is automatically redirected to the new name, including:\</p>
+<ul class="simple">
+<li><p class="sd-card-text">Issues</p></li>
+<li><p class="sd-card-text">Wikis</p></li>
+<li><p class="sd-card-text">Stars</p></li>
+<li><p class="sd-card-text">Followers</p></li>
+</ul>
+<p class="sd-card-text">In addition to redirecting web traffic, all git clone, git fetch, or git push operations targeting the previous location will continue to function as if made on the new location.<br />
+However, to reduce confusion, we strongly recommend updating any existing local clones to point to the new repository URL.<br />
+You can do this by using git remote on the command line:<br />
+<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">set-url</span> <span class="pre">origin</span> <span class="pre">NEW_URL</span></code></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p class="sd-card-text">If you create a new repository under your account in the future, do not reuse the original name of the renamed repository.<br />
+If you do, redirects to the renamed repository will no longer work.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository">https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="topics">
+<h2>Topics<a class="headerlink" href="#topics" title="Link to this heading"></a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Brian Griffin is a software developer who is interested in contributing to open source projects related to machine learning.<br />
+He wants to explore repositories in this subject area to find projects to contribute to and discover new solutions.<br />
+Which feature of GitHub would be most helpful for Brian in this scenario ?</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><strong>Topics</strong></p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics">https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Brian, a developer, is working on a private repository for a proprietary project for his company.<br />
+He wants to organize the repository by adding specific <strong>topics</strong> relevant to the project’s technology stack and functionalities.<br />
+What is the visibility status of <strong>topic</strong> names created within a private repository on GitHub ?</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><span class="sd-sphinx-override sd-badge sd-bg-success sd-bg-text-success">Correct</span> <strong>Topic</strong> names created in private repositories are always public.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">GitHub maintains the visibility of <strong>topic</strong> names as public, regardless of whether they are created within private repositories.
+This means that even though the repository itself is private and inaccessible to others, the <strong>topics</strong> associated with it are visible to all GitHub users.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository">https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository</a></p>
 </div>
 </div>
 </div>
@@ -1283,7 +1448,15 @@ However, these branches will have unrelated histories, preventing them from merg
       <footer>
         
         <div class="related-pages">
-          
+          <a class="next-page" href="../../tags/tags.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Tags</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
           <a class="prev-page" href="../doc/doc.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
@@ -1335,6 +1508,8 @@ However, these branches will have unrelated histories, preventing them from merg
 </ul>
 </li>
 <li><a class="reference internal" href="#archive">Archive</a></li>
+<li><a class="reference internal" href="#renaming">Renaming</a></li>
+<li><a class="reference internal" href="#topics">Topics</a></li>
 <li><a class="reference internal" href="#branch-protection">Branch protection</a></li>
 <li><a class="reference internal" href="#fork">Fork</a></li>
 <li><a class="reference internal" href="#gist">Gist</a><ul>

@@ -163,6 +163,103 @@ They cannot make any other changes to the content, such as pushing new commits o
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Glenn maintains a repository on GitHub for a project that is no longer actively maintained.\
+He wants to make the repository read-only for all users and indicate its inactive status.\
+Which action should he take ?
+:::
+
+:::{grid-item-card}
+`Archive` de directory
+:::
+
+:::{grid-item-card}
+Glenn should `archive` the repository to make it read-only for all users and indicate that it's no longer actively maintained.\
+Archiving a repository is the appropriate action for indicating its inactive status.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories
+:::
+::::
+
+## Renaming
+
+::::{grid}
+:::{grid-item-card}
+What should you avoid doing if you create a new repository under your account in the future after renaming a repository ?
+:::
+
+:::{grid-item-card}
+Reuse the original name of the renamed repository.
+:::
+
+:::{grid-item-card}
+When you rename a repository, all existing information, with the exception of project site URLs, is automatically redirected to the new name, including:\
+* Issues
+* Wikis
+* Stars
+* Followers
+
+In addition to redirecting web traffic, all git clone, git fetch, or git push operations targeting the previous location will continue to function as if made on the new location.\
+However, to reduce confusion, we strongly recommend updating any existing local clones to point to the new repository URL.\
+You can do this by using git remote on the command line:\
+`git remote set-url origin NEW_URL`
+
+```{warning}
+If you create a new repository under your account in the future, do not reuse the original name of the renamed repository.\
+If you do, redirects to the renamed repository will no longer work.
+```
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository
+:::
+::::
+
+## Topics
+
+::::{grid}
+:::{grid-item-card}
+Brian Griffin is a software developer who is interested in contributing to open source projects related to machine learning.\
+He wants to explore repositories in this subject area to find projects to contribute to and discover new solutions.\
+Which feature of GitHub would be most helpful for Brian in this scenario ?
+:::
+
+:::{grid-item-card}
+**Topics**
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Brian, a developer, is working on a private repository for a proprietary project for his company.\
+He wants to organize the repository by adding specific **topics** relevant to the project's technology stack and functionalities.\
+What is the visibility status of **topic** names created within a private repository on GitHub ?
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` **Topic** names created in private repositories are always public.
+:::
+
+:::{grid-item-card}
+GitHub maintains the visibility of **topic** names as public, regardless of whether they are created within private repositories.
+This means that even though the repository itself is private and inaccessible to others, the **topics** associated with it are visible to all GitHub users.
+:::
+
+:::{grid-item-card}
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository
+:::
+::::
+
 ## Branch protection
 
 ::::{grid}
