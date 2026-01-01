@@ -335,6 +335,31 @@ Stewie can view the list of users who have starred the "awesome-quiz-experts-pra
 :::
 ::::
 
+## Watch
+
+::::{grid}
+:::{grid-item-card}
+Tricia Takanawa wants to stay updated on the activity in a specific repository on GitHub.\
+What action should she take ?
+:::
+
+:::{grid-item-card}
+* Fork the repository.
+* Star the repository.
+* Clone the repository.
+* {bdg-success}`Correct` Watch the repository.
+:::
+
+:::{grid-item-card}
+To stay updated on the activity in a specific repository on GitHub, Tricia Takanawa should `watch` the repository. 
+Watching a repository means subscribing to updates for activity in that repository.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/subscriptions-and-notifications/get-started/configuring-notifications#about-participating-and-watching-notifications
+:::
+::::
+
 ## Template
 
 ::::{grid}
