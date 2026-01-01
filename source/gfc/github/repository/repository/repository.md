@@ -334,3 +334,71 @@ Stewie can view the list of users who have starred the "awesome-quiz-experts-pra
 * https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars#viewing-who-has-starred-a-repository
 :::
 ::::
+
+## Template
+
+::::{grid}
+:::{grid-item-card}
+Bonnie wants to use a template repository as starter code for an assignment in GitHub Classroom.\
+She wants to ensure that she understands any limitations associated with template repositories.\
+What is a limitation of template repositories on GitHub ?
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` They cannot include files stored using Git LFS.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Tom Tucker wants to create a template repository for his project to ensure that future repositories have the same directory structure, branches, and files.\
+Which of the following statements is true regarding creating a template repository on GitHub ?
+:::
+
+:::{grid-item-card}
+* Template repositories cannot be used as starter code for assignments on GitHub Classroom.
+* Template repositories can include files stored using Git LFS.
+* {bdg-success}`Correct` Branches created from a template repository have unrelated histories, so you cannot create pull requests or merge between them.
+* Only users with admin permissions can create a new repository based on the template.
+:::
+
+:::{grid-item-card}
+When you create a template repository on GitHub, anyone with access to the template repository can generate a new repository based on the template.\
+However, the branches created from a template repository have unrelated histories, meaning that you cannot create pull requests or merge between these branches.\
+This ensures that each new repository created from the template starts with a clean slate, separate from the original template repository.
+
+```{admonition} Example
+Tom Tucker creates a template repository for his project that includes a default branch with the main directory structure and files.\
+When a team member generates a new repository from the template, they can choose to include all other branches from the template repository.\
+However, these branches will have unrelated histories, preventing them from merging changes or creating pull requests between branches.
+```
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository#creating-a-template-repository
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What should you do if you want to include the directory structure and files from all branches of the template repository ?
+:::
+
+:::{grid-item-card}
+Check the **Include all branches** option while creating the repository from the template.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
+:::
+::::
