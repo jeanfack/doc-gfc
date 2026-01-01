@@ -366,6 +366,27 @@ Enable **Dependabot** for your repository.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What feature of GitHub allows repository maintainers to privately discuss and fix security vulnerabilities  ?
+:::
+
+:::{grid-item-card}
+**GitHub Security Advisories**
+:::
+
+:::{grid-item-card}
+**GitHub Security Advisories** enable repository maintainers to privately discuss and fix security vulnerabilities in a project before publicly disclosing them to the community.
+
+Where as `Dependabot` alerts notify you when GitHub detects that your repository is using a vulnerable dependency or malware.\
+The `SECURITY.md` file allow you to specify how to report a security vulnerability in your project.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/about-repository-security-advisories
+:::
+::::
+
 ## Network
 
 ::::{grid}
