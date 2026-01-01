@@ -171,6 +171,24 @@ Some of the labels we use in the repository for this Learn module are:
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Why would a company need labels in GitHub for its projects ?
+:::
+
+:::{grid-item-card}
+To categorize and prioritize issues, pull requests, and discussions.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* ttps://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels
+:::
+::::
+
+
 ## Milestones
 
 

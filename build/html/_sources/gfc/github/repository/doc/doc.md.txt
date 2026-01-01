@@ -40,6 +40,41 @@ To explain the contribution policy for the project and guide potential contribut
 
 ## `README.md`
 
+### Primary purpose
+::::{grid}
+:::{grid-item-card}
+What can you do to make a repository more discoverable ?\
+*Choose TWO correct answers.*
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` Add Relevant topics.
+* {bdg-success}`Correct` Use descriptive README.md files.
+:::
+
+:::{grid-item-card}
+To make your project easier to find and engage with, you can add relevant topics that describe what your project is about.\
+These topics act like labels, helping others who are interested in similar things discover your project more easily.
+
+Think of it like adding tags to your project.\
+When someone searches for those tags, your project will show up in the results.\
+It's like putting your project on the map for others to find!
+
+Also, consider adding a `README` file. This is like a welcome sign for your project.\
+It tells visitors what your project does, why it's useful, and how they can get started using it.\
+It's a great way to introduce your project to the world!
+
+
+```{note}
+Topic names are always public, even if you create the topic from within a private repository.
+```
+:::
+
+:::{grid-item-card}
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#about-topics
+:::
+::::
+
 ### File location 
 
 ::::{grid}

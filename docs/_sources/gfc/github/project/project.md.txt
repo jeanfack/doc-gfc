@@ -450,6 +450,24 @@ GitHub frequently updates its features and workflows, so for the most accurate a
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is the easiest way to add automation to your Project ?
+:::
+
+:::{grid-item-card}
+**Built-in Automation**
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations
+:::
+::::
+
+
 ## Field
 
 ### `Single select`
@@ -489,23 +507,3 @@ Allows you to create sequential phases of your project and group issues and pull
 * https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-iteration-fields
 :::
 ::::
-
-## Label
-
-::::{grid}
-:::{grid-item-card}
-Why would a company need labels in GitHub for its projects ?
-:::
-
-:::{grid-item-card}
-To categorize and prioritize issues, pull requests, and discussions.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* ttps://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels
-:::
-::::
-

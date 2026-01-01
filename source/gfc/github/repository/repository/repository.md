@@ -38,6 +38,67 @@ What is the minimum permission required to contribute to a GitHub repository ?
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What are the predefined roles available for a GitHub repository in an organization ?\
+*Choose THREE correct answers.*
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` Maitain
+* {bdg-success}`Correct` Write
+* {bdg-success}`Correct` Triage
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#about-pre-defined-organization-roles
+:::
+::::
+
+
+## Create
+
+::::{grid}
+:::{grid-item-card}
+Who can create repository a template on GitHub ?
+:::
+
+:::{grid-item-card}
+Anyone with `admin` permissions to a repository.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository
+:::
+::::
+
+## Internal
+
+::::{grid}
+:::{grid-item-card}
+What distinguishes `internal` repositories from other repositories on GitHub?
+:::
+
+:::{grid-item-card}
+`Internal` repositories are accessible to all enterprise members.
+:::
+
+:::{grid-item-card}
+`Internal` repositories on GitHub are accessible to all members within an enterprise.\
+This facilitates collaboration and sharing of code and projects among all authorized members of the organization.
+:::
+
+:::{grid-item-card}
+* https://github.blog/news-insights/product-news/internal-repositories-are-now-generally-available-for-github-enterprise/
+:::
+::::
+
 ## Code scalling
 
 ### Primary purpose
