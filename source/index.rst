@@ -18,7 +18,6 @@
    issues > Issues                                  <gfc/github/issues/issues/issues.md>
    issues > Pull Requests                           <gfc/github/issues/pull_requests/pull_requests.md>
    limits                                           <gfc/github/limits/limits.md>
-   markdown                                         <gfc/github/markdown/markdown.md>
    marketplace                                      <gfc/github/marketplace/marketplace.md>
    plan > Plan                                      <gfc/github/plan/plan.md>
    profile                                          <gfc/github/profile/profile.md>
