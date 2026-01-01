@@ -161,3 +161,73 @@ When someone creates an issue in your repository, they will see a link to your p
 https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository
 :::
 ::::
+
+## Wiki
+
+::::{grid}
+:::{grid-item-card}
+How does GitHub determine which file to use for populating the footer and sidebar of a **wiki** ?
+:::
+
+:::{grid-item-card}
+using the file names `_Footer.<extension>` and `_Sidebar.<extension>`.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/documenting-your-project-with-wikis/creating-a-footer-or-sidebar-for-your-wiki#creating-a-footer-or-sidebar-locally
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What is true about the **wiki** of a private repository ?
+:::
+
+:::{grid-item-card}
+Only people with access to the repository can access the **wiki**.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+How can you clone a **wiki** from a GitHub repository to your local computer ?
+:::
+
+:::{grid-item-card}
+Using the `git clone` command with the repository's URL followed by `.wiki.git`.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages#adding-or-editing-wiki-pages-locally
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What determines the title of a **wiki** page and how its content is rendered ?
+:::
+
+:::{grid-item-card}
+The filename and its extension.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages#about-wiki-filenames
+:::
+::::
