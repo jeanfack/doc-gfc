@@ -12,7 +12,6 @@
    account > account                                <gfc/github/account/account/account.md>
    account > authenticate                           <gfc/github/account/authenticate/authenticate.md>
    discussions                                      <gfc/github/discussions/discussions.md>
-   DVCS                                             <gfc/github/dvcs/dvcs.md>
    filters                                          <gfc/github/filters/filters.md>
    notifications                                    <gfc/github/notifications/notifications.md>
    organizations                                    <gfc/github/organizations/organizations.md>
