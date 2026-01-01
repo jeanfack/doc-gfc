@@ -176,7 +176,87 @@ However, review requests will only be triggered if the code owners are explicitl
 :::
 ::::
 
-# `PULL_REQUEST_TEMPLATE`
+## `ISSUE_TEMPLATE`
+
+::::{grid}
+:::{grid-item-card}
+Suppose your team has been receiving some low-quality bug reports without enough information to properly diagnose.\
+Which of the following choices is the best way to address the issue ?
+:::
+
+:::{grid-item-card}
+Add an `ISSUE_TEMPLATE.md` file that includes fields for reproduction steps, system properties, and instructions for generating and including important logs.
+:::
+
+:::{grid-item-card}
+The `ISSUE_TEMPLATE.md` file will ensure that anyone filing a bug knows what's expected of them at the moment they're writing the report.
+
+While using a GitHub script to add a workflow action that automatically rejects any issues with a description fewer than 200 characters long may add length to the reports,
+it doesn't necessarily mean that your team will receive all the information they need to find and fix bugs.
+
+While the `CONTRIBUTING.md` file is valuable, it assumes that everyone will read and conform to it.\
+Consider a better option that is more integrated with the issue creation experience.\
+Hence, an issue template that includes fields for reproduction steps, system properties, and instructions for generating and including important logs is the right way to address this issue.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Peter has created an issue template, as shown below, yet users are encountering difficulty locating it while raising an issue.\
+What might be the plausible explanation for this ?
+
+```{literalinclude} ../../../../_include/gfc/github/repository/config/ISSUE_TEMPLATE/E3Q31/E3Q31.yaml
+:language: yaml
+:lineno-match:
+:::
+
+:::{grid-item-card}
+* The `labels` key cannot be an empty string.
+* `Line:9` is not valid  `YAML` syntax. 
+* The àssignees`key cannot be an empty string.
+* {bdg-success}`Correct` The `about` key is missing.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Which of the following is a default GitHub issue template available for repositories ?\
+*Choose TWO correct answers.*
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` Feature request
+* Enhancement request
+* Security report
+* {bdg-success}`Correct` Bug report
+* Report a security vulnerability
+:::
+
+:::{grid-item-card}
+GitHub provides default issue templates for **bug reports** and **feature requests** to help streamline the process of reporting issues and requesting new features in repositories.\
+These templates include predefined sections such as steps to reproduce, expected behavior, actual behavior for bug reports, and a description of the proposed feature for feature requests.
+
+Apart from **Bug report** and **Feature request** Github also has **Custom template** for other types.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-templates
+:::
+::::
+
+
+## `PULL_REQUEST_TEMPLATE`
 
 ::::{grid}
 :::{grid-item-card}
