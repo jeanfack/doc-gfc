@@ -16,6 +16,8 @@
 
 ## `CONTRIBUTING.md`
 
+### Primary purpose
+
 ::::{grid}
 :::{grid-item-card}
 What is the purpose of a `CONTRIBUTING.md` file in an InnerSource project ?
