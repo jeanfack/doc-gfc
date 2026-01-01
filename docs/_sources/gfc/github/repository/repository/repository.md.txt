@@ -14,6 +14,72 @@
 :::
 ::::
 
+## Roles
+
+::::{grid}
+:::{grid-item-card}
+What is the minimum permission required to contribute to a GitHub repository ?
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` `Write`
+:::
+
+:::{grid-item-card}
+* `Read`: Recommended for non-code contributors who want to view or discuss your project
+* `Triage`: Recommended for contributors who need to proactively manage issues, discussions, and pull requests without write access
+* `Write`: Recommended for contributors who actively push to your project
+* `Maintain`: Recommended for project managers who need to manage the repository without access to sensitive or destructive actions
+* `Admin`: Recommended for people who need full access to the project, including sensitive and destructive actions like managing security or deleting a repository
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role
+:::
+::::
+
+## Code scalling
+
+### Primary purpose
+
+::::{grid}
+:::{grid-item-card}
+What is the primary benefit of using **code scanning** in a GitHub repository ?
+:::
+
+:::{grid-item-card}
+To analyze and find security vulnerabilities and errors in the code.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning#about-code-scanning
+:::
+::::
+
+### Shifting left
+
+::::{grid}
+:::{grid-item-card}
+What does the concept of **shifting left** refer to in the context of secure development ?
+:::
+
+:::{grid-item-card}
+Integrating security measures earlier in the development lifecycle.
+:::
+
+:::{grid-item-card}
+**Shifting left** in the context of secure development refers to integrating security measures earlier in the development lifecycle.
+This helps catch security issues earlier and ensures that security is considered from the beginning of the development process.
+:::
+
+:::{grid-item-card}
+* https://www.dynatrace.com/news/blog/what-is-shift-left-and-what-is-shift-right/
+:::
+::::
+
 ## Archive
 
 ::::{grid}
