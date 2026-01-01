@@ -212,6 +212,7 @@ What might be the plausible explanation for this ?
 ```{literalinclude} ../../../../_include/gfc/github/repository/config/ISSUE_TEMPLATE/E3Q31/E3Q31.yaml
 :language: yaml
 :lineno-match:
+```
 :::
 
 :::{grid-item-card}
