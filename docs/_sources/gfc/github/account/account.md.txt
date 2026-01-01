@@ -1,4 +1,4 @@
-# Authenticate
+# Account
 
 ::::{grid}
 :::{grid-item-card} Question
@@ -14,7 +14,28 @@
 :::
 ::::
 
-## Glossaire
+## Type
+
+::::{grid}
+:::{grid-item-card}
+What are the three types of GitHub accounts ?
+:::
+
+:::{grid-item-card}
+**Personal**, **Organization**, and **Enterprise**.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts
+:::
+::::
+
+## Authenticate
+
+### Glossaire
 
 ::::{grid}
 :::{grid-item-card}
@@ -46,7 +67,7 @@
 ::::
 
 
-## A2F
+### A2F
 
 ::::{grid}
 :::{grid-item-card}
@@ -103,7 +124,7 @@ In the "Access" section under "Password and authentication" in the user "Setting
 :::
 
 :::{grid-item-card}
-![](../../../../_include/gfc/github/account/authenticate/img/E3Q28.png)
+![](../../../_include/gfc/github/account/authenticate/img/E3Q28.png)
 :::
 
 :::{grid-item-card}
@@ -112,7 +133,7 @@ In the "Access" section under "Password and authentication" in the user "Setting
 ::::
 
 
-## PAT
+### PAT
 
 ::::{grid}
 :::{grid-item-card}
@@ -158,7 +179,7 @@ It is incorrect because it is the reverse of the actual distinction. `Personal A
 * *Wrong Option:* `Personal Access Tokens (Classic)` are targeted at specific repositories, while `Fine-Grained Tokens` have access to all repositories by default.\
 It is incorrect because `Fine-Grained Tokens` do not have access to all repositories by default; they only have access to explicitly granted repositories.
 
-![](../../../../_include/gfc/github/account/authenticate/img/E3Q33.png)
+![](../../../_include/gfc/github/account/authenticate/img/E3Q33.png)
 :::
 
 :::{grid-item-card}
@@ -167,7 +188,7 @@ It is incorrect because `Fine-Grained Tokens` do not have access to all reposito
 :::
 ::::
 
-## SSO
+### SSO
 ::::{grid}
 :::{grid-item-card}
 What is the purpose of SAML SSO in GitHub organization management ?
@@ -253,7 +274,7 @@ Single sign-on (SSO).
 :::
 ::::
 
-## IdP
+### IdP
 
 ::::{grid}
 :::{grid-item-card}
@@ -328,4 +349,41 @@ SCIM
 :::
 ::::
 
-## Others
+## Organizations
+
+::::{grid}
+:::{grid-item-card}
+What are the differences between organization members and external collaborators in GitHub ?
+:::
+
+:::{grid-item-card}
+External collaborators cannot be team maintainers.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization
+:::
+::::
+
+### Secret-Team
+
+::::{grid}
+:::{grid-item-card}
+Which of the following options are available to define the visibility of teams on GitHub ?
+:::
+
+:::{grid-item-card}
+`Visible` and `Secret`.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/organizations/organizing-members-into-teams/changing-team-visibility
+:::
+::::
+

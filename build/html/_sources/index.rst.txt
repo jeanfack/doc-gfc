@@ -9,12 +9,10 @@
    :maxdepth: 9
    :caption: github:
    
-   account > account                                <gfc/github/account/account/account.md>
-   account > authenticate                           <gfc/github/account/authenticate/authenticate.md>
+   account                                          <gfc/github/account/account.md>
    discussions                                      <gfc/github/discussions/discussions.md>
    filters                                          <gfc/github/filters/filters.md>
    notifications                                    <gfc/github/notifications/notifications.md>
-   organizations                                    <gfc/github/organizations/organizations.md>
    insights                                         <gfc/github/insights/insights.md>
    introduction                                     <gfc/github/introduction/introduction.md>
    issues > Issues                                  <gfc/github/issues/issues/issues.md>
