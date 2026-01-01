@@ -231,3 +231,67 @@ They can view the gist regardless of the author's permissions.
 * https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists#about-gists
 :::
 ::::
+
+### gh-pages
+
+#### Primary purpose
+
+::::{grid}
+:::{grid-item-card}
+Peter, a developer, wants to create a new public repository on GitHub to host his personal website. What should Peter name his new public repository ?
+:::
+
+:::{grid-item-card}
+Peter must name his repository `<username>.github.io`, where `<username>` is his username on GitHub.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#types-of-github-pages-sites
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Chris Griffin works for an organization that develops various open-source projects.\
+The organization wants to create a centralized website to provide information about its projects and activities.\
+Which type of GitHub Pages site should Chris create for the organization's centralized website ?
+:::
+
+:::{grid-item-card}
+Organization site
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+:::
+::::
+
+#### Private
+
+::::{grid}
+:::{grid-item-card}
+GitHub Pages sites are publicly available on the internet, even if the repository for the site is private.
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` True
+* False
+:::
+
+:::{grid-item-card}
+GitHub Pages is available only in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server.
+
+Hence, with GitHub paid accounts, GitHub Pages sites are publicly available on the internet, even if the repository for the site is private.\
+If you have sensitive data in your site's repository, you may want to remove the data before publishing.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#publishing-sources-for-github-pages-sites
+:::
+::::
