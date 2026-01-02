@@ -78,7 +78,7 @@ Anyone with `admin` permissions to a repository.
 :::
 ::::
 
-## Internal
+## Visibility: `public`, `internal`, `private`
 
 ::::{grid}
 :::{grid-item-card}
@@ -96,6 +96,26 @@ This facilitates collaboration and sharing of code and projects among all author
 
 :::{grid-item-card}
 * https://github.blog/news-insights/product-news/internal-repositories-are-now-generally-available-for-github-enterprise/
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What is the main difference between a `private` repository and an `internal` repository in GitHub ?
+:::
+
+:::{grid-item-card}
+`Private` repositories are accessible to specific individuals you share access with, while `internal` repositories are accessible to all enterprise members.
+:::
+
+:::{grid-item-card}
+```{note}
+You can use `internal` repositories to practice "innersource" within your enterprise.\
+Members of your enterprise can collaborate using open source methodologies without sharing proprietary information publicly.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-cloud@latest/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility
 :::
 ::::
 
@@ -254,6 +274,25 @@ What actions are restricted when working on a protected branch ?
 
 :::{grid-item-card}
 * https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#about-branch-protection-settings
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+How does Git help developers propose changes to production code securely ?
+:::
+
+:::{grid-item-card}
+Utilizing branches to propose changes.
+:::
+
+:::{grid-item-card}
+Developers work in every time zone. With a DVCS like Git, collaboration can happen any time while maintaining source code integrity.\
+Using branches, developers can safely propose changes to production code.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git
 :::
 ::::
 
@@ -497,6 +536,25 @@ If you have sensitive data in your site's repository, you may want to remove the
 ::::
 
 ## Stars
+
+::::{grid}
+:::{grid-item-card}
+Why would a user `star` a repository on GitHub ?
+:::
+
+:::{grid-item-card}
+To express appreciation for the repository owner's work.
+:::
+
+:::{grid-item-card}
+Users `star` repositories on GitHub to show their appreciation for the work done by the repository owner.\
+It's a way to bookmark repositories they find interesting and want to revisit later.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars#about-stars
+:::
+::::
 
 ::::{grid}
 :::{grid-item-card}

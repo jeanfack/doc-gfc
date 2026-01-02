@@ -48,7 +48,9 @@ Commits to forks don't count as contributions, so you can't pin a fork that you 
 :::
 ::::
 
-## Badge
+## Visibility
+
+### Badge
 
 ::::{grid}
 :::{grid-item-card}
@@ -67,6 +69,27 @@ Click on the badge and select the option to hide it.
 * https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/manage-visibility-settings-for-private-contributions-and-achievements#hiding-an-individual-achievement-on-your-profile
 :::
 ::::
+
+### Achievements
+
+::::{grid}
+:::{grid-item-card}
+How can you change the visibility of achievements on your GitHub profile ?
+:::
+
+:::{grid-item-card}
+Under "Profile settings", select or deselect "Show Achievements on my profile".
+:::
+
+:::{grid-item-card}
+`[Profile photo] > Settings > Public profile > Profile settings > Check "Show Achievements on my profile"`
+:::
+
+:::{grid-item-card}
+https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/manage-visibility-settings-for-private-contributions-and-achievements#changing-the-visibility-of-achievements
+:::
+::::
+
 
 ## Private contributions
 
