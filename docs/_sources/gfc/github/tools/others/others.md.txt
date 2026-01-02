@@ -250,3 +250,68 @@ Non-incognito window
 * https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#troubleshooting
 :::
 ::::
+
+
+## Graph-QL API
+
+### Athenticate
+
+::::{grid}
+:::{grid-item-card}
+How can you authenticate **GitHub CLI** commands for managing projects via the **GraphQL API** ?
+:::
+
+:::{grid-item-card}
+Run `gh auth login --scopes "project"`
+:::
+
+:::{grid-item-card}
+To authenticate **GitHub CLI** commands for managing projects via the **GraphQL API**, users must run `gh auth login --scopes "project"` to authenticate.\
+This allows access to project-related functionalities.
+
+If you only need to read, but not edit, projects, you can provide the `read:project` scope instead of `project`.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects#authenticaton
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What authentication method is required before running **GitHub CLI** commands to manage projects via the **GraphQL API** ?
+:::
+
+:::{grid-item-card}
+* Token authentication
+:::
+
+:::{grid-item-card}
+Before running **GitHub CLI** commands to manage projects via the **GraphQL API**, you must authenticate using token authentication.
+This is achieved by running `"gh auth login --scopes "project"`.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects#authentication
+:::
+::::
+
+### Mutation
+
+::::{grid}
+:::{grid-item-card}
+What is the purpose of the `addProjectV2ItemById` mutation in the GitHub **GraphQL API** ?
+:::
+
+:::{grid-item-card}
+To add an issue or pull request to a project.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/graphql/reference/mutations#addprojectv2itembyid
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects?tool=cli#adding-an-item-to-a-project
+:::
+::::
