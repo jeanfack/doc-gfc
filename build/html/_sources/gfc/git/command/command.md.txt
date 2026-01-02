@@ -166,6 +166,8 @@ Start with a capital letter and use the imperative, present tense.
 
 ## git checkout
 
+### Syntax
+
 ::::{grid}
 :::{grid-item-card}
 How can you create a new branch in Git using the terminal ?
@@ -202,6 +204,25 @@ By using `--` followed by the filename, Stewie instructs Git to discard the chan
 
 :::{grid-item-card}
 * https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-local-changes
+:::
+::::
+
+### Error "Remote HEAD..."
+
+::::{grid}
+:::{grid-item-card}
+How can you fix the error "Remote HEAD refers to nonexistent ref, unable to checkout" ?
+:::
+
+:::{grid-item-card}
+Change the default branch of the repository on GitHub.com.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/troubleshooting-cloning-errors#error-remote-head-refers-to-nonexistent-ref-unable-to-checkout
 :::
 ::::
 
