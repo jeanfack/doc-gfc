@@ -528,6 +528,27 @@ Organization site
 :::
 ::::
 
+### Publishing
+
+::::{grid}
+:::{grid-item-card}
+What is the recommended method for publishing a GitHub Pages site if you do not need control over the build process ?
+:::
+
+:::{grid-item-card}
+Pushing changes to a specific branch.
+:::
+
+:::{grid-item-card}
+If you do not need control over the build process for your GitHub Pages site, the recommended method for publishing is by pushing changes to a specific branch.\
+You can specify the branch and folder to use as your publishing source.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#publishing-sources-for-github-pages-sites
+:::
+::::
+
 ### Private
 
 ::::{grid}
