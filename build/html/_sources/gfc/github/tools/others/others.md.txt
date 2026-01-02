@@ -112,3 +112,141 @@ GitHub UI = `github.com`
 * https://docs.github.com/en/desktop/overview/about-github-desktop
 :::
 ::::
+
+## `github.dev`
+
+### Primary purpose
+
+::::{grid}
+:::{grid-item-card}
+What is the primary advantage of using the `github.dev` editor over GitHub Codespaces ?
+:::
+
+:::{grid-item-card}
+Faster startup time.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#codespaces-and-githubdev
+:::
+::::
+
+### Launch
+
+::::{grid}
+:::{grid-item-card}
+How can a developer open a GitHub repository in the `github.dev` editor in a new browser tab?
+:::
+
+:::{grid-item-card}
+By pressing `>` while browsing the repository on GitHub.
+:::
+
+:::{grid-item-card}
+You can open any GitHub repository in github.dev in either of the following ways:
+* To open the repository in the same browser tab, press `.` while browsing any repository or pull request on GitHub.
+* To open the repository in a new browser tab, press `>`.
+* Change the URL from `github.com` to `github.dev`.
+* When viewing a file, select the dropdown menu and click `github.dev`.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#opening-the-githubdev-editor
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Meg's keyboard layout does not allow her to use the `.` key to open `github.dev`.\
+What alternative method can she use to open a GitHub repository in `github.dev` ?
+:::
+
+:::{grid-item-card}
+Change the URL from `github.com` to `github.dev`.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#opening-the-githubdev-editor
+:::
+::::
+
+### `github.dev` vs **GitHub Codespaces**
+
+::::{grid}
+:::{grid-item-card}
+Which feature is NOT available in the `github.dev` editor compared to GitHub Codespaces ?\
+*Choose TWO correct answers.*
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` Terminal access.
+* {bdg-success}`Correct` Dedicated VM for running and debugging applications.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#codespaces-and-githubdev
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Which feature is NOT available in the github.dev editor compared to GitHub Codespaces?  Choose TWO correct answers.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+::::
+
+
+### Github repositories extension
+
+::::{grid}
+:::{grid-item-card}
+What does the github.dev editor use to carry out most of its functionality ?
+:::
+
+:::{grid-item-card}
+GitHub Repositories extension
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#about-the-githubdev-editor
+:::
+::::
+
+## Troubleshooting
+
+::::{grid}
+:::{grid-item-card}
+What type of window should Stewie use in his browser to open `github.dev` if he's experiencing issues ?
+:::
+
+:::{grid-item-card}
+Non-incognito window
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#troubleshooting
+:::
+::::
