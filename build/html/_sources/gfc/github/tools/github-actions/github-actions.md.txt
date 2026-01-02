@@ -214,6 +214,28 @@ What are the components of a GitHub Actions workflow ?
 
 ::::{grid}
 :::{grid-item-card}
+What is an action in GitHub Actions ?
+:::
+
+:::{grid-item-card}
+A custom application that performs a complex but frequently repeated task.
+:::
+
+:::{grid-item-card}
+An action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task.\
+Use an action to help reduce the amount of repetitive code that you write in your workflow files.\
+An action can pull your git repository from GitHub, set up the correct toolchain for your build environment, or set up the authentication to your cloud provider.
+
+You can write your own actions, or you can find actions to use in your workflows in the GitHub Marketplace.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/actions/concepts/workflows-and-actions/custom-actions
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 Brian, a software engineer, is setting up a continuous integration (CI) workflow for his project on GitHub.\
 He wants to understand how jobs work within GitHub Actions to streamline the build and testing process efficiently.\
 What is a job in the context of GitHub Actions ?

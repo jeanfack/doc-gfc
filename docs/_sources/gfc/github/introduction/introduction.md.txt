@@ -86,6 +86,42 @@ Git is a Distributed Version Control System (DVCS), while GitHub is a centralize
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How does GitHub change the way software is built ?
+:::
+
+:::{grid-item-card}
+By integrating version control into the development process.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/using-git/about-git#how-github-works
+:::
+::::
+
+## GitHub benefit
+
+::::{grid}
+:::{grid-item-card}
+Which of the following is a benefit of the GitHub Community ?
+:::
+
+:::{grid-item-card}
+Opportunities for collaboration, learning, and networking.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://github.com/community
+:::
+::::
+
 ## License type
 
 ::::{grid}
