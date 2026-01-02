@@ -205,6 +205,37 @@ Peter should specify job dependencies in the GitHub Actions workflow file to mak
 
 ::::{grid}
 :::{grid-item-card}
+Which of the following is a default workflow available for GitHub projects ?
+:::
+
+:::{grid-item-card}
+- {bdg-success}`Correct` Item reopened
+- Issue open
+- Sprint planning completed
+- Issue resolved
+:::
+
+:::{grid-item-card}
+Default workflows:
+- `Item added to project`
+- `Item reopened`
+- `Item closed`
+- `Code changes requested`
+- `Code review approved`
+- `Pull request merged`
+- `Auto-archive items`
+- `Auto-add to project`
+
+![](../../../../_include/gfc/github/tools/github-actions/E3Q16/img/E3Q16.png)
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 What is the purpose of the actions/add-to-project workflow ?
 :::
 
