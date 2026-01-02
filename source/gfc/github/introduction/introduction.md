@@ -90,12 +90,17 @@ Git is a Distributed Version Control System (DVCS), while GitHub is a centralize
 
 ::::{grid}
 :::{grid-item-card}
+Stewie wants to find repositories on GitHub licensed under the GNU General Public License v3.0.
+Which search query should he use ?
 :::
 
 :::{grid-item-card}
+`license:GPL-3.0`
 :::
 
 :::{grid-item-card}
+Stewie should use the search query `license:GPL-3.0` to find repositories licensed under the GNU General Public License v3.0.\
+GitHub's search feature allows users to filter repositories based on their `license` type using specific keywords.
 :::
 
 :::{grid-item-card}

@@ -177,6 +177,23 @@ Change the URL from `github.com` to `github.dev`.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How can you open an existing pull request in `github.dev` for further editing ?
+:::
+
+:::{grid-item-card}
+Press `.` while viewing the pull request on GitHub.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#opening-the-githubdev-editor
+:::
+::::
+
 ### `github.dev` vs **GitHub Codespaces**
 
 ::::{grid}

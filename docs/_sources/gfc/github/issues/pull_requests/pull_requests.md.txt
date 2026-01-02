@@ -33,6 +33,30 @@ Only users with write access
 :::
 ::::
 
+### Branch connected to an issue
+
+::::{grid}
+:::{grid-item-card}
+What happens when you create a pull request for a **branch connected to an issue** ?
+:::
+
+:::{grid-item-card}
+he pull request is automatically `linked` to the issue.
+:::
+
+:::{grid-item-card}
+**Branches connected to an issue** are shown under the "Development" section in the sidebar of an issue.\
+When you create a pull request for one of these branches, it is automatically linked to the issue.
+
+```{note}
+The ability to create a branch for an issue is currently in public beta and subject to change.
+```
+:::
+
+:::{grid-item-card}
+:::
+::::
+
 ## Review
 
 ::::{grid}

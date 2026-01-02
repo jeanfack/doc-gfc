@@ -347,6 +347,24 @@ It supports various package ecosystems and displays dependencies and dependents,
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Meg is a software developer who wants to ensure that her project's dependencies are up-to-date and secure.\
+How can Meg use GitHub's dependency graph to identify and manage her project's dependencies ?
+:::
+
+:::{grid-item-card}
+Meg can use the dependency graph to identify all her project's dependencies and their license information and vulnerability severity.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph
+:::
+::::
+
 ### Dependabot
 
 ::::{grid}

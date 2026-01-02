@@ -238,6 +238,23 @@ If you do, redirects to the renamed repository will no longer work.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Who can rename a repository on GitHub ?
+:::
+
+:::{grid-item-card}
+Both organization owners and those with admin permissions for the repository.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository
+:::
+::::
+
 ## Branch protection
 
 ::::{grid}

@@ -450,6 +450,29 @@ https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-f
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Which of the following statements about the visibility of **topic** names is true ?
+:::
+
+:::{grid-item-card}
+* Topic names created within a private repository are public only if the repository was public before.
+* Topic names are private if created within a private repository.
+* {bdg-success}`Correct` Topic names are always public.
+* Topic names are visible only to collaborators of a repository.
+:::
+
+:::{grid-item-card}
+**Topic** names are {bdg-primary}`always` public, even if you create the **topic** from within a private repository.
+
+GitHub maintains **topic** names as public entities, ensuring that repositories classified under those **topics** are discoverable and accessible to all users.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository
+:::
+::::
+
 ### Label
 
 ::::{grid}
