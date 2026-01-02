@@ -240,3 +240,24 @@ People with write access to the repository.
 * https://docs.github.com/en/enterprise-cloud@latest/issues/tracking-your-work-with-issues/administering-issues/pinning-an-issue-to-your-repository
 :::
 ::::
+
+## Duplicate
+
+::::{grid}
+:::{grid-item-card}
+How can you mark an issue or pull request as a duplicate using a comment ?\
+*Choose TWO correct answers.*
+:::
+
+:::{grid-item-card}
+* Type "Duplicate of" followed by an issue or pull request number.
+* Use the GitHub-provided saved replies, "Duplicate issue" or "Duplicate pull request".
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/administering-issues/marking-issues-or-pull-requests-as-a-duplicate
+:::
+::::
