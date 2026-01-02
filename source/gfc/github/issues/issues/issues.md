@@ -261,3 +261,24 @@ How can you mark an issue or pull request as a duplicate using a comment ?\
 * https://docs.github.com/en/issues/tracking-your-work-with-issues/administering-issues/marking-issues-or-pull-requests-as-a-duplicate
 :::
 ::::
+
+## @mentions
+
+::::{grid}
+:::{grid-item-card}
+Cleveland is a developer working on a project hosted on GitHub.\
+What built-in feature can he use in issues and pull requests to alert a person or entire team about a comment ?
+:::
+
+:::{grid-item-card}
+`@mentions`
+:::
+
+:::{grid-item-card}
+Issues and pull requests include built-in features to let user easily communicate with collaborators. Use `@mentions` to alert a person or entire team about a comment.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/best-practices-for-projects#communicate
+:::
+::::
