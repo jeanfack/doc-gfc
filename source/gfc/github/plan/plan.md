@@ -14,7 +14,7 @@
 :::
 ::::
 
-## Pricing
+## Pricing (**Free** vs **Team** vs **Enterprise**)
 
 ::::{grid}
 :::{grid-item-card}
@@ -24,6 +24,26 @@ Draft pull requests are available in private repositories with GitHub Free accou
 :::{grid-item-card}
 * True
 * {bdg-success}`Correct` False
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://github.com/pricing
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+hat distinguishes **GitHub Enterprise** from **GitHub Team** ?
+:::
+
+:::{grid-item-card}
+* **GitHub Team** allows unlimited collaborators on private repositories.
+* **GitHub Enterprise** is paid, while **GitHub Team** is free.
+* **GitHub Enterprise** is only available as a self-hosted solution.
+* {bdg-success}`Correct` **GitHub Enterprise** provides more security, compliance, and deployment controls.
 :::
 
 :::{grid-item-card}

@@ -16,6 +16,8 @@
 
 ## Events
 
+### Primary purpose
+
 ::::{grid}
 :::{grid-item-card}
 Which of the following accurately describes the events that can trigger workflows in GitHub Actions ?
@@ -32,6 +34,8 @@ Workflows can be triggered by specific activity on GitHub, scheduled times, or e
 https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows
 :::
 ::::
+
+### details
 
 ::::{grid}
 :::{grid-item-card}
@@ -81,7 +85,50 @@ Which of the following can trigger a workflow in your GitHub repository ?\
 :::
 ::::
 
+### Webhooks
+
+::::{grid}
+:::{grid-item-card}
+What is the purpose of using webhooks in GitHub Projects ?
+:::
+
+:::{grid-item-card}
+To trigger automation based on project events.
+:::
+
+:::{grid-item-card}
+You can use webhooks to subscribe to events taking place in your project.
+For example, when an item is edited, GitHub can send a HTTP POST payload to the webhook's configured URL which can trigger automation on your server.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/webhooks/about-webhooks
+:::
+::::
+
 ## Workflows
+
+### Scope
+
+::::{grid}
+:::{grid-item-card}
+A GitHub project can span multiple repositories, but a workflow is specific to a repository ?
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` True
+* False
+:::
+
+:::{grid-item-card}
+A project can span multiple repositories, but a workflow is specific to a repository.\
+Add the workflow to each repository that you want your project to track.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions#github-actions-workflows
+:::
+::::
 
 ### File location
 
