@@ -71,6 +71,23 @@ GitHub Desktop
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is an advantage of working from the desktop compared to working in the browser in terms of Github ?
+:::
+
+:::{grid-item-card}
+Access to compute power.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/start-your-journey/about-github-and-git
+:::
+::::
+
 ### Benefit
 
 ::::{grid}
