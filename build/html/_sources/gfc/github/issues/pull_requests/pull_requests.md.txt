@@ -100,6 +100,22 @@ Make the requested changes and push new commits to the same pull request.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+After reviewing the changes in a pull request on GitHub, what action can you take to collapse a file you've finished reviewing ?
+:::
+
+:::{grid-item-card}
+Click the "Files changed" tab, hover over the file header, and select "Viewed".
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#marking-a-file-as-viewed
+:::
+::::
 
 ## Notification
 
@@ -201,7 +217,6 @@ GitHub provides the option to create a permanent link to a specific line or rang
 * https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet
 :::
 ::::
-
 
 ## Lifecycle
 
