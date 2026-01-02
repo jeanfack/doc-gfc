@@ -94,15 +94,16 @@ https://docs.github.com/en/desktop/overview/about-github-desktop#benefits-of-git
 
 ::::{grid}
 :::{grid-item-card}
-What is the difference between GitHub Desktop and the GitHub UI ?
+What is the difference between **GitHub Desktop** and the **GitHub UI** ?
 :::
 
 :::{grid-item-card}
-GitHub Desktop is a standalone desktop application.
+**GitHub Desktop** is a standalone desktop application.
 :::
 
 :::{grid-item-card}
-GitHub Desktop is a free, open source application that helps you to work with code hosted on GitHub or other Git hosting services. With GitHub Desktop, you can perform Git commands, such as committing and pushing changes, in a graphical user interface, rather than using the command line.
+**GitHub Desktop** is a free, open source application that helps you to work with code hosted on GitHub or other Git hosting services.\
+With **GitHub Desktop**, you can perform Git commands, such as committing and pushing changes, in a graphical user interface, rather than using the command line.
 
 ```{note}
 GitHub UI = `github.com`
