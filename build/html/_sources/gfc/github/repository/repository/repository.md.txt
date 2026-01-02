@@ -528,6 +528,25 @@ Organization site
 :::
 ::::
 
+### Type: `project`, `user`, `organization`.
+
+::::{grid}
+:::{grid-item-card}
+What types of sites can be hosted using GitHub Pages ?
+:::
+
+:::{grid-item-card}
+Project, user, and organization sites.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#types-of-github-pages-sites
+:::
+::::
+
 ### Publishing
 
 ::::{grid}
