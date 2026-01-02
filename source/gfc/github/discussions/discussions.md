@@ -14,6 +14,25 @@
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Who can create and participate in discussions for a repository ?
+:::
+
+:::{grid-item-card}
+Anyone with access to the repository.
+:::
+
+:::{grid-item-card}
+If GitHub Discussions are enabled for a repository, anyone who has access to the repository can create and participate in discussions.\
+This includes contributors, maintainers, and other community members with appropriate permissions.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions
+:::
+::::
+
 ## Primary purpose
 
 ::::{grid}
@@ -154,6 +173,3 @@ If the reply effectively addresses the question and resolves any confusion, it c
 * https://docs.github.com/en/discussions/managing-discussions-for-your-community/moderating-discussions#marking-a-comment-as-an-answer
 :::
 ::::
-
-## Others
-
