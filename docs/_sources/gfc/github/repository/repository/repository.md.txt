@@ -420,6 +420,24 @@ They can view the gist regardless of the author's permissions.
 
 ::::{grid}
 :::{grid-item-card}
+What is GitHub Pages used for ?
+:::
+
+:::{grid-item-card}
+To publicize and host a website about yourself, your organization, or your project.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/introduction-to-github/5-platform-management
+:::
+::::
+
+
+::::{grid}
+:::{grid-item-card}
 Peter, a developer, wants to create a new public repository on GitHub to host his personal website. What should Peter name his new public repository ?
 :::
 
