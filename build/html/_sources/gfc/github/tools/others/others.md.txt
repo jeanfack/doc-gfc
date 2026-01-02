@@ -232,7 +232,7 @@ GitHub Repositories extension
 :::
 ::::
 
-## Troubleshooting
+### Troubleshooting
 
 ::::{grid}
 :::{grid-item-card}
