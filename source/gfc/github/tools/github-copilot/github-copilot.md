@@ -157,3 +157,20 @@ What features are available in GitHub Copilot Business that are not in GitHub Co
 * https://docs.github.com/en/enterprise-cloud@latest/copilot/get-started/what-is-github-copilot#understanding-the-differences-between-copilot-individual-copilot-business-and-copilot-enterprise
 :::
 ::::
+
+::::{grid}
+:::{grid-item-card}
+Which of the following GitHub Copilot offerings can send telemetry and code snippets unless disabled ?
+:::
+
+:::{grid-item-card}
+Copilot Individual
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/copilot/get-started/what-is-github-copilot#understanding-the-differences-between-copilot-individual-copilot-business-and-copilot-enterprise
+:::
+::::
