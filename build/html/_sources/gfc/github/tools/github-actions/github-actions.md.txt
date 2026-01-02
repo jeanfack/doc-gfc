@@ -14,6 +14,27 @@
 :::
 ::::
 
+## Visualize
+
+::::{grid}
+:::{grid-item-card}
+How can you visualize the execution progress of a GitHub Actions workflow run ?
+:::
+
+:::{grid-item-card}
+By navigating to the "Actions" tab in the repository.
+:::
+
+:::{grid-item-card}
+The progress of a GitHub Actions workflow run can be visualized by navigating to the "Actions" tab in the repository on `github.com`.\
+From there, users can view a visualization graph of the run's progress and see the activity of each step in the workflow.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/actions/get-started/understand-github-actions#viewing-the-activity-for-a-workflow-run
+:::
+::::
+
 ## Events
 
 ### Primary purpose

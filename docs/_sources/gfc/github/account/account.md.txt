@@ -351,6 +351,30 @@ SCIM
 
 ## Organizations
 
+### Roles
+
+::::{grid}
+:::{grid-item-card}
+Your goal is to give a user the permissions needed to add and remove organization members to and from a team.\
+What permission does that user require ?
+:::
+
+:::{grid-item-card}
+Team maintainer.
+:::
+
+:::{grid-item-card}
+* As a `team maintainer`, the user can add and remove organization members to and from a team.
+* The `admin` permission on a repository only allows you to perform full administration-related tasks on a specific repository; it doesn't affect membership on a team.
+* The `maintain` permission on a repository only allows you to perform limited administration-related tasks on a specific repository; it doesn't affect membership on a team.
+* The `organization billing` manager permission only allows the user to handle billing related tasks; it doesn't affect membership on a team.
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-gb/training/modules/github-introduction-administration/4-how-github-organization-permission-works
+:::
+::::
+
 ::::{grid}
 :::{grid-item-card}
 What are the differences between organization members and external collaborators in GitHub ?
@@ -365,6 +389,22 @@ External collaborators cannot be team maintainers.
 
 :::{grid-item-card}
 * https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+our goal is to give a user the permissions needed to add and remove organization members to and from a team.\
+What permission does that user require ?
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
 :::
 ::::
 

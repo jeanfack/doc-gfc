@@ -251,7 +251,7 @@ It allows contributors to ask for guidance or help without signaling completion.
 :::
 
 :::{grid-item-card}
-* vhttps://learn.microsoft.com/en-us/training/modules/contribute-open-source/3-contribute
+* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/3-contribute
 :::
 ::::
 
