@@ -120,3 +120,58 @@ To prevent security vulnerabilities.
 * https://docs.github.com/en/actions/reference/workflows-and-actions/reusing-workflow-configurations#access-to-reusable-workflows
 :::
 ::::
+
+### reuse
+
+::::{grid}
+:::{grid-item-card}
+Under what conditions can a workflow use a reusable workflow ?
+:::
+
+:::{grid-item-card}
+If the called workflow is stored in a public repository or a private repository with appropriate access settings.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/actions/how-tos/reuse-automations/share-across-private-repositories#sharing-actions-and-workflows-from-your-private-repository
+* https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Which keyword is used to reference a reusable workflow within a job ?
+:::
+
+:::{grid-item-card}
+`uses`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows#calling-a-reusable-workflow
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What is the term for a workflow that uses another workflow ?
+:::
+
+:::{grid-item-card}
+Caller workflow
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows#using-inputs-and-secrets-in-a-reusable-workflow
+:::
+::::
+
