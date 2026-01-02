@@ -334,3 +334,22 @@ Manage, triage, and clear notifications from `github.com`.
 * https://docs.github.com/en/get-started/using-github/github-mobile
 :::
 ::::
+
+## Secret scanning
+
+::::{grid}
+:::{grid-item-card}
+What does GitHub's secret scanning feature do ?
+:::
+
+:::{grid-item-card}
+It looks for known secrets or credentials committed within the repository.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning ?
+:::
+::::
