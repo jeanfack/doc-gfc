@@ -46,6 +46,82 @@ https://docs.github.com/en/search-github/searching-on-github/searching-for-repos
 
 ## type:issue,pr
 
+### Menu
+
+::::{grid}
+:::{grid-item-card}
+Lois is a project manager on GitHub and wants to filter all the open issues and pull requests in her repository to prioritize tasks.\
+Which filtering option should she use?
+:::
+
+:::{grid-item-card}
+Open issues and pull requests.
+:::
+
+:::{grid-item-card}
+Lois should choose the option to filter for "Open issues and pull requests" to see all the active tasks in the repository, regardless of their assignees or creators.\
+This filter will help her prioritize tasks based on their urgency and importance.
+:::
+
+:::{grid-item-card}
+* L: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#filtering-issues-and-pull-requests
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Meg is a team lead overseeing a project on GitHub.\
+She wants to filter issues and pull requests to review tasks where team members have mentioned her for assistance or feedback.\
+Which filtering option should she use ?
+:::
+
+:::{grid-item-card}
+Everything mentioning you
+:::
+
+:::{grid-item-card}
+You can also use `is:open mentions:@me` in search bar to get same results.
+
+You can also use this URL to directly to see all the active tasks in the repository:
+* `https://github.com/<USER-NAME>/<REPO-NAME>/issues?q=is:open+mentions:@me`
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/filtering-and-searching-issues-and-pull-requests#filtering-issues-and-pull-requests
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Stewie is a developer working on a project with multiple contributors. He wants to filter issues and pull requests to see only those that are assigned to him.\
+Which filtering option should he select?
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` Everything assigned to you.
+* Your issues.
+* Open issues and pull requests.
+* Your pull requests.
+* Everything mentioning you.
+:::
+
+:::{grid-item-card}
+Stewie should choose the option to filter for "Everything assigned to you" to focus on the tasks specifically assigned to him.\
+This filter will help him efficiently manage his workload and address his assigned tasks promptly.
+![](../../../_include/gfc/github/filters/img/E4Q41_1.png)
+
+You can also use `is:open assignee:@me` in search bar to get same results.
+![](../../../_include/gfc/github/filters/img/E4Q41_2.png)
+
+You can also use this URL to directly to see all the active tasks in the repository.\
+`https://github.com/<USER-NAME>/<REPO-NAME>/issues?q=is:open+assignee:@me`
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#filtering-issues-and-pull-requests
+:::
+::::
+
 ### Syntax
 
 ::::{grid}
@@ -237,58 +313,6 @@ Use the `mentions:` followed by the username.
 
 :::{grid-item-card}
 * https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests#search-by-mention
-:::
-::::
-
-
-::::{grid}
-:::{grid-item-card}
-Lois is a project manager on GitHub and wants to filter all the open issues and pull requests in her repository to prioritize tasks.\
-Which filtering option should she use?
-:::
-
-:::{grid-item-card}
-Open issues and pull requests.
-:::
-
-:::{grid-item-card}
-Lois should choose the option to filter for "Open issues and pull requests" to see all the active tasks in the repository, regardless of their assignees or creators.\
-This filter will help her prioritize tasks based on their urgency and importance.
-:::
-
-:::{grid-item-card}
-* L: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#filtering-issues-and-pull-requests
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-Stewie is a developer working on a project with multiple contributors. He wants to filter issues and pull requests to see only those that are assigned to him.\
-Which filtering option should he select?
-:::
-
-:::{grid-item-card}
-* {bdg-success}`Correct` Everything assigned to you.
-* Your issues.
-* Open issues and pull requests.
-* Your pull requests.
-* Everything mentioning you.
-:::
-
-:::{grid-item-card}
-Stewie should choose the option to filter for "Everything assigned to you" to focus on the tasks specifically assigned to him.\
-This filter will help him efficiently manage his workload and address his assigned tasks promptly.
-![](../../../_include/gfc/github/filters/img/E4Q41_1.png)
-
-You can also use `is:open assignee:@me` in search bar to get same results.
-![](../../../_include/gfc/github/filters/img/E4Q41_2.png)
-
-You can also use this URL to directly to see all the active tasks in the repository.\
-`https://github.com/<USER-NAME>/<REPO-NAME>/issues?q=is:open+assignee:@me`
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests#filtering-issues-and-pull-requests
 :::
 ::::
 

@@ -108,6 +108,26 @@ https://learn.microsoft.com/en-us/training/modules/introduction-to-github/4-coll
 :::
 ::::
 
+### Create branch
+
+::::{grid}
+:::{grid-item-card}
+Where can you find the option to create a branch for an issue on `github.com` ?
+:::
+
+:::{grid-item-card}
+In the "Development" section of the issue sidebar.
+:::
+
+:::{grid-item-card}
+
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-a-branch-for-an-issue#about-branches-connected-to-an-issue
+:::
+::::
+
 ##  Saved replies
 
 ::::{grid}
