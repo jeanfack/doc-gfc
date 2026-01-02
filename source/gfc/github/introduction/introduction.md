@@ -192,6 +192,25 @@ It operates in a centralized manner, with a central repository storing the versi
 :::
 ::::
 
+## **GitHup Apps** vs **OAuth apps**
+
+::::{grid}
+:::{grid-item-card}
+What is the main difference between **GitHub Apps** and **OAuth apps** ?
+:::
+
+:::{grid-item-card}
+**GitHub Apps** offer more granular permissions for data access.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps#github-apps-vs-oauth-apps
+:::
+::::
+
 ## Marketplace
 
 ### Primary purpose
