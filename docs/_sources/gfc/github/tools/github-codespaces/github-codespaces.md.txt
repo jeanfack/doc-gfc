@@ -52,6 +52,23 @@ Use `GitHub Codespaces` for heavy lifting, testing code, and terminal access.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is the main difference in terms of compute between `github.dev` and **GitHub Codespaces** ?
+:::
+
+:::{grid-item-card}
+GitHub Codespaces has dedicated VM for running and debugging applications.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/4-codespaces-versus-github-dev-editor
+:::
+::::
+
 ## Create
 
 ::::{grid}
