@@ -315,3 +315,22 @@ To add an issue or pull request to a project.
 * https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects?tool=cli#adding-an-item-to-a-project
 :::
 ::::
+
+## GitHub Mobile
+
+::::{grid}
+:::{grid-item-card}
+What is a function you can execute on **GitHub Mobile** ?
+:::
+
+:::{grid-item-card}
+Manage, triage, and clear notifications from `github.com`.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/using-github/github-mobile
+:::
+::::
