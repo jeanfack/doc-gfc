@@ -25,4 +25,5 @@
    repository > doc                                 <gfc/github/repository/doc/doc.md>
    repository > repository                          <gfc/github/repository/repository/repository.md>
    tools > GitHub Actions                           <gfc/github/tools/github-actions/github-actions.md>
+   tools > GitHub Codespaces                        <gfc/github/tools/github-codespaces/github-codespaces.md>
    tools > others                                   <gfc/github/tools/others/others.md>
