@@ -14,7 +14,7 @@
 :::
 ::::
 
-## git commit
+## `git commit`
 
 ::::{grid}
 :::{grid-item-card}
@@ -164,7 +164,7 @@ Start with a capital letter and use the imperative, present tense.
 :::
 ::::
 
-## git checkout
+## `git checkout`
 
 ### Syntax
 
@@ -226,7 +226,7 @@ Change the default branch of the repository on GitHub.com.
 :::
 ::::
 
-## git rm
+## `git rm`
 
 ::::{grid}
 :::{grid-item-card}
@@ -245,7 +245,31 @@ What command should he use to untrack the file before adding a rule to ignore it
 :::
 ::::
 
-## git push
+## `git reset`
+
+::::{grid}
+:::{grid-item-card}
+Meg Griffin has been working on a coding project and has made several commits locally.\
+However, she realizes that the last three commits she made have introduced significant errors, and she wants to undo them entirely, as if they never happened.\
+Which Git command should Meg use to achieve this ?
+:::
+
+:::{grid-item-card}
+`git reset --hard HEAD~3`
+:::
+
+:::{grid-item-card}
+Meg Griffin should use the `git reset --hard <last good SHA>` command, specifying the SHA of the commit before the first of the three commits she wants to undo.\
+This command rewinds the repository's history all the way back to the specified SHA, effectively removing the last three commits and their changes entirely.\
+The `--hard` option ensures that both the commit history and the working directory are reset, effectively undoing the commits and their changes in one move.
+:::
+
+:::{grid-item-card}
+* https://git-scm.com/docs/git-reset/fr#git-reset-spanclasssynopsiscode--hardcodespan
+:::
+::::
+
+## `git push`
 
 ::::{grid}
 :::{grid-item-card}
