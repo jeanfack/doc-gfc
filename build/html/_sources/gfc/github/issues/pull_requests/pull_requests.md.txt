@@ -14,6 +14,25 @@
 :::
 ::::
 
+## Primary purpose
+
+::::{grid}
+:::{grid-item-card}
+What is the primary purpose of a pull request in GitHub ?
+:::
+
+:::{grid-item-card}
+To request feedback on commits from collaborators.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+:::
+::::
+
 ## Create/Assign
 
 ::::{grid}
