@@ -128,6 +128,23 @@ In the "Development" section of the issue sidebar.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Who can create a branch to work on an issue directly from the issue page ?
+:::
+
+:::{grid-item-card}
+Anyone with write permission to the repository
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue#about-branches-connected-to-an-issue
+:::
+::::
+
 ##  Saved replies
 
 ::::{grid}
