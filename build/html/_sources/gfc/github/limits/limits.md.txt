@@ -131,6 +131,8 @@ GitHub recommends repositories to remain small, ideally less than 1 GB, and less
 :::
 ::::
 
+### Diff
+
 ::::{grid}
 :::{grid-item-card}
 How many files can be included in a single diff on GitHub ?
