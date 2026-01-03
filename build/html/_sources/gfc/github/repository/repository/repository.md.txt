@@ -119,48 +119,6 @@ Members of your enterprise can collaborate using open source methodologies witho
 :::
 ::::
 
-## Code scalling
-
-### Primary purpose
-
-::::{grid}
-:::{grid-item-card}
-What is the primary benefit of using **code scanning** in a GitHub repository ?
-:::
-
-:::{grid-item-card}
-To analyze and find security vulnerabilities and errors in the code.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning#about-code-scanning
-:::
-::::
-
-### Shifting left
-
-::::{grid}
-:::{grid-item-card}
-What does the concept of **shifting left** refer to in the context of secure development ?
-:::
-
-:::{grid-item-card}
-Integrating security measures earlier in the development lifecycle.
-:::
-
-:::{grid-item-card}
-**Shifting left** in the context of secure development refers to integrating security measures earlier in the development lifecycle.
-This helps catch security issues earlier and ensures that security is considered from the beginning of the development process.
-:::
-
-:::{grid-item-card}
-* https://www.dynatrace.com/news/blog/what-is-shift-left-and-what-is-shift-right/
-:::
-::::
-
 ## Archive
 
 ::::{grid}

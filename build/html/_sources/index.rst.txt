@@ -23,6 +23,7 @@
    project                                          <gfc/github/project/project.md>
    repository > config                              <gfc/github/repository/config/config.md>
    repository > doc                                 <gfc/github/repository/doc/doc.md>
+   repository > security                            <gfc/github/repository/security/security.md>
    repository > repository                          <gfc/github/repository/repository/repository.md>
    tools > GitHub Actions                           <gfc/github/tools/github-actions/github-actions.md>
    tools > GitHub Codespaces vs github.dev          <gfc/github/tools/github-codespaces_vs_github-dev/github-codespaces_vs_github-dev.md>
