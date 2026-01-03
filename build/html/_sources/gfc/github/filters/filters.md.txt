@@ -491,6 +491,23 @@ GitHub analyzes public repository content and generates suggested topics that St
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Where do **topics** appear once added to a repository ?
+:::
+
+:::{grid-item-card}
+On the main page of the repository.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-server@3.10/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#about-topics
+:::
+::::
+
 ### Label
 
 ::::{grid}
