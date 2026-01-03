@@ -148,6 +148,22 @@ How many files can be included in a single diff on GitHub ?
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What are the limits imposed on diffs for commits, pull requests, and compare views on GitHub ?
+:::
+
+:::{grid-item-card}
+No total diff may exceed 20,000 lines or 1 MB of raw diff data.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits#diff-limits
+:::
+::::
 
 ## Large files
 
