@@ -88,6 +88,31 @@ What authentication method does GitHub strongly recommend avoiding when dealing 
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is the first step in ensuring secure software development in an enterprise ?
+:::
+
+:::{grid-item-card}
+* Limiting access to resources based on user roles and permissions.
+* {bdg-success}`Correct` Configuring authentication using tools available with the identity provider (IdP).
+* Enabling two-factor authentication (2FA) for every GitHub user.
+* Balancing ease of use with secure organizational requirements.
+:::
+
+:::{grid-item-card}
+Configuring authentication is the first step in ensuring secure software development in an enterprise, and using the tools available with the identity provider (IdP) is critical for getting the most value from GitHub.
+
+```{admonition} Example
+An enterprise sets up authentication with GitHub using SAML SSO with their chosen identity provider (IdP) to ensure secure access to their GitHub organization.
+```
+:::
+
+:::{grid-item-card}
+:::
+::::
+
+
 ### A2F
 
 ::::{grid}
