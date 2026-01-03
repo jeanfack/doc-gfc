@@ -262,6 +262,25 @@ However, if the PR's base is any other branch, the keywords are ignored, and no 
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Lois has created a PR on the default branch of her repository to address an issue. She includes a special keyword in the PR description to link it to the issue.\
+What will happen when she merges this PR ?
+:::
+
+:::{grid-item-card}
+The issue linked to the PR will be closed automatically.
+:::
+
+:::{grid-item-card}
+When a PR is merged and it is linked to an issue using a special keyword in the description, the linked issue will be closed automatically, assuming the PR resolves the issue.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#about-linked-issues-and-pull-requests
+:::
+::::
+
 ## Permalink
 
 ::::{grid}
