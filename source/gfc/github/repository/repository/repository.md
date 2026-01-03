@@ -651,6 +651,23 @@ Watching a repository means subscribing to updates for activity in that reposito
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How can Tricia access repositories that she's watching on GitHub ?
+:::
+
+:::{grid-item-card}
+By visiting her watching page at `https://github.com/watching`.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#about-participating-and-watching-notifications
+:::
+::::
+
 ## Template
 
 ::::{grid}
