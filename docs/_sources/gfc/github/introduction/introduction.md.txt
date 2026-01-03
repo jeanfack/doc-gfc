@@ -362,3 +362,28 @@ Anyone can publish an action in GitHub Marketplace. GitHub verifies some partner
 * https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps#github-actions
 :::
 ::::
+
+### Trending
+
+::::{grid}
+:::{grid-item-card}
+Where can you find trending apps ?
+:::
+
+:::{grid-item-card}
+GitHub Marketplace
+:::
+
+:::{grid-item-card}
+GitHub Marketplace is an online platform where users can discover and access various applications and tools that integrate with GitHub. These applications, often created by third-party developers, offer a wide range of functionalities to enhance workflows, automate tasks, and improve productivity for GitHub users.
+
+To find trending apps on GitHub Marketplace, users can simply navigate to the Marketplace section on the GitHub website. Here, they will find a curated list of popular and trending applications, showcasing the most innovative and widely-used tools within the GitHub community. Users can explore these trending apps to discover new solutions, stay up-to-date with the latest developments, and find tools that best suit their needs and preferences.
+
+![](../../../_include/gfc/github/introduction/markeplace/trending/img/trending.png)
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps
+* https://github.com/marketplace?type=apps
+:::
+::::
