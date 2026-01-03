@@ -14,25 +14,6 @@
 :::
 ::::
 
-::::{grid}
-:::{grid-item-card}
-Who can create and participate in discussions for a repository ?
-:::
-
-:::{grid-item-card}
-Anyone with access to the repository.
-:::
-
-:::{grid-item-card}
-If GitHub Discussions are enabled for a repository, anyone who has access to the repository can create and participate in discussions.\
-This includes contributors, maintainers, and other community members with appropriate permissions.
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions
-:::
-::::
-
 ## Primary purpose
 
 ::::{grid}
@@ -52,7 +33,44 @@ Sharing announcements and information.
 :::
 ::::
 
+## Enable
+::::{grid}
+:::{grid-item-card}
+Who can enable GitHub Discussions in a repository ?
+:::
+
+:::{grid-item-card}
+Repository owners and user with Write access
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/introduction-to-github/4-collaborative-platform
+:::
+::::
+
 ## Create
+
+::::{grid}
+:::{grid-item-card}
+Who can create and participate in discussions for a repository ?
+:::
+
+:::{grid-item-card}
+Anyone with access to the repository.
+:::
+
+:::{grid-item-card}
+If GitHub Discussions are enabled for a repository, anyone who has access to the repository can create and participate in discussions.\
+This includes contributors, maintainers, and other community members with appropriate permissions.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions
+:::
+::::
 
 ::::{grid}
 :::{grid-item-card}
