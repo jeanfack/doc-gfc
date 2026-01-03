@@ -410,6 +410,23 @@ https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-con
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Gists are actually Git repositories, which means that you can fork or clone any gist, even if you aren't the original author ?
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` True
+* False
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/forking-and-cloning-gists
+:::
+::::
 
 ### Secret
 
