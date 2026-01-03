@@ -133,6 +133,25 @@ The "gh-pages" branch is not a default branch of the repository.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Which types of commits are not counted as contributions in the contributors graph ?
+:::
+
+:::{grid-item-card}
+Both merge commits and empty commits.
+:::
+
+:::{grid-item-card}
+Merge commits and empty commits aren't counted as contributions in the contributors graph.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors#about-contributors
+* https://github.blog/changelog/2023-11-29-upcoming-changes-to-repository-insights/#user-interface-updates
+:::
+::::
+
 ### Community
 
 ### Traffic
