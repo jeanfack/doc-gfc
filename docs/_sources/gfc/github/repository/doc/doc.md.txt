@@ -140,22 +140,7 @@ This makes relative links more reliable for users who clone the repository.
 
 ## Wiki
 
-::::{grid}
-:::{grid-item-card}
-How does GitHub determine which file to use for populating the footer and sidebar of a **wiki** ?
-:::
-
-:::{grid-item-card}
-using the file names `_Footer.<extension>` and `_Sidebar.<extension>`.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/communities/documenting-your-project-with-wikis/creating-a-footer-or-sidebar-for-your-wiki#creating-a-footer-or-sidebar-locally
-:::
-::::
+### Access
 
 ::::{grid}
 :::{grid-item-card}
@@ -174,6 +159,8 @@ Only people with access to the repository can access the **wiki**.
 :::
 ::::
 
+### Clone
+
 ::::{grid}
 :::{grid-item-card}
 How can you clone a **wiki** from a GitHub repository to your local computer ?
@@ -191,6 +178,8 @@ Using the `git clone` command with the repository's URL followed by `.wiki.git`.
 :::
 ::::
 
+### Title
+
 ::::{grid}
 :::{grid-item-card}
 What determines the title of a **wiki** page and how its content is rendered ?
@@ -205,6 +194,44 @@ The filename and its extension.
 
 :::{grid-item-card}
 * https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages#about-wiki-filenames
+:::
+::::
+
+### Footer and Sidebar
+
+::::{grid}
+:::{grid-item-card}
+How does GitHub determine which file to use for populating the footer and sidebar of a **wiki** ?
+:::
+
+:::{grid-item-card}
+using the file names `_Footer.<extension>` and `_Sidebar.<extension>`.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/documenting-your-project-with-wikis/creating-a-footer-or-sidebar-for-your-wiki#creating-a-footer-or-sidebar-locally
+:::
+::::
+
+### Disable
+
+::::{grid}
+:::{grid-item-card}
+What happens to the content of a wiki when you turn it off?
+:::
+
+:::{grid-item-card}
+The content is hidden but can be restored later.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/documenting-your-project-with-wikis/disabling-wikis
 :::
 ::::
 

@@ -375,11 +375,11 @@ The most commented pull requests.
 
 ::::{grid}
 :::{grid-item-card}
-What is the primary difference between milestones and labels in GitHub ?
+What is the primary difference between **milestones** and **labels** in GitHub ?
 :::
 
 :::{grid-item-card}
-Milestones are project-specific and can be used to view details about progress, while labels are applied to individual issues or pull requests for categorization.
+**Milestones** are project-specific and can be used to view details about progress, while **labels** are applied to individual issues or pull requests for categorization.
 :::
 
 :::{grid-item-card}
@@ -390,14 +390,34 @@ Milestones are project-specific and can be used to view details about progress, 
 :::
 ::::
 
+#### Primary Purpose
 
 ::::{grid}
 :::{grid-item-card}
-Can you filter GitHub issues based on milestones ?
+What is the primary purpose of **milestones** in GitHub ?
 :::
 
 :::{grid-item-card}
-Yes, GitHub allows filtering of issues based on milestone.
+To track progress on groups of issues or pull requests.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones
+:::
+::::
+
+#### Scope
+
+::::{grid}
+:::{grid-item-card}
+Can you filter GitHub issues based on **milestones** ?
+:::
+
+:::{grid-item-card}
+Yes, GitHub allows filtering of issues based on **milestone**.
 :::
 
 :::{grid-item-card}
@@ -456,10 +476,10 @@ Which of the following statements about the visibility of **topic** names is tru
 :::
 
 :::{grid-item-card}
-* Topic names created within a private repository are public only if the repository was public before.
-* Topic names are private if created within a private repository.
-* {bdg-success}`Correct` Topic names are always public.
-* Topic names are visible only to collaborators of a repository.
+* **Topic** names created within a private repository are public only if the repository was public before.
+* **Topic** names are private if created within a private repository.
+* {bdg-success}`Correct` **Topic** names are always public.
+* **Topic** names are visible only to collaborators of a repository.
 :::
 
 :::{grid-item-card}
@@ -476,11 +496,11 @@ GitHub maintains **topic** names as public entities, ensuring that repositories 
 ::::{grid}
 :::{grid-item-card}
 Stewie manages a public repository on GitHub for his robotics projects. He wants to improve the visibility of his repository by adding relevant topics.\
-Which of the following statements is true regarding GitHub's topic suggestion feature for his repository ?
+Which of the following statements is true regarding GitHub's **topic** suggestion feature for his repository ?
 :::
 
 :::{grid-item-card}
-GitHub analyzes public repository content and generates suggested topics that Stewie can accept or reject.
+GitHub analyzes public repository content and generates suggested **topics** that Stewie can accept or reject.
 :::
 
 :::{grid-item-card}
@@ -546,11 +566,11 @@ Organization owners
 
 ::::{grid}
 :::{grid-item-card}
-What label does a maintainer use to indicate that they require assistance with an issue or pull request ?
+What **label** does a maintainer use to indicate that they require assistance with an issue or pull request ?
 :::
 
 :::{grid-item-card}
-help wanted
+`help wanted`
 :::
 
 :::{grid-item-card}
@@ -563,41 +583,24 @@ help wanted
 
 ::::{grid}
 :::{grid-item-card}
-What is the primary difference between milestones and labels in GitHub ?
-:::
-
-:::{grid-item-card}
-Milestones are project-specific and can be used to view details about progress, while labels are applied to individual issues or pull requests for categorization.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-What is the significance of adding labels to a pull request ?
+What is the significance of adding **labels** to a pull request ?
 *Choose TWO correct answers.*
 :::
 
 :::{grid-item-card}
-* It categorizes the nature of the changes being proposed.
-* To provide visual clues for the purpose of the pull request.
+* {bdg-success}`Correct` It categorizes the nature of the changes being proposed.
+* {bdg-success}`Correct` To provide visual clues for the purpose of the pull request.
 :::
 
 :::{grid-item-card}
-Labels in a pull request serve as visual clues for the purpose of the pull request, helping maintainers understand the nature of the changes being proposed in a pull request, such as whether it's a bug fix, an enhancement, or related to documentation.\
-A maintainer might also add a label or multiple labels.
+**Labels** in a pull request serve as visual clues for the purpose of the pull request, helping maintainers understand the nature of the changes being proposed in a pull request, such as whether it's a bug fix, an enhancement, or related to documentation.\
+A maintainer might also add a **label** or multiple **labels**.
 
 Some of the labels we use in the repository for this Learn module are:
-* Bug (red): Something isn't working
-* Documentation (blue): Improvements or additions to documentation
-* Duplicate (gray): This issue or pull request already exists
-* Enhancement (teal): New feature or request
+* **Bug (red)**: Something isn't working
+* **Documentation (blue)**: Improvements or additions to documentation
+* **Duplicate (gray)**: This issue or pull request already exists
+* **Enhancement (teal)**: New feature or request
 :::
 
 :::{grid-item-card}
@@ -607,7 +610,7 @@ Some of the labels we use in the repository for this Learn module are:
 
 ::::{grid}
 :::{grid-item-card}
-Why would a company need labels in GitHub for its projects ?
+Why would a company need **labels** in GitHub for its projects ?
 :::
 
 :::{grid-item-card}
