@@ -368,6 +368,23 @@ Marking a pull request as a draft on GitHub suppresses notifications to reviewer
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is a key characteristic of draft pull requests in GitHub ?
+:::
+
+:::{grid-item-card}
+They cannot be merged until they are converted to regular pull requests.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests
+:::
+::::
+
 ### `Open`
 
 ### `Merged`
