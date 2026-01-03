@@ -14,6 +14,28 @@
 :::
 ::::
 
+## `git add`
+
+::::{grid}
+:::{grid-item-card}
+Chris Griffin wants to add an existing file to his GitHub repository using the command line.\
+He has already cloned the repository locally on his computer. What command should he use to stage the file for commit ?
+:::
+
+:::{grid-item-card}
+`git add .`
+:::
+
+:::{grid-item-card}
+Chris Griffin should use the command `git add .` to stage the file for commit in his local repository.\
+This command stages all changes in the current directory for the next commit.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository?platform=linux#adding-a-file-to-a-repository-using-the-command-line
+:::
+::::
+
 ## `git commit`
 
 ::::{grid}
