@@ -198,6 +198,30 @@ Peter can comment on specific files or sections of a file in the pull request's 
 :::
 ::::
 
+## Compare pages
+
+::::{grid}
+:::{grid-item-card}
+What is the primary difference between the calculation of file differences on compare pages and pull request pages in GitHub ?
+:::
+
+:::{grid-item-card}
+Compare pages show the diff between the tip of the head ref and the current common ancestor of the head and base ref, while pull request pages show the diff between the tip of the head ref and the common ancestor of the head and base ref at the time when the pull request was created.
+:::
+
+:::{grid-item-card}
+The *compare* and *pull request pages* use different methods to calculate the diff for changed files:
+* *Compare pages* show the diff between the tip of the head ref and the current common ancestor (that is, the merge base) of the head and base ref.
+* *Pull request pages* show the diff between the tip of the head ref and the common ancestor of the head and base ref at the time when the pull request was created.
+
+Consequently, the merge base used for the comparison might be different.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#differences-between-commits-on-compare-and-pull-request-pages
+:::
+::::
+
 ## Link
 
 ::::{grid}
