@@ -306,3 +306,23 @@ Only apps owned by organizations.
 * https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps
 :::
 ::::
+
+### Publish
+
+::::{grid}
+:::{grid-item-card}
+Who can publish an action in GitHub Marketplace ?
+:::
+
+:::{grid-item-card}
+Anyone
+:::
+
+:::{grid-item-card}
+Anyone can publish an action in GitHub Marketplace. GitHub verifies some partner organizations and these are shown as verified creators.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps#github-actions
+:::
+::::

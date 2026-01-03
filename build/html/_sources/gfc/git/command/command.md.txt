@@ -371,7 +371,63 @@ By default, what is the initial branch called in a freshly created GitHub reposi
 :::
 ::::
 
-## others
+## `remote`
+
+::::{grid}
+:::{grid-item-card}
+What is the purpose of a `remote` in Git?
+:::
+
+:::{grid-item-card}
+* A local working directory.
+* {bdg-success}`Correct` A reference to another Git repository.
+* A command-line option.
+* A specific commit version.
+:::
+
+:::{grid-item-card}
+**Remote:**\
+A remote is a named reference to another Git repository. When you create a repo, Git creates a remote named `origin` that is the default remote for push and pull operations.
+
+In Git, a "remote" is like a nickname or reference to another Git repository. It allows you to interact with and keep track of repositories on other servers or even in different locations. Remotes are useful for collaborative work, enabling multiple developers to contribute to a shared project.
+
+**More Details:**
+
+1. **Named Reference:** A remote is typically given a name, often "origin" by default when you clone a repository. This name helps you refer to the remote repository in various Git commands.
+
+2. **Default Remote:** When you create a new repository, Git often sets up a default remote named "origin." This is the remote repository from which you cloned your project.\
+For example:
+
+`$ git clone https://github.com/example/repo.git`
+
+Here, "origin" becomes your default remote.
+
+3. **Push and Pull Operations:** Remotes are crucial for pushing your local changes to a remote repository or pulling changes made by others into your local repository.\
+For instance:
+
+`$ git push origin main`
+This command pushes changes from your local "main" branch to the "main" branch on the remote repository named "origin."
+
+4. **Collaboration:** In team scenarios, developers can work on their local copies, make changes, and then push those changes to a common remote repository. This facilitates collaboration and ensures everyone is working on the latest version of the project.
+
+**Examples:**
+
+Suppose you have a repository with a remote named "origin":
+
+* To push changes to the remote repository:\
+`$ git push origin main`
+* To fetch changes from the remote repository:\
+`$ git pull origin main`
+
+In these examples, "origin" is the remote, and "main" is the branch being pushed or pulled.
+
+In summary, a remote in Git serves as a convenient link to external repositories, facilitating seamless collaboration and the exchange of changes between local and remote copies of a project.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/git-basics/about-remote-repositories#about-remote-repositories
+:::
+::::
 
 <!--
 ::::{grid}
