@@ -14,6 +14,31 @@
 :::
 ::::
 
+## Device
+
+::::{grid}
+:::{grid-item-card}
+Meg, a developer, wants to configure her GitHub notifications to ensure she stays updated on important activities related to her projects.\
+What are the options for receiving notifications for activity on GitHub.com ?\
+*Choose THREE correct answers.*
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` The notifications inbox in the **GitHub.com** web interface.
+* A RSS feed.
+* A Slack client.
+* {bdg-success}`Correct` The notifications inbox in the **GitHub Mobile**.
+* {bdg-success}`Correct` An email client with a verified email address.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#notification-delivery-options
+:::
+::::
+
 ## Subscriptions
 
 ::::{grid}
