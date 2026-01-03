@@ -64,25 +64,6 @@ Commit avec push => `git revert <SHA>`
 
 ::::{grid}
 :::{grid-item-card}
-What is the process for deleting a file that was added in the most recent unpushed commit ?
-:::
-
-:::{grid-item-card}
-`git rm --cached <FILE-NAME>`\
-`git commit --amend -CHEAD`
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://git-scm.com/docs/git-rm#Documentation/git-rm.txt---cached
-* https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---amend
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
 Which type of commits are excluded from the Commit graph ?
 :::
 
@@ -246,6 +227,50 @@ What command should he use to untrack the file before adding a rule to ignore it
 :::
 
 :::{grid-item-card}
+* https://git-scm.com/docs/git-rm#Documentation/git-rm.txt---cached
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Peter Griffin accidentally added `application.log` to the Git repository. Now, every time he runs the application, Git reports unstaged changes in `application.log`. Although he added `*.log` to the `.gitignore` file, the issue persists.\
+How can Peter undo tracking changes in this file ?
+:::
+
+:::{grid-item-card}
+`git rm --cached application.log`
+:::
+
+:::{grid-item-card}
+Peter should use the `git rm --cached <file>` command to remove `application.log` from Git's tracking without deleting it from the filesystem.\
+This command updates the index to stop tracking changes in the specified file while leaving the file untouched on disk. Since it's now being ignored according to the `.gitignore` file, Git won't report unstaged changes in `application.log` anymore.
+
+```{admonition} Example
+If Peter wants to stop tracking changes in `application.log`, he would run `git rm --cached application.log`.
+```
+:::
+
+:::{grid-item-card}
+* https://git-scm.com/docs/git-rm#Documentation/git-rm.txt---cached
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What is the process for deleting a file that was added in the most recent unpushed commit ?
+:::
+
+:::{grid-item-card}
+`git rm --cached <FILE-NAME>`\
+`git commit --amend -CHEAD`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://git-scm.com/docs/git-rm#Documentation/git-rm.txt---cached
+* https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---amend
 :::
 ::::
 
