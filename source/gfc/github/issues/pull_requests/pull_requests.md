@@ -520,3 +520,20 @@ Consider a scenario where you're collaborating on a project with multiple team m
 * https://docs.github.com/en/get-started/using-github/github-flow#delete-your-branch
 :::
 ::::
+
+::::{grid}
+:::{grid-item-card}
+When can you get rid of a branch after finishing your work ?
+:::
+
+:::{grid-item-card}
+After your pull request has been merged.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#working-with-branches
+:::
+::::
