@@ -126,6 +126,23 @@ GitHub Enterprise Support
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What's the best reason to decide to upgrade to the GitHub Enterprise product ?
+:::
+
+:::{grid-item-card}
+Because you want to centrally manage users and repositories across multiple organizations.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/github-introduction-products/2-what-are-github-products
+:::
+::::
+
 ## GitHub Pro
 
 ::::{grid}
