@@ -344,6 +344,29 @@ Meg can use the dependency graph to identify all her project's dependencies and 
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Lois uses GitHub Actions to automate various tasks in her project workflow and recently encountered an issue with one of the actions referenced in her GitHub Actions workflow.\
+Where can she view the actions referenced in her GitHub Actions workflows ?
+:::
+
+:::{grid-item-card}
+In the Dependency Graph of her repository.
+:::
+
+:::{grid-item-card}
+**Viewing Actions as Dependencies:** When Bob sets up workflows in his GitHub repository, he references specific actions that perform tasks within those workflows. These actions are essentially dependencies for his workflows because they are required to execute the defined tasks. Bob can view these referenced actions as dependencies in the dependency graph of his repository.
+
+**Dependency Graph:** The dependency graph is a visual representation of the dependencies within a repository. It shows the relationships between different elements, such as `packages`, `dependencies`, and in this case, `actions` used in workflows. By navigating to the dependency graph of his repository, Bob can see a clear overview of all the actions referenced in his workflows.
+
+Bob can view the actions referenced in his GitHub Actions workflows as dependencies in the dependency graph of his repository. This allows him to understand the dependencies of his workflows, troubleshoot any issues related to actions, and ensure the overall integrity and security of his automated workflows.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/actions/learn-github-actions/finding-and-customizing-actions#adding-an-action-to-your-workflow
+:::
+::::
+
 #### Dependabot
 
 ::::{grid}
