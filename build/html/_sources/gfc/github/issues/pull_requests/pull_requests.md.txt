@@ -372,6 +372,8 @@ Marking a pull request as a draft on GitHub suppresses notifications to reviewer
 
 ### `Merged`
 
+#### Type
+
 ::::{grid}
 :::{grid-item-card}
 What options are available for merging a pull request ?
@@ -388,6 +390,25 @@ What options are available for merging a pull request ?
 
 :::{grid-item-card}
 * https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request?tool=webui#merging-a-pull-request
+:::
+::::
+
+#### `Squash and merge`
+
+::::{grid}
+:::{grid-item-card}
+What does the "Squash and merge" option do when merging a pull request ?
+:::
+
+:::{grid-item-card}
+It combines all commits into one, helping keep the repository history readable.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-commits
 :::
 ::::
 
