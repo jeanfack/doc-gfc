@@ -309,6 +309,24 @@ Which of the following is a valid Markdown syntax ?
 
 ::::{grid}
 :::{grid-item-card}
+In which section of a GitHub repository can slash commands be used to insert complex Markdown ?
+:::
+
+:::{grid-item-card}
+Issues and pull request descriptions
+:::
+
+:::{grid-item-card}
+Slash commands in GitHub can be used in any description or comment field in issues, pull requests, or discussions. This includes adding complex Markdown such as code blocks, tables, details, tasklists, and more directly within issues and pull request descriptions.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/about-slash-commands
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 What is the purpose of slash commands on GitHub ?
 :::
 
