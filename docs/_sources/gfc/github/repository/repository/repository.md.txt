@@ -162,6 +162,24 @@ Archiving a repository is the appropriate action for indicating its inactive sta
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What happens to a repository's permissions when it is archived on GitHub ?
+:::
+
+:::{grid-item-card}
+Permissions become read-only.
+:::
+
+:::{grid-item-card}
+When a repository is archived on GitHub, its permissions become read-only. This means that contributors with access to the repository can only fork or star the project.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories#about-repository-archival
+:::
+::::
+
 ## Renaming
 
 ::::{grid}
