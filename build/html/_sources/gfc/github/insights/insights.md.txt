@@ -216,6 +216,22 @@ Which graph should Meg refer to in order to see this information ?
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Which type of commits are excluded from the Commit graph ?
+:::
+
+:::{grid-item-card}
+Merge commits.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+::::
+
 ### Code frequency
 
 ::::{grid}

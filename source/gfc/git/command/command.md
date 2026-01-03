@@ -64,22 +64,6 @@ Commit avec push => `git revert <SHA>`
 
 ::::{grid}
 :::{grid-item-card}
-Which type of commits are excluded from the Commit graph ?
-:::
-
-:::{grid-item-card}
-Merge commits.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
 In the event that someone accidentally commits a sensitive API key that is stored in the .secrets folder.\
 What is the appropriate method to remove that information from GitHub ?
 :::
@@ -132,6 +116,8 @@ Add the line `skip-checks: true` after commit description, before the closing qu
 :::
 ::::
 
+### `--message`
+
 ::::{grid}
 :::{grid-item-card}
 What is a recommended practice for writing a Git commit message subject line ?
@@ -139,6 +125,23 @@ What is a recommended practice for writing a Git commit message subject line ?
 
 :::{grid-item-card}
 Start with a capital letter and use the imperative, present tense.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/4-exercise-create-pr
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Which of the following is **NOT** a recommended practice for writing a Git commit message ?
+:::
+
+:::{grid-item-card}
+* Including a detailed explanation of the change in the subject line.
 :::
 
 :::{grid-item-card}
