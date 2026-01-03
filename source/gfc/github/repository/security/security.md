@@ -38,6 +38,24 @@ https://docs.github.com/en/code-security/getting-started/adding-a-security-polic
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Why is it essential to integrate security into every stage of the software development life cycle ?
+:::
+
+:::{grid-item-card}
+To catch security issues earlier and reduce overall development time.
+:::
+
+:::{grid-item-card}
+Integrating security into every stage of the software development life cycle helps catch security issues earlier, reducing the overall time required for development and ensuring that security is not an afterthought.
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/2-how-to-maintain-secure-repository
+:::
+::::
+
 ## Code scanning
 
 ::::{grid}
