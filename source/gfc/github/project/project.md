@@ -198,6 +198,24 @@ Information is automatically synced to the project as changes are made.
 :::
 ::::
 
+## Large issues
+
+::::{grid}
+:::{grid-item-card}
+Why is it recommended to break down large issues into smaller ones in project management ?
+:::
+
+:::{grid-item-card}
+To make the work more manageable and enable team members to work in parallel.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/best-practices-for-projects#break-down-large-issues-into-smaller-issues
+:::
+::::
 
 ## Open-Source
 
