@@ -14,46 +14,9 @@
 :::
 ::::
 
-## Overwiew
+## Repository
 
-::::{grid}
-:::{grid-item-card}
-Peter Griffin is managing a software development project on GitHub and wants to gain insights into the project's progress by viewing and customizing charts built from the project's data.\
-Who can use the Insights feature for Projects on GitHub?
-:::
-
-:::{grid-item-card}
-Only people with write or admin access to the project.
-:::
-
-:::{grid-item-card}
-![](../../../_include/gfc/github/insights/overview/img/Insights.png)
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-Lois wants to analyze the performance of tasks within her GitHub project using insights.\
-However, she wonders: What does Insights for Projects on GitHub not track?
-:::
-
-:::{grid-item-card}
-Items that have been archived or deleted.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects
-:::
-::::
-
-## Pulse
+### Pulse
 
 ::::{grid}
 :::{grid-item-card}
@@ -107,7 +70,7 @@ By navigating to the `Insights` tab in the repository and selecting `Pulse`.
 :::
 ::::
 
-## Contributors
+### Contributors
 
 ::::{grid}
 :::{grid-item-card}
@@ -170,9 +133,9 @@ The "gh-pages" branch is not a default branch of the repository.
 :::
 ::::
 
-## Community
+### Community
 
-## Traffic
+### Traffic
 
 ::::{grid}
 :::{grid-item-card}
@@ -212,7 +175,7 @@ However, full clones and visitor information are updated hourly.
 :::
 ::::
 
-## Commits
+### Commits
 
 ::::{grid}
 :::{grid-item-card}
@@ -227,7 +190,7 @@ Through the **Commit graph**, which displays commits by week.
 The **Commit graph** on GitHub allows users to visualize all commits made to a repository in the past year, excluding merge commits.\
 It shows commits for the entire year by week, providing insights into the repository's commit frequency and activity over time.
 
-![](../../../_include/gfc/github/insights/commits/img/E4Q9.png)
+![](../../../_include/gfc/github/insights/repository/commits/img/E4Q9.png)
 :::
 
 :::{grid-item-card}
@@ -253,7 +216,7 @@ Which graph should Meg refer to in order to see this information ?
 :::
 ::::
 
-## Code frequency
+### Code frequency
 
 ::::{grid}
 :::{grid-item-card}
@@ -272,7 +235,7 @@ Code frequency graph
 :::
 ::::
 
-## Dependency graph
+### Dependency graph
 
 ::::{grid}
 :::{grid-item-card}
@@ -365,7 +328,7 @@ Meg can use the dependency graph to identify all her project's dependencies and 
 :::
 ::::
 
-### Dependabot
+#### Dependabot
 
 ::::{grid}
 :::{grid-item-card}
@@ -405,7 +368,7 @@ The `SECURITY.md` file allow you to specify how to report a security vulnerabili
 :::
 ::::
 
-## Network
+### Network
 
 ::::{grid}
 :::{grid-item-card}
@@ -443,8 +406,92 @@ The branch history of the entire repository network, including fork branches.
 :::
 ::::
 
-## Forks
+### Forks
 
-## Actions usage metrics
+### Actions usage metrics
 
-## Actions performance metrics
+### Actions performance metrics
+
+## Project
+
+### Access right
+
+::::{grid}
+:::{grid-item-card}
+Peter Griffin is managing a software development project on GitHub and wants to gain insights into the project's progress by viewing and customizing charts built from the project's data.\
+Who can use the Insights feature for Projects on GitHub?
+:::
+
+:::{grid-item-card}
+Only people with write or admin access to the project.
+:::
+
+:::{grid-item-card}
+![](../../../_include/gfc/github/insights/project/overview/img/Insights.png)
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects
+:::
+::::
+
+### Data
+::::{grid}
+:::{grid-item-card}
+Lois wants to analyze the performance of tasks within her GitHub project using insights.\
+However, she wonders: What does Insights for Projects on GitHub not track?
+:::
+
+:::{grid-item-card}
+Items that have been archived or deleted.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects
+:::
+::::
+
+### Current chart
+
+::::{grid}
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+![](../.././../_include/gfc/github/insights/project/current_chart/img/current_chart.png)
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects#about-current-charts
+:::
+::::
+
+
+### Historical charts
+
+#### Burn up chart
+
+::::{grid}
+:::{grid-item-card}
+Brian wants to use historical charts in his GitHub project to analyze the completion status of tasks over time.\
+Which type of historical chart on GitHub displays the progress of issues over time, showing completed work and remaining tasks ?
+:::
+
+:::{grid-item-card}
+Burn up chart
+:::
+
+:::{grid-item-card}
+![](../../../_include/gfc/github/insights/project/historical_chart/burn_up_chart/img/burn_up_chart.png)
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects#about-historical-charts
+:::
+::::
