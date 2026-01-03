@@ -105,6 +105,23 @@ By integrating version control into the development process.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Meg is new to software development and wants to understand the key differences between Git and GitHub.\
+Which statement accurately describes the difference between Git and GitHub ?
+:::
+
+:::{grid-item-card}
+GitHub provides cloud-hosted Git services, while Git is a locally installed version control system.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+:::
+::::
+
 ## GitHub benefit
 
 ::::{grid}
