@@ -14,6 +14,33 @@
 :::
 ::::
 
+## Primary purpose
+
+::::{grid}
+:::{grid-item-card}
+Imagine that one of your source projects relies on secrets stored in a folder called `.secrets`. You want to make sure that the files kept in this folder on development machines are not accidentally committed to the repository.\
+Which of these files is the most effective for enforcing this policy ?
+:::
+
+:::{grid-item-card}
+`.gitignore`
+:::
+
+:::{grid-item-card}
+`.gitignore` can be used to help enforce which files are included in commits by tools that respect it. However, the client enforces this policy and doesn't necessarily prevent users from committing files that violate policy.
+
+`SECURITY.md` is used to explain the security policy of your project to consumers and contributors, but it doesn't automate anything, so it is not the right answer.
+
+`CONTRIBUTING.md` is used to explain the contribution policy of your project, but it doesn't automate anything, so it is not the right answer.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+:::
+::::
+
+## Location file
+
 ::::{grid}
 :::{grid-item-card}
 Lois Griffin wants to configure Git to ignore certain files or directories in all repositories on her computer.\
@@ -32,25 +59,7 @@ Add the file paths to the file `~/.config/git/ignore`.
 :::
 ::::
 
-::::{grid}
-:::{grid-item-card}
-How are settings in .gitignore files inherited in a Git repository ?
-:::
-
-:::{grid-item-card}
-Settings are inherited from parent directories.
-:::
-
-:::{grid-item-card}
-In Git repositories, settings from .gitignore files are inherited from parent directories to child directories, 
-meaning that settings defined in parent directories are applicable to child directories unless overridden 
-by a .gitignore file in the child directory.
-:::
-
-:::{grid-item-card}
-* https://git-scm.com/docs/gitignore
-:::
-::::
+## Exclude
 
 ::::{grid}
 :::{grid-item-card}
@@ -68,6 +77,28 @@ Peter Griffin should edit the `.git/info/exclude` file in the root of his reposi
 
 :::{grid-item-card}
 * https://docs.github.com/en/get-started/git-basics/ignoring-files?platform=linux#excluding-local-files-without-creating-a-gitignore-file
+:::
+::::
+
+## inheritence
+
+::::{grid}
+:::{grid-item-card}
+How are settings in .gitignore files inherited in a Git repository ?
+:::
+
+:::{grid-item-card}
+Settings are inherited from parent directories.
+:::
+
+:::{grid-item-card}
+In Git repositories, settings from .gitignore files are inherited from parent directories to child directories, 
+meaning that settings defined in parent directories are applicable to child directories unless overridden 
+by a .gitignore file in the child directory.
+:::
+
+:::{grid-item-card}
+* https://git-scm.com/docs/gitignore
 :::
 ::::
 
