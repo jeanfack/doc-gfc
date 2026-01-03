@@ -61,24 +61,6 @@ What is the process for deleting a file that was added in the most recent unpush
 
 ::::{grid}
 :::{grid-item-card}
-What tool can be used to remove files from a repository's history if they were added in earlier commits ?
-:::
-
-:::{grid-item-card}
-BFG Repo-Cleaner or `git filter-repo` command.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github?platform=windows#removing-a-file-that-was-added-in-an-earlier-commit
-* https://git-scm.com/docs/git-filter-branch
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
 Which type of commits are excluded from the Commit graph ?
 :::
 
@@ -286,6 +268,26 @@ Which Git command should he use?
 
 :::{grid-item-card}
 * https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#renaming-branches
+:::
+::::
+
+## `git filter-repo`
+
+::::{grid}
+:::{grid-item-card}
+What tool can be used to remove files from a repository's history if they were added in earlier commits ?
+:::
+
+:::{grid-item-card}
+**BFG Repo-Cleaner** or `git filter-repo` command.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github?platform=windows#removing-a-file-that-was-added-in-an-earlier-commit
+* https://git-scm.com/docs/git-filter-branch
 :::
 ::::
 
