@@ -348,6 +348,26 @@ Draft pull requests cannot be merged, and code owners are not automatically requ
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Joe Swanson is collaborating on a project on GitHub and notices that a pull request is marked as a draft.\
+He wants to understand how this affects the review process.\
+What is the significance of marking a pull request as a draft on GitHub ?
+:::
+
+:::{grid-item-card}
+It suppresses notifications to reviewers until it's ready for review.
+:::
+
+:::{grid-item-card}
+Marking a pull request as a draft on GitHub suppresses notifications to reviewers until the pull request is marked as ready for review. This allows the author to work on the changes without immediate feedback.
+:::
+
+:::{grid-item-card}
+* https://github.blog/2019-02-14-introducing-draft-pull-requests/#tag-your-work-in-progress
+:::
+::::
+
 ### `Open`
 
 ### `Merged`
