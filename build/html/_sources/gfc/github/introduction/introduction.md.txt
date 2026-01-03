@@ -18,6 +18,25 @@
 
 ::::{grid}
 :::{grid-item-card}
+Which open source software powers version tracking on GitHub ?
+:::
+
+:::{grid-item-card}
+Git
+:::
+
+:::{grid-item-card}
+itHub uses Git for version control. Git is an open source system that helps manage changes to code over time.\
+Developers use Git to track changes, collaborate, and maintain a history of their project.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/using-git/about-git#how-github-works
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 What is GitHub primarily used for ?
 :::
 
