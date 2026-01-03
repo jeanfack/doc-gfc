@@ -66,6 +66,27 @@ What are the three types of GitHub accounts ?
 :::
 ::::
 
+### Best practice
+
+::::{grid}
+:::{grid-item-card}
+What authentication method does GitHub strongly recommend avoiding when dealing with highly sensitive information ?
+:::
+
+:::{grid-item-card}
+* Deploy keys
+* SSH keys
+* Personal access tokens
+* {bdg-success}`Correct` Username and password
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/3-how-github-authentication-works
+:::
+::::
 
 ### A2F
 
