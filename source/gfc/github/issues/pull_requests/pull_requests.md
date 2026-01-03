@@ -52,6 +52,29 @@ Only users with write access
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card} Question
+What is **not** a valid reason to create a pull request ?
+:::
+
+:::{grid-item-card} Réponse
+* {bdg-success}`Correct` Your branch can't be merged into `main` due to upstream changes made since you created it. Creating a pull request lets the other contributor know they need to pull their changes out so you can put yours in.
+* You want to communicate readiness for merging into the base branch.
+* You want to merge your bug fix branch into `main`, but don't have permission.
+* You would like to receive feedback on prospective changes before merging your feature branch into `main`.
+:::
+
+:::{grid-item-card} Explication
+Pull requests are a great way to collaborate on proposed changes. Many projects protect important branches and require changes to be reviewed via a pull request before approval.
+
+However, creating a pull request to let the other contributor know they need to pull their changes out so you can put yours isn't how pull requests work. Also, the etiquette is for you to be sure your branch can be cleanly merged into the base before creating a pull request.
+:::
+
+:::{grid-item-card} Source
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+:::
+::::
+
 ### Branch connected to an issue
 
 ::::{grid}
