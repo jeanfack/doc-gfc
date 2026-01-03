@@ -473,6 +473,24 @@ GitHub maintains **topic** names as public entities, ensuring that repositories 
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Stewie manages a public repository on GitHub for his robotics projects. He wants to improve the visibility of his repository by adding relevant topics.\
+Which of the following statements is true regarding GitHub's topic suggestion feature for his repository ?
+:::
+
+:::{grid-item-card}
+GitHub analyzes public repository content and generates suggested topics that Stewie can accept or reject.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#about-topics
+:::
+::::
+
 ### Label
 
 ::::{grid}
