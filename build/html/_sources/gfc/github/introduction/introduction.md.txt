@@ -54,23 +54,6 @@ This helps you stay connected with the community and discover opportunities to g
 
 ::::{grid}
 :::{grid-item-card}
-What is the GitHub flow ?
-:::
-
-:::{grid-item-card}
-A lightweight workflow for safe experimentation using branching, pull requests, and merging.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/get-started/using-github/github-flow
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
 What's the difference between Git and GitHub ?
 :::
 
@@ -145,7 +128,8 @@ GitHub's search feature allows users to filter repositories based on their `lice
 ::::
 
 ## DVCS
-## Primary purpose
+
+### Primary purpose
 
 ::::{grid}
 :::{grid-item-card}
@@ -181,7 +165,6 @@ To track changes and manage different versions of code.
 :::
 ::::
 
-
 ::::{grid}
 :::{grid-item-card}
 What is the main advantage of a Distributed Version Control System (DVCS) like Git over centralized systems ?
@@ -199,7 +182,7 @@ Local and offline access to the complete project history.
 :::
 ::::
 
-## Others Software
+### Others Software
 
 ::::{grid}
 :::{grid-item-card}
@@ -225,6 +208,42 @@ It operates in a centralized manner, with a central repository storing the versi
 :::
 
 :::{grid-item-card}
+:::
+::::
+
+## GitHub Flow
+
+::::{grid}
+:::{grid-item-card}
+What is the GitHub flow ?
+:::
+
+:::{grid-item-card}
+A lightweight workflow for safe experimentation using branching, pull requests, and merging.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/using-github/github-flow
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Why is it recommended to deploy changes to a feature branch before merging into the main branch in the GitHub flow ?
+:::
+
+:::{grid-item-card}
+To ensure changes are valid in a production environment.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+https://learn.microsoft.com/en-us/training/modules/introduction-to-github/3-components-of-github-flow
 :::
 ::::
 
