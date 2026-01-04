@@ -134,3 +134,22 @@ This helps catch security issues earlier and ensures that security is considered
 * https://www.dynatrace.com/news/blog/what-is-shift-left-and-what-is-shift-right/
 :::
 ::::
+
+## GitHub Advanced Security
+
+::::{grid}
+:::{grid-item-card}
+In GitHub Enterprise, what option provides additional security, compliance, and deployment controls ?
+:::
+
+:::{grid-item-card}
+GitHub Advanced Security
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security
+:::
+::::
