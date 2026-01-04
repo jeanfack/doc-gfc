@@ -373,23 +373,6 @@ The most commented pull requests.
 
 ### Milestones
 
-::::{grid}
-:::{grid-item-card}
-What is the primary difference between **milestones** and **labels** in GitHub ?
-:::
-
-:::{grid-item-card}
-**Milestones** are project-specific and can be used to view details about progress, while **labels** are applied to individual issues or pull requests for categorization.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work
-:::
-::::
-
 #### Primary Purpose
 
 ::::{grid}
@@ -425,6 +408,42 @@ Yes, GitHub allows filtering of issues based on **milestone**.
 
 :::{grid-item-card}
 * https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/filtering-issues-and-pull-requests-by-milestone
+:::
+::::
+
+#### Difference with **labels**
+
+::::{grid}
+:::{grid-item-card}
+What is the primary difference between **milestones** and **labels** in GitHub ?
+:::
+
+:::{grid-item-card}
+**Milestones** are project-specific and can be used to view details about progress, while **labels** are applied to individual issues or pull requests for categorization.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What is the primary difference between **milestones** and **labels** in GitHub?
+:::
+
+:::{grid-item-card}
+Milestones are used to track project progress and completion, while labels are used to categorize issues and pull requests based on their attributes.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work
 :::
 ::::
 
