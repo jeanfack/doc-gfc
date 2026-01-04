@@ -101,6 +101,19 @@ In how many ways can you create GitHub Issues ?
 :::
 
 :::{grid-item-card}
+GitHub Issues were created to track ideas, feedback, tasks, or bugs for work on GitHub.
+
+Issues can be created in various ways, so you can choose the most convenient method for your workflow.
+
+For the walk-through in the next portion, we'll go over how to create an issue from a repository but just know there are a myriad of ways. Here's a list of all the ways you can create issues from.
+
+The different ways to create an issue from:
+1. a repository
+2. an item in a task list
+3. a note in a project
+4. a comment in an issue or pull request
+5. a specific line of code
+6. or a URL query
 :::
 
 :::{grid-item-card}
