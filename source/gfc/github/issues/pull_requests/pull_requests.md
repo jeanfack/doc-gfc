@@ -224,6 +224,8 @@ Consequently, the merge base used for the comparison might be different.
 
 ## Link
 
+### Primary purpose
+
 ::::{grid}
 :::{grid-item-card}
 What is the purpose of linking a pull request to an issue ?
@@ -240,6 +242,8 @@ To show that someone is working on the issue.
 * https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#about-linked-issues-and-pull-requests
 :::
 ::::
+
+### Default branch
 
 ::::{grid}
 :::{grid-item-card}
