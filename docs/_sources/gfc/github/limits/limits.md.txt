@@ -92,6 +92,30 @@ GitHub Pages deployments will timeout if they take longer than 10 minutes.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+hat is the recommended limit for GitHub Pages source repositories?
+:::
+
+:::{grid-item-card}
+1 GB
+:::
+
+:::{grid-item-card}
+GitHub Pages sites are subject to the following usage limits:
+* GitHub Pages source repositories have a recommended limit of 1 GB.
+* Published GitHub Pages sites may be no larger than 1 GB.
+* GitHub Pages deployments will timeout if they take longer than 10 minutes.
+* GitHub Pages sites have a *soft* bandwidth limit of 100 GB per month.
+* GitHub Pages sites have a *soft* limit of 10 builds per hour. This limit does not apply if you build and publish your site with a custom GitHub Actions workflow
+* In order to provide consistent quality of service for all GitHub Pages sites, rate limits may apply. These rate limits are not intended to interfere with legitimate uses of GitHub Pages. If your request triggers rate limiting, you will receive an appropriate response with an HTTP status code of `429`, along with an informative HTML body.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits#usage-limits
+:::
+::::
+
 ## Polls
 
 ::::{grid}
