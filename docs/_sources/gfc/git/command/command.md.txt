@@ -305,7 +305,7 @@ Which Git command should he use?
 :::
 ::::
 
-## delete remote branch
+### delete remote branch
 
 ::::{grid}
 :::{grid-item-card}
