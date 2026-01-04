@@ -140,6 +140,28 @@ What customization can you do for codespaces ?
 :::
 ::::
 
+## Lost internet connectivity
+
+::::{grid}
+:::{grid-item-card}
+What happens when Codespace loses internet connectivity ?
+:::
+
+:::{grid-item-card}
+If the connection to the internet is lost while working in a Codespace, you aren't able to access your Codespace.
+:::
+
+:::{grid-item-card}
+A Codespace requires an internet connection. If the connection to the internet is lost while working in a Codespace, you won't be able to access your Codespace. However, any uncommitted changes are saved. When you reestablish the internet connection, you can access the Codespace in the same state that it was left in when the connection was lost.
+
+If you have an unstable internet connection, you should frequently commit and push your changes.
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/2-codespace-lifecycle
+:::
+::::
+
 ### Limit
 
 ::::{grid}
