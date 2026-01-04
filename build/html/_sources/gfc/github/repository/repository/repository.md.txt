@@ -291,20 +291,22 @@ Using branches, developers can safely propose changes to production code.
 
 ## Fork
 
+### Primary purpose
+
 ::::{grid}
 :::{grid-item-card}
-What is the main difference between forking a repository and creating a repository from a template on GitHub ?
+What is the purpose of forking a repository on GitHub ?
 :::
 
 :::{grid-item-card}
-Forking includes the entire commit history of the parent repository, while creating from a template starts with a single commit.
+To experiment with changes before proposing them to the original repository.
 :::
 
 :::{grid-item-card}
 :::
 
 :::{grid-item-card}
-* https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#about-repository-templates
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
 :::
 ::::
 
@@ -331,6 +333,25 @@ Then, you can make the necessary fixes in your forked repository and later submi
 
 :::{grid-item-card}
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
+:::
+::::
+
+### Fork vs REPOSITORY_TEMPLATE
+
+::::{grid}
+:::{grid-item-card}
+What is the main difference between forking a repository and creating a repository from a template on GitHub ?
+:::
+
+:::{grid-item-card}
+Forking includes the entire commit history of the parent repository, while creating from a template starts with a single commit.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#about-repository-templates
 :::
 ::::
 

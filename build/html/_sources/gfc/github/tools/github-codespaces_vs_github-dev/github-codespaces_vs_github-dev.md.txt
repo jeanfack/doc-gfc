@@ -246,11 +246,11 @@ Press `.` while viewing the pull request on GitHub.
 
 ::::{grid}
 :::{grid-item-card}
-What does the github.dev editor use to carry out most of its functionality ?
+What does the `github.dev` editor use to carry out most of its functionality ?
 :::
 
 :::{grid-item-card}
-GitHub Repositories extension
+**GitHub Repositories extension**
 :::
 
 :::{grid-item-card}

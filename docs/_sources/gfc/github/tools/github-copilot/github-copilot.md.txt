@@ -174,3 +174,22 @@ Copilot Individual
 * https://docs.github.com/en/copilot/get-started/what-is-github-copilot#understanding-the-differences-between-copilot-individual-copilot-business-and-copilot-enterprise
 :::
 ::::
+
+## Copilot X
+
+::::{grid}
+:::{grid-item-card}
+What features are expected in **GitHub Copilot X** ?
+:::
+
+:::{grid-item-card}
+A chat interface to the editor adopting OpenAI's newest GPT-4 models.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://www.youtube.com/watch?v=4RfD5JiXt3A
+:::
+::::

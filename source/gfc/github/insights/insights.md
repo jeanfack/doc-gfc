@@ -468,6 +468,25 @@ The branch history of the entire repository network, including fork branches.
 
 ::::{grid}
 :::{grid-item-card}
+Peter is a developer who wants to explore the forks of a repository on GitHub to find active and popular forks.\
+Which page should Peter visit to view the forks of a repository and filter them based on various criteria ?
+:::
+
+:::{grid-item-card}
+Forks page
+:::
+
+:::{grid-item-card}
+he forks page lists the forks of a repository on GitHub and allows users like Peter to filter the forks based on various criteria such as activity, popularity, and creation date. It provides information such as the number of stars, direct forks, open issues, and last update time for each fork.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/understanding-connections-between-repositories#listing-the-forks-of-a-repository
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 Lois is a project manager who wants to assess the popularity and activity of forks created from their team's repository on GitHub.\
 What information can Lois find listed on the forks insight page of a repository ?
 :::

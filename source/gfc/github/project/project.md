@@ -287,13 +287,15 @@ This action ensures that all proposed changes undergo thorough testing, helping 
 
 ## Inner-Source
 
+### Primary purpose
+
 ::::{grid}
 :::{grid-item-card}
 What is InnerSource ?
 :::
 
 :::{grid-item-card}
-haring of source code within the organization.
+Sharing of source code within the organization.
 :::
 
 :::{grid-item-card}
@@ -309,6 +311,24 @@ InnerSource principles are inspired by successful open source projects and empha
 * https://github.com/resources/articles/innersource
 :::
 ::::
+
+::::{grid}
+:::{grid-item-card}
+What is InnerSource ?
+:::
+
+:::{grid-item-card}
+A strategy that applies open source practices to proprietary code to enhance collaboration.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://about.gitlab.com/topics/version-control/what-is-innersource/#what-does-inner-source-mean
+:::
+::::
+
 
 ::::{grid}
 :::{grid-item-card}
