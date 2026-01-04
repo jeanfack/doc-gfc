@@ -661,7 +661,27 @@ To categorize and prioritize issues, pull requests, and discussions.
 :::
 ::::
 
-#### `good first issue`
+#### default 
+
+::::{grid}
+:::{grid-item-card}
+Which of the following is **NOT** a default label provided by GitHub in every new repository ?
+:::
+
+:::{grid-item-card}
+`feature`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels
+:::
+::::
+
+
+##### `good first issue`
 
 ::::{grid}
 :::{grid-item-card}

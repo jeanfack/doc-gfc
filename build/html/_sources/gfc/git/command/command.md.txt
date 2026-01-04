@@ -134,6 +134,23 @@ Which of the following is **NOT** a recommended practice for writing a Git commi
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is the recommended character limit for the subject line of a Git commit message ?
+:::
+
+:::{grid-item-card}
+50 characters
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/4-exercise-create-pr
+:::
+::::
+
 ## `git checkout`
 
 ### Syntax

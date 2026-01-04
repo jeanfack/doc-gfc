@@ -55,6 +55,25 @@ What are the four ways to create a Codespace in GitHub ?
 :::
 ::::
 
+### Delete
+
+::::{grid}
+:::{grid-item-card}
+What happens when you delete a Codespace with unpushed git commits ?
+:::
+
+:::{grid-item-card}
+A warning notifies you of unpushed changes, allowing you to push changes before deletion.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/about-codespaces/understanding-the-codespace-lifecycle#deleting-a-codespace
+:::
+::::
+
 ### About
 
 ::::{grid}
@@ -158,6 +177,7 @@ If you have an unstable internet connection, you should frequently commit and pu
 :::
 
 :::{grid-item-card}
+* https://docs.github.com/en/codespaces/about-codespaces/understanding-the-codespace-lifecycle#losing-the-connection-while-using-github-codespaces
 * https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/2-codespace-lifecycle
 :::
 ::::

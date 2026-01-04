@@ -297,6 +297,39 @@ SAML Single Sign-on (SAML SSO)
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Which authentication method is available with GitHub Enterprise for single sign-on (SSO) ?
+:::
+
+:::{grid-item-card}
+SAML
+:::
+
+:::{grid-item-card}
+GitHub Enterprise supports authentication with SAML single sign-on (SSO).
+
+What is SAML?
+
+Security Assertion Markup Language, or SAML, is a standardized way to tell external applications and services that a user is who they say they are. SAML makes single sign-on (SSO) technology possible by providing a way to authenticate a user once and then communicate that authentication to multiple applications. The most current version of SAML is SAML 2.0.
+
+Think of SAML authentication as being like an identification card: a short, standardized way to show who someone is. Instead of, say, conducting a series of DNA tests to confirm someone's identity, it is possible to just glance at their ID card.
+
+In computing and networking, one of the major challenges is getting systems and devices built by different vendors for different purposes to work together. This is called "interoperability": the ability for different machines to interact with each other, despite their differing technical specifications. SAML is an interoperable standard — it is a widely accepted way to communicate a user's identity to cloud service providers.
+
+
+
+What is single sign-on (SSO)?
+
+Single sign-on (SSO) is a way for users to be authenticated for multiple applications and services at once. With SSO, a user signs in at a single login screen and can then use a number of apps. Users do not need to confirm their identity with every single service they use.
+
+For this to take place, the SSO system must communicate with every external app to tell them that the user is signed in — which is where SAML comes into play.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/about-identity-and-access-management-with-saml-single-sign-on
+:::
+::::
 
 ::::{grid}
 :::{grid-item-card}
