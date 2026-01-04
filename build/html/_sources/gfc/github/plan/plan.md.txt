@@ -109,6 +109,36 @@ What option allows the provisioning and management of user accounts for develope
 :::
 ::::
 
+### Enterprise Managed Users
+
+::::{grid}
+:::{grid-item-card}
+What is the purpose of **Enterprise Managed Users** on GitHub Enterprise Cloud ?
+:::
+
+:::{grid-item-card}
+To centrally manage identity and access for enterprise members from an external identity provider.
+:::
+
+:::{grid-item-card}
+**Enterprise Managed Users** enables organizations to manage the lifecycle and authentication of users on GitHub.com from an external identity management system, or IdP. It allows organizations to provide access to **GitHub Enterprise Cloud** to people who have existing identities and group membership on their IdP, while centrally controlling usernames, profile data, team membership, and repository access.
+
+Why other options are wrong:
+* To allow users to create public content and collaborate with other users.\
+{bdg-danger}`Incorrect` This option is incorrect because **Enterprise Managed Users** do not enable users to create public content or collaborate with other users outside the enterprise. It primarily focuses on managing identity and access within the organization.
+
+* To restrict access to enterprise resources and limit user interactions within GitHub.
+{bdg-danger}`Incorrect` This option is incorrect because **Enterprise Managed Users** do not restrict access to enterprise resources but rather provide controlled access based on roles and permissions managed by the organization's IdP.
+
+* To automate the creation and management of user accounts on GitHub.com.
+{bdg-danger}`Incorrect` This option is incorrect because while **Enterprise Managed Users** facilitates the management of user accounts, it does not automate the creation and management of user accounts on GitHub.com. User accounts are provisioned and managed by the organization's IdP.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/understanding-iam-for-enterprises/about-enterprise-managed-users
+:::
+::::
+
 ::::{grid}
 :::{grid-item-card}
 What is a key feature available in GitHub Enterprise but not in GitHub Team ?
