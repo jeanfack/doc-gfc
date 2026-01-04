@@ -140,7 +140,7 @@ What customization can you do for codespaces ?
 :::
 ::::
 
-## Lost internet connectivity
+### Lost internet connectivity
 
 ::::{grid}
 :::{grid-item-card}
