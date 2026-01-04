@@ -316,6 +316,24 @@ Use the `mentions:` followed by the username.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Meg is a project manager who wants to efficiently manage the issues in her team's GitHub repository.
+How can she identify the issues that are labeled as "priority" and have the phrase "broken" in the issue body but do not have the label "bug" ?
+:::
+
+:::{grid-item-card}
+`broken in:body -label:bug label:priority`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests#search-by-label
+:::
+::::
+
 ### Github CLI
 
 ::::{grid}
