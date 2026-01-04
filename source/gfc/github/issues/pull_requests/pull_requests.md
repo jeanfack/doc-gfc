@@ -75,6 +75,24 @@ However, creating a pull request to let the other contributor know they need to 
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is needed before you can create a pull request on GitHub ?
+:::
+
+:::{grid-item-card}
+Fork a repo, clone it, commit changes, and push to your fork.
+:::
+
+:::{grid-item-card}
+While you can clone any public GitHub repository, by default you don't have the right to push any modifications. Fork the repository to create your own copy first.
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/3-contribute
+:::
+::::
+
 ### Branch connected to an issue
 
 ::::{grid}

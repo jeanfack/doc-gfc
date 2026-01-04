@@ -428,7 +428,7 @@ SCIM
 :::
 ::::
 
-## Organizations
+## GitHub Organizations
 
 ### Roles
 
@@ -506,3 +506,22 @@ Which of the following options are available to define the visibility of teams o
 :::
 ::::
 
+### Team synchronizations
+
+::::{grid}
+:::{grid-item-card}
+What are the potential consequences of disabling team synchronization in GitHub organizations ?
+:::
+
+:::{grid-item-card}
+Team members assigned through IdP groups may lose access to repositories.
+:::
+
+:::{grid-item-card}
+Disabling team synchronization in GitHub organizations may result in team members who were assigned to GitHub teams through IdP groups losing access to the organization's repositories. This feature should be disabled with caution, and appropriate communication should be provided to affected team members.
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/authenticate-authorize-user-identities-github/5-team-synchronization
+:::
+::::

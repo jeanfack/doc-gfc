@@ -308,6 +308,24 @@ What is the main difference between **GitHub Apps** and **OAuth apps** ?
 
 ::::{grid}
 :::{grid-item-card}
+What is GitHub Marketplace primarily used for ?
+:::
+
+:::{grid-item-card}
+Sharing GitHub Actions and Apps
+:::
+
+:::{grid-item-card}
+GitHub Marketplace is a platform for sharing GitHub Actions and Apps, allowing developers to extend and improve their GitHub workflows.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 What is the primary purpose of GitHub Marketplace ?
 :::
 

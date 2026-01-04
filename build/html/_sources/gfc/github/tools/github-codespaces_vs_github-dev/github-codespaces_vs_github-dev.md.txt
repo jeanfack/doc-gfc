@@ -135,6 +135,23 @@ Windows and macOS are not supported operating systems for the remote development
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is the default operating system for a codespace development environment ?
+:::
+
+:::{grid-item-card}
+Ubuntu Linux
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/overview#what-is-a-codespace
+:::
+::::
+
 ### Lifecycle
 
 ::::{grid}

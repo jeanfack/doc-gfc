@@ -18,6 +18,23 @@
 
 ::::{grid}
 :::{grid-item-card}
+What is the purpose of the `.gitignore` file in a repository ?
+:::
+
+:::{grid-item-card}
+To exclude specific files or directories from being tracked by Git.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 Imagine that one of your source projects relies on secrets stored in a folder called `.secrets`. You want to make sure that the files kept in this folder on development machines are not accidentally committed to the repository.\
 Which of these files is the most effective for enforcing this policy ?
 :::

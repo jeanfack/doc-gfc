@@ -281,6 +281,26 @@ What is the maximum number of reusable workflows that can be called from a singl
 :::
 ::::
 
+### Level
+
+::::{grid}
+:::{grid-item-card}
+How many levels of workflows can be connected together ?
+:::
+
+:::{grid-item-card}
+Up to four levels
+:::
+
+:::{grid-item-card}
+A maximum of four levels of workflows can be connected, including the top-level caller workflow and up to three levels of reusable workflows.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/actions/using-workflows/reusing-workflows#limitations
+:::
+::::
+
 ## Issues/Pull Requests
 
 ::::{grid}
@@ -335,6 +355,25 @@ Up to 10
 
 :::{grid-item-card}
 * https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue-using-the-pull-request-sidebar
+:::
+::::
+
+### Sub-issues
+
+::::{grid}
+:::{grid-item-card}
+What is the maximum nesting depth for sub-issues in GitHub ?
+:::
+
+:::{grid-item-card}
+8 levels
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/adding-sub-issues
 :::
 ::::
 
@@ -433,5 +472,25 @@ How many auto-add workflows can you have in GitHub Enterprise Server ?
 
 :::{grid-item-card}
 * https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/adding-items-automatically#about-automatically-adding-items
+:::
+::::
+
+### automatically archive items
+
+::::{grid}
+:::{grid-item-card}
+Why would a project manager want to automatically archive items in a GitHub project ?
+:::
+
+:::{grid-item-card}
+To help stay below the limit of 1,200 items in the project and manage clutter.
+:::
+
+:::{grid-item-card}
+Automatically archiving items in a GitHub project helps the project manager manage clutter and stay within the limit of 1,200 items per project. By automatically archiving items that meet specific criteria, such as being closed or not planned, the project board remains organized, and the number of active items is kept in check.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project
 :::
 ::::

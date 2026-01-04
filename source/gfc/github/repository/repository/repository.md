@@ -58,6 +58,22 @@ What are the predefined roles available for a GitHub repository in an organizati
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Which permission level on GitHub is recommended for project managers who need to manage the repository without access to sensitive or destructive actions ?
+:::
+
+:::{grid-item-card}
+`Maintain`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role
+:::
+::::
 
 ## Create
 

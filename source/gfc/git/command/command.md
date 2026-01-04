@@ -14,6 +14,25 @@
 :::
 ::::
 
+## `git status`
+
+::::{grid}
+:::{grid-item-card}
+What does `git status` do in Git ?
+:::
+
+:::{grid-item-card}
+Shows the state of the working tree and staging area.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://github.com/git-guides/git-status
+:::
+::::
+
 ## `git add`
 
 ::::{grid}
@@ -404,23 +423,7 @@ Deleting the sensitive file from GitHub and then committing an empty file to the
 :::
 ::::
 
-## status
-
-::::{grid}
-:::{grid-item-card}
-What does git status do in Git ?
-:::
-
-:::{grid-item-card}
-Shows the state of the working tree and staging area.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-:::
-::::
+## Primary state
 
 ::::{grid}
 :::{grid-item-card}

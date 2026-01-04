@@ -444,7 +444,6 @@ Which of the following metrics indicates your program is a great success ?
 :::
 ::::
 
-
 ## Build-In Workflow
 
 ::::{grid}
@@ -541,7 +540,6 @@ What is the easiest way to add automation to your Project ?
 * https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations
 :::
 ::::
-
 
 ## Field
 
