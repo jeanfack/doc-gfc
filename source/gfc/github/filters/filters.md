@@ -641,3 +641,22 @@ To categorize and prioritize issues, pull requests, and discussions.
 * ttps://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels
 :::
 ::::
+
+#### `good first issue`
+
+::::{grid}
+:::{grid-item-card}
+What is the purpose of the `good first issue` **label** in GitHub repositories ?
+:::
+
+:::{grid-item-card}
+To identify issues suitable for first-time contributors.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels
+:::
+::::

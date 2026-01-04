@@ -426,6 +426,24 @@ The `SECURITY.md` file allow you to specify how to report a security vulnerabili
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What tool can automatically create pull requests to update dependencies flagged as vulnerable ?
+:::
+
+:::{grid-item-card}
+**Dependabot**
+:::
+
+:::{grid-item-card}
+A dependency alert can lead to a project contributor bumping the offending package reference to the recommended version and creating a pull request for validation. Wouldn't it be great if there was a way to automate this effort? Well, good news! **Dependabot** does just that. It scans for dependency alerts and creates pull requests so that a contributor can validate the update and merge the request.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates
+:::
+::::
+
 ### Network
 
 ::::{grid}
