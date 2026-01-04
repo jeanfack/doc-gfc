@@ -55,6 +55,24 @@ What are the four ways to create a Codespace in GitHub ?
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Peter wants to continue his work in a **GitHub Codespace** from `github.dev`.\
+What option should he choose ?
+:::
+
+:::{grid-item-card}
+Click on "Continue Working On…" and select "Create New Codespace".
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#continue-working-on-codespaces
+:::
+::::
+
 ### Delete
 
 ::::{grid}

@@ -126,6 +126,29 @@ No, voters cannot change their vote.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What happens if a poll is edited after some votes have been cast ?
+:::
+
+:::{grid-item-card}
+The votes are reset, and users need to vote again.
+:::
+
+:::{grid-item-card}
+You can create polls in the polls category to gauge interest in new ideas and project direction. Anyone with read access to your repository can create polls, vote in polls, and view their results. Signed out users can view the results of polls in public repositories.
+
+Polls require a question and at least two options. You can add a maximum of eight options and the options can contain a maximum of 128 characters.
+
+Voters cannot change their vote. Editing a poll will reset any votes that have already been cast.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions#about-polls
+:::
+::::
+
+
 ## Default category
 
 ::::{grid}

@@ -41,6 +41,8 @@ What are the options for receiving notifications for activity on GitHub.com ?\
 
 ## Subscriptions
 
+### issues
+
 ::::{grid}
 :::{grid-item-card}
 How can you remain informed about the latest comments in an issue ?
@@ -57,6 +59,23 @@ By subscribing to the issue.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How can you remain informed about the latest comments in an issue ?
+:::
+
+:::{grid-item-card}
+By subscribing to the issue.
+:::
+
+:::{grid-item-card}
+o stay updated on the most recent comments in an issue, you can subscribe to an issue to receive notifications about the latest comments. To quickly find links to recently updated issues you're subscribed to, visit your dashboard.
+:::
+
+:::{grid-item-card}
+https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues#stay-up-to-date
+:::
+::::
 
 ## Default subscriptions
 
