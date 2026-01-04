@@ -284,6 +284,43 @@ This action ensures that all proposed changes undergo thorough testing, helping 
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Peter is a project manager for a startup company looking for software solutions that offer flexibility, customization, and cost savings.\
+Which advantage of open source software would be most appealing to Peter's requirements ?
+:::
+
+:::{grid-item-card}
+No vendor lock-in
+:::
+
+:::{grid-item-card}
+Open source software offers the advantage of no vendor lock-in, meaning there are no lengthy contracts with technical vendors. This allows organizations like Peter's startup to have more budget and bandwidth to experiment with a variety of tools and integrations.
+:::
+
+:::{grid-item-card}
+* https://resources.github.com/open-source/what-is-open-source-software/
+:::
+::::
+
+### Issue tracker
+
+::::{grid}
+:::{grid-item-card}
+Where is the best place to communicate your intent to contribute to an existing open-source project ?
+:::
+
+:::{grid-item-card}
+Issue tracker
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/contribute-open-source/3-contribute
+:::
+::::
 
 ## Inner-Source
 

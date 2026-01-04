@@ -790,3 +790,23 @@ Check the **Include all branches** option while creating the repository from the
 * https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template
 :::
 ::::
+
+## Best practice
+
+::::{grid}
+:::{grid-item-card}
+Which of the following is **NOT** typically included in the recommended best practices for repositories ?
+:::
+
+:::{grid-item-card}
+Storing large binary files directly in the repository.
+:::
+
+:::{grid-item-card}
+Storing large binary files directly in the repository is not a recommended best practice due to its potential impact on repository size and performance. Instead, large files should be managed using Git Large File Storage (LFS) or external storage solutions.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories
+:::
+::::

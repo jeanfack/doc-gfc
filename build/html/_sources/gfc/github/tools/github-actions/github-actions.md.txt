@@ -379,6 +379,48 @@ To prevent security vulnerabilities.
 :::
 ::::
 
+### Renaming directory
+
+::::{grid}
+:::{grid-item-card}
+Chris has been actively developing a project on GitHub, utilizing GitHub Actions to automate various tasks in his workflow. Recently, he renamed one of the repositories containing actions referenced in his workflows.\
+What consequence does Chris face regarding his workflows ?
+:::
+
+:::{grid-item-card}
+* Workflows using the previous repository name will encounter failures.
+:::
+
+:::{grid-item-card}
+When Chris renames a repository containing actions referenced in his workflows, any workflows using the previous repository name will fail. GitHub Actions does not support redirects for actions, necessitating Chris to update his workflows accordingly to ensure seamless automation processes.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/actions/learn-github-actions/finding-and-customizing-actions#adding-an-action-to-your-workflow
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What happens if a workflow tries to use a reusable workflow from a repository that has changed its name ?
+:::
+
+:::{grid-item-card}
+The workflow will fail because redirects are not supported.
+:::
+
+:::{grid-item-card}
+If the name of a repository or an action changes, workflows using that action with the previous name will fail because redirects are not supported.
+
+```{note}
+To enhance security, GitHub Actions does not support redirects for actions or reusable workflows.
+```
+:::
+
+:::{grid-item-card}
+:::
+::::
+
 ### reuse
 
 ::::{grid}

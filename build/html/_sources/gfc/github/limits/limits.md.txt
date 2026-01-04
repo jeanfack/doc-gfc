@@ -245,6 +245,22 @@ What is the maximum size allowed for files added to a repository via a browser ?
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What warning does Git provide if you attempt to add or update a file larger than 50 MiB to a repository ?
+:::
+
+:::{grid-item-card}
+It displays a warning but allows the changes to be successfully pushed.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#file-size-limits
+:::
+::::
 
 ## Github Actions Workflows
 

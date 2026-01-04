@@ -559,3 +559,25 @@ After your pull request has been merged.
 * https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#working-with-branches
 :::
 ::::
+
+### Status check
+
+::::{grid}
+:::{grid-item-card}
+Glenn Quagmire is a developer working on a project hosted on GitHub. he has made some changes to the codebase and created a pull request to merge your changes into the main branch. However, the status checks for his pull request are failing. He want to understand more about status checks on GitHub to troubleshoot the issue.
+
+What are status checks on GitHub and how are they useful ?
+:::
+
+:::{grid-item-card}
+They indicate if your commits meet the conditions set for the repository, such as passing continuous integration builds.
+:::
+
+:::{grid-item-card}
+Status checks on GitHub are automated processes, such as continuous integration builds, that run for each push made to a repository. They inform contributors if their commits meet the conditions set for the repository, such as passing all required tests and checks. These checks help maintain code quality, prevent regressions, and ensure that the codebase remains stable.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#skipping-and-requesting-checks-for-individual-commits
+:::
+::::
