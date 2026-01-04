@@ -312,3 +312,24 @@ Issues and pull requests include built-in features to let user easily communicat
 * https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/best-practices-for-projects#communicate
 :::
 ::::
+
+### Notifications
+
+::::{grid}
+:::{grid-item-card}
+Meg is a member of an organization on GitHub, and she has read access to several repositories. She wants to ensure that her colleague, Chris, receives notifications when she mentions him in comments on the organization's repositories.\
+What condition must be met for Chris to receive notifications ?
+:::
+
+:::{grid-item-card}
+Chris must be a member of the organization.
+:::
+
+:::{grid-item-card}
+For Chris to receive notifications when mentioned by Meg in comments on the organization's repositories, Chris must be a member of the organization. Notification recipients are determined based on the user's access level to the repository and membership status in the organization.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#mentioning-people-and-teams
+:::
+::::
