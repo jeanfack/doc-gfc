@@ -446,6 +446,26 @@ Which of the following metrics indicates your program is a great success ?
 
 ## Build-In Workflow
 
+### Primary purpose
+
+::::{grid}
+:::{grid-item-card}
+What are built-in workflows in GitHub Projects primarily used for ?
+:::
+
+:::{grid-item-card}
+Updating the status of items based on certain events.
+:::
+
+:::{grid-item-card}
+Built-in workflows in GitHub Projects allow users to automate the process of updating the status of items based on specific events. For example, these workflows can automatically set the status of an item to "Todo" when it is added to the project or change the status to "Done" when an issue is closed. By leveraging these workflows, teams can streamline their project management process and ensure that the status of items accurately reflects their progress.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations
+:::
+::::
+
 ::::{grid}
 :::{grid-item-card}
 Meg is managing a GitHub project with a large number of issues and pull requests.\

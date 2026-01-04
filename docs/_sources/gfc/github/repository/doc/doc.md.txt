@@ -307,6 +307,29 @@ Which of the following examples demonstrates the correct way to bold the middle 
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Glenn Quagmire is learning how to format text using Markdown for his GitHub `README` file.\
+Which Markdown syntax should Glenn use to bold the word "FamilyGuy" in his document ?
+:::
+
+:::{grid-item-card}
+`__FamilyGuy__`
+:::
+
+:::{grid-item-card}
+To bold text, Glenn Quagmire should add two asterisks (\*\*) or underscores (\_\_) before and after a word or phrase he wants to bold. Therefore, the correct syntax to bold the word "FamilyGuy" is `**FamilyGuy**` or `__FamilyGuy__`.
+
+```{admonition} Bold Best Practices
+Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold the middle of a word for emphasis.
+```
+:::
+
+:::{grid-item-card}
+* https://github.com/mattcone/markdown-guide/blob/master/_basic-syntax/bold.md
+:::
+::::
+
 #### Link
 
 ::::{grid}

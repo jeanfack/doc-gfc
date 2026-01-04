@@ -75,6 +75,23 @@ Which permission level on GitHub is recommended for project managers who need to
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What level of repository permission is suitable for contributors who need to actively push changes to your repository ?
+:::
+
+:::{grid-item-card}
+`write`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role
+:::
+::::
+
 ## Create
 
 ::::{grid}

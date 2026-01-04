@@ -33,6 +33,23 @@ To request feedback on commits from collaborators.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Which GitHub feature allows users to propose modifications, fixes, or new features to a repository for review and potential merge into the main codebase ?
+:::
+
+:::{grid-item-card}
+Pull Requests
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#differences-between-commits-on-compare-and-pull-request-pages
+:::
+::::
+
 ## Create/Assign
 
 ::::{grid}
@@ -470,6 +487,26 @@ They cannot be merged until they are converted to regular pull requests.
 
 ### `Open`
 
+### `Closed`
+
+::::{grid}
+:::{grid-item-card}
+What happens when an issue or pull request is closed in a GitHub Project with default workflows enabled ?
+:::
+
+:::{grid-item-card}
+The status of the item is set to "Done".
+:::
+
+:::{grid-item-card}
+In GitHub Projects with default workflows enabled, when an issue or pull request is closed, its status is automatically set to "Done." This automation helps keep the project board up-to-date by reflecting the completion status of items accurately. It eliminates the need for manual intervention to update the status of closed items, saving time and ensuring consistency in project tracking.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations
+:::
+::::
+
 ### `Merged`
 
 #### Type
@@ -578,7 +615,7 @@ After your pull request has been merged.
 :::
 ::::
 
-### Status check
+#### Status check
 
 ::::{grid}
 :::{grid-item-card}

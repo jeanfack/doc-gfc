@@ -204,6 +204,23 @@ Incorrect options and why:
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What happens when an organization requires the use of two-factor authentication (2FA) for its members ?
+:::
+
+:::{grid-item-card}
+Accounts that do not use 2FA will be removed from the organization and lose access to its repositories.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication
+:::
+::::
+
 ### PAT
 
 ::::{grid}

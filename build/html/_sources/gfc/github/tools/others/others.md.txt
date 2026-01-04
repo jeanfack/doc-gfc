@@ -16,6 +16,8 @@
 
 ## GitHub CLI
 
+### Syntax
+
 ::::{grid}
 :::{grid-item-card}
 Which command is used to create an issue with GitHub CLI ?
@@ -30,6 +32,23 @@ Which command is used to create an issue with GitHub CLI ?
 
 :::{grid-item-card}
 * https://cli.github.com/manual/gh_issue_create
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What command is used to create a new repository using GitHub CLI ?
+:::
+
+:::{grid-item-card}
+`gh repo create`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories?tool=cli#create-a-repository
 :::
 ::::
 

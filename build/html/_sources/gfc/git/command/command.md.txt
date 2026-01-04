@@ -268,6 +268,23 @@ Change the default branch of the repository on GitHub.com.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What does the error `Remote HEAD refers to nonexistent ref, unable to checkout` indicate ?
+:::
+
+:::{grid-item-card}
+Deleted default branch on GitHub
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/troubleshooting-cloning-errors#error-remote-head-refers-to-nonexistent-ref-unable-to-checkout
+:::
+::::
+
 ## `git rm`
 
 ::::{grid}
