@@ -467,3 +467,23 @@ https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows#usi
 :::
 ::::
 
+## GitHub Actions vs Jenkins
+
+::::{grid}
+:::{grid-item-card}
+oe Swanson is considering options for implementing a CI/CD solution for his development projects. He is comparing GitHub Actions and Jenkins to determine which one would best suit his requirements.\
+Which statement best describes the difference between GitHub and Jenkins for CI/CD ?
+:::
+
+:::{grid-item-card}
+Jenkins focuses only on automation and CI/CD capabilities, while GitHub Actions offers a complete DevOps and DevSecOps platform.
+:::
+
+:::{grid-item-card}
+rying to decide whether to use GitHub Actions vs. Jenkins? If you’re looking for a cloud-hosted CI/CD solution, GitHub Actions bring extensive and platform-native capabilities to the GitHub platform. Plus, it’s included in GitHub Enterprise. You can also look at CloudBees, which is the commercial variant of Jenkins and fully integrates into the GitHub experience. But where GitHub offers a complete DevOps and DevSecOps platform, Jenkins and its CloudBees commercial solution focus only on automation and CI/CD capabilities.
+:::
+
+:::{grid-item-card}
+* https://resources.github.com/devops/tools/compare/
+:::
+::::

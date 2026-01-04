@@ -336,6 +336,23 @@ https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/workin
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How does the "fork and pull" model work on GitHub for collaborative development ?
+:::
+
+:::{grid-item-card}
+Developers have a full copy of the project and propose changes via pull requests.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
+:::
+::::
+
 ### Fork vs REPOSITORY_TEMPLATE
 
 ::::{grid}

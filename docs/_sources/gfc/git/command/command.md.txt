@@ -36,6 +36,23 @@ This command stages all changes in the current directory for the next commit.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What is the purpose of the `git add` command in the context of committing changes ?
+:::
+
+:::{grid-item-card}
+It stages changes to be included in the next commit.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories?tool=cli#commit-your-first-change
+:::
+::::
+
 ## `git commit`
 
 ::::{grid}

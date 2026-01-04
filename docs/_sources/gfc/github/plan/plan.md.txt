@@ -73,6 +73,30 @@ What is the service level agreement (SLA) for GitHub Enterprise Cloud's monthly 
 :::
 ::::
 
+## GitHub Free
+
+## GitHub Team
+
+::::{grid}
+:::{grid-item-card}
+What is the purpose of a GitHub Team ?
+:::
+
+:::{grid-item-card}
+A team is intended to reflect a company or group's structure. It's used to provide cascading access permissions and make it easy to notify all team members via mentions.
+:::
+
+:::{grid-item-card}
+GitHub Teams are groups of organization members that you can create to reflect your company or group's structure with cascading access permissions and mentions. Organization members can send notifications to a team or request reviews, and teams can be visible or secret.
+
+GitHub Teams do not allow you to manage an organization account, control permission levels, or allow a single user to sign in using different account credentials.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/onboarding/getting-started-with-github-team#3-about-and-creating-teams
+:::
+::::
+
 ## GitHub Enterprise
 
 ::::{grid}

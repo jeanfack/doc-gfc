@@ -305,6 +305,23 @@ Up to 10 people
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How many issues can be manually linked to each pull request ?
+:::
+
+:::{grid-item-card}
+Up to 10
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue-using-the-pull-request-sidebar
+:::
+::::
+
 ## Insights
 
 ### Network
