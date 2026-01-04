@@ -465,6 +465,7 @@ It's like a quick way to showcase and collaborate on code without the need for a
 ::::{grid}
 :::{grid-item-card}
 Which of the following is true about GitHub Gist ?
+*Choose THREE correct answers.*
 :::
 
 :::{grid-item-card}
@@ -737,6 +738,25 @@ Stewie can view the list of users who have starred the "awesome-quiz-experts-pra
 ::::
 
 ## Watch
+
+### Primary purpose
+
+::::{grid}
+:::{grid-item-card}
+What is the primary purpose of the `https://github.com/watching` page on GitHub ?
+:::
+
+:::{grid-item-card}
+To manage and configure notification settings for repositories a user is watching.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#about-participating-and-watching-notifications
+:::
+::::
 
 ::::{grid}
 :::{grid-item-card}

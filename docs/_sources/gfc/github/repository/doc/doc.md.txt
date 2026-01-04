@@ -406,7 +406,7 @@ facilitating efficient collaboration and task management.
 
 ### Syntax
 
-#### /details
+#### `/details`
 
 ::::{grid}
 :::{grid-item-card}
@@ -447,7 +447,7 @@ This feature is useful for presenting information in a structured and organized 
 :::
 ::::
 
-#### /table
+#### `/table`
 
 ::::{grid}
 :::{grid-item-card}
@@ -464,5 +464,24 @@ By using the `/table` slash command and specifying the number of columns and row
 
 :::{grid-item-card}
 * https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/about-slash-commands#using-slash-commands
+:::
+::::
+
+#### `/saved-replies`
+
+::::{grid}
+:::{grid-item-card}
+Lois wants to insert a saved reply into a comment to provide a standard response to a common question.\
+Which slash command should she use ?
+:::
+
+:::{grid-item-card}
+`/saved-replies`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
 :::
 ::::

@@ -158,6 +158,25 @@ Anyone with write permission to the repository
 :::
 ::::
 
+### Create Sub-issues
+
+::::{grid}
+:::{grid-item-card}
+Which GitHub feature allows users to build hierarchies of issues and create new relationships between them ?
+:::
+
+:::{grid-item-card}
+Sub-issues
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/adding-sub-issues
+:::
+::::
+
 ##  Saved replies
 
 ::::{grid}

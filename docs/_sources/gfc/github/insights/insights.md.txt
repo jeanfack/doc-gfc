@@ -152,6 +152,25 @@ Merge commits and empty commits aren't counted as contributions in the contribut
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Peter is a software developer who wants to acknowledge the community members who have contributed to his project's Python dependencies.\
+Where can Peter find a list of people who have contributed to his project's Python dependencies on GitHub ?
+:::
+
+:::{grid-item-card}
+By visiting `https://github.com/REPO-OWNER/REPO-NAME/graphs/contributors`.
+:::
+
+:::{grid-item-card}
+GitHub provides a list of community contributors who have contributed to a project's Python dependencies. This list can be accessed by visiting a specific URL format: `https://github.com/REPO-OWNER/REPO-NAME/graphs/contributors`.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors#about-contributors
+:::
+::::
+
 ### Community
 
 ### Traffic

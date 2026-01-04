@@ -14,6 +14,25 @@
 :::
 ::::
 
+## `git clone`
+
+::::{grid}
+:::{grid-item-card}
+Which Git command is used to create a local copy of a remote project ?
+:::
+
+:::{grid-item-card}
+`git clone`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://github.com/git-guides/git-clone
+:::
+::::
+
 ## `git status`
 
 ::::{grid}

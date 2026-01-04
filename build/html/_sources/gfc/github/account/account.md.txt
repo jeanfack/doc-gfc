@@ -178,6 +178,31 @@ In the "Access" section under "Password and authentication" in the user "Setting
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Which 2FA approach is best if you want your sign-in codes to be safely backed up online and recoverable when you switch or lose devices ?
+:::
+
+:::{grid-item-card}
+Time-based One‑Time Password (TOTP) app
+:::
+
+:::{grid-item-card}
+GitHub recommends using a TOTP authenticator as your primary method. A key benefit they call out is that many TOTP apps include secure cloud backup and restore of the TOTP secrets, which lets you regain your codes if you lose or replace your device.
+
+Correct option: Time‑based One‑Time Password (TOTP) app
+* Why it fits: TOTP authenticator apps commonly provide encrypted cloud backup of your TOTP entries. That is exactly the “codes backed up and restorable” capability the question is testing.
+
+Incorrect options and why:
+* GitHub Mobile push prompts: Uses a push/public‑key flow to approve sign-ins. It’s convenient and secure but not about backing up rotating TOTP codes.
+* Security Key: A hardware/WebAuthn credential. Excellent security, but it doesn’t store or “cloud‑backup” TOTP codes.
+* SMS: Texted codes are discouraged in the docs for reliability and security reasons and offer no secure cloud backup of authentication codes.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication
+:::
+::::
 
 ### PAT
 
