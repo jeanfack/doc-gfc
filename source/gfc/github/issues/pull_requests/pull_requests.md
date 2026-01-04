@@ -264,6 +264,24 @@ However, if the PR's base is any other branch, the keywords are ignored, and no 
 
 ::::{grid}
 :::{grid-item-card}
+Meg wants to link a pull request to an issue using a special keyword.\
+What branch should her pull request target for the keyword to be effective ?
+:::
+
+:::{grid-item-card}
+The default branch.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#about-linked-issues-and-pull-requests
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 Lois has created a PR on the default branch of her repository to address an issue. She includes a special keyword in the PR description to link it to the issue.\
 What will happen when she merges this PR ?
 :::

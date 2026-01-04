@@ -264,6 +264,23 @@ Private repositories on the free plan are limited to one person per issue or pul
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How many people can be assigned to an issue or pull request in public repositories or private repositories for a paid account ?
+:::
+
+:::{grid-item-card}
+Up to 10 people
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/assigning-issues-and-pull-requests-to-other-github-users#about-issue-and-pull-request-assignees
+:::
+::::
+
 ## Insights
 
 ### Network
