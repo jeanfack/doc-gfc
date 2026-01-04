@@ -127,10 +127,10 @@ Why other options are wrong:
 * To allow users to create public content and collaborate with other users.\
 {bdg-danger}`Incorrect` This option is incorrect because **Enterprise Managed Users** do not enable users to create public content or collaborate with other users outside the enterprise. It primarily focuses on managing identity and access within the organization.
 
-* To restrict access to enterprise resources and limit user interactions within GitHub.
+* To restrict access to enterprise resources and limit user interactions within GitHub.\
 {bdg-danger}`Incorrect` This option is incorrect because **Enterprise Managed Users** do not restrict access to enterprise resources but rather provide controlled access based on roles and permissions managed by the organization's IdP.
 
-* To automate the creation and management of user accounts on GitHub.com.
+* To automate the creation and management of user accounts on GitHub.com.\
 {bdg-danger}`Incorrect` This option is incorrect because while **Enterprise Managed Users** facilitates the management of user accounts, it does not automate the creation and management of user accounts on GitHub.com. User accounts are provisioned and managed by the organization's IdP.
 :::
 
