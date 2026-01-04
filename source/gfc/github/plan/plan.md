@@ -150,6 +150,45 @@ What option allows the provisioning and management of user accounts for develope
 :::
 ::::
 
+### AI-generated Pull Request
+
+::::{grid}
+:::{grid-item-card}
+Which of the following can help you create an AI-generated description for a pull request?
+:::
+
+:::{grid-item-card}
+**GitHub Copilot Enterprise**
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://github.com/pricing
+* https://docs.github.com/en/copilot/how-tos/get-code-suggestions/write-pr-descriptions
+:::
+::::
+
+### GitHub Enterprise Server vs GitHub Enterprise Cloud
+
+::::{grid}
+:::{grid-item-card}
+What is the key difference between **GitHub Enterprise Server (GHES)** and **GitHub Enterprise Cloud** ?
+:::
+
+:::{grid-item-card}
+**GHES** is a self-hosted solution, providing control over infrastructure, while **GitHub Enterprise Cloud** is hosted by GitHub.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://learn.microsoft.com/en-us/training/modules/github-introduction-products/2-what-are-github-products
+:::
+::::
+
 ### Enterprise Managed Users
 
 ::::{grid}
@@ -211,24 +250,6 @@ Because you want to centrally manage users and repositories across multiple orga
 
 :::{grid-item-card}
 * https://learn.microsoft.com/en-us/training/modules/github-introduction-products/2-what-are-github-products
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-Which of the following can help you create an AI-generated description for a pull request?
-:::
-
-:::{grid-item-card}
-**GitHub Copilot Enterprise**
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://github.com/pricing
-* https://docs.github.com/en/copilot/how-tos/get-code-suggestions/write-pr-descriptions
 :::
 ::::
 

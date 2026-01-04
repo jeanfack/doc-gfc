@@ -138,6 +138,23 @@ This makes relative links more reliable for users who clone the repository.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Which type of link is recommended for referring to other files within your repository in a `README` file?
+:::
+
+:::{grid-item-card}
+Relative links
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#relative-links-and-image-paths-in-readme-files
+:::
+::::
+
 ## Wiki
 
 ### Access

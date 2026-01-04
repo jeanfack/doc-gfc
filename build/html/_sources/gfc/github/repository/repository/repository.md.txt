@@ -408,6 +408,25 @@ Forking includes the entire commit history of the parent repository, while creat
 :::
 ::::
 
+### Delete
+
+::::{grid}
+:::{grid-item-card}
+What happens when you delete a forked repository on GitHub ?
+:::
+
+:::{grid-item-card}
+The forked repository is permanently deleted with no option for restoration.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/detaching-a-fork#manually-leaving-the-fork-network
+:::
+::::
+
 ## Gist
 
 ### Primary purpose

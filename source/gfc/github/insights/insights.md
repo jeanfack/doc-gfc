@@ -274,6 +274,23 @@ Code frequency graph
 
 ::::{grid}
 :::{grid-item-card}
+How does GitHub help reduce the overhead of staying on top of security considerations for project dependencies ?
+:::
+
+:::{grid-item-card}
+By offering dependency graphs and automated dependency alerts.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts#dependabot-alerts-for-vulnerable-dependencies
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 Peter wants to know which repositories and packages are dependent on his open-source project hosted on GitHub.
 Which feature should he use ?
 :::
