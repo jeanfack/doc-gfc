@@ -39,7 +39,7 @@ Which of these files is the most effective for enforcing this policy ?
 :::
 ::::
 
-## Location file
+## Global ignore
 
 ::::{grid}
 :::{grid-item-card}

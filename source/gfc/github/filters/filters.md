@@ -528,6 +528,23 @@ On the main page of the repository.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How can you classify your repository to help others discover and contribute to your project more easily ?
+:::
+
+:::{grid-item-card}
+Add relevant **topics** related to your project's purpose, subject area, or groups of interest.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-server@3.10/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics
+:::
+::::
+
 ### Label
 
 ::::{grid}

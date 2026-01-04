@@ -393,38 +393,6 @@ Commit avec push =&gt; <code class="docutils literal notranslate"><span class="p
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">In the event that someone accidentally commits a sensitive API key that is stored in the .secrets folder.<br />
-What is the appropriate method to remove that information from GitHub ?</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Use git to remove the unwanted commit and update historical references.<br />
-Then contact GitHub support to run garbage collection and invalidate the Git cache.</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row docutils">
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
 <p class="sd-card-text">Chris Griffin wants to include all the changes made to tracked files in his next commit without explicitly staging them using <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span></code>.<br />
 Which command should he use to achieve this ?</p>
 </div>
@@ -898,6 +866,46 @@ Which Git command should he use?</p>
 </div>
 </div>
 </section>
+<section id="remove-sensitive-data">
+<h2>Remove sensitive data<a class="headerlink" href="#remove-sensitive-data" title="Link to this heading"></a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">In the event that someone accidentally commits a sensitive API key that is stored in the <code class="docutils literal notranslate"><span class="pre">.secrets</span></code> folder.<br />
+What is the appropriate method to remove that information from GitHub ?</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Use <code class="docutils literal notranslate"><span class="pre">git</span></code> to remove the unwanted commit and update historical references.<br />
+Then contact GitHub support to run garbage collection and invalidate the Git cache.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Use git to remove the unwanted commit and update historical references. Then contact GitHub support to run garbage collection and invalidate the Git cache. This approach is the correct process to remove the data moving forward. However, if you feel someone can access the key when it’s available, you should replace the key with a new one. As a best practice, consider the sensitive data compromised and replace the key.</p>
+<p class="sd-card-text">Deleting the sensitive file from GitHub and then committing an empty file to the same location to overwrite it doesn’t remove the sensitive data from your commit history.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository">https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="status">
 <h2>status<a class="headerlink" href="#status" title="Link to this heading"></a></h2>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -1205,6 +1213,7 @@ This command pushes changes from your local “main” branch to the “main” 
 <li><a class="reference internal" href="#git-reset"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span></code></a></li>
 <li><a class="reference internal" href="#git-push"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span></code></a></li>
 <li><a class="reference internal" href="#git-filter-repo"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">filter-repo</span></code></a></li>
+<li><a class="reference internal" href="#remove-sensitive-data">Remove sensitive data</a></li>
 <li><a class="reference internal" href="#status">status</a></li>
 <li><a class="reference internal" href="#remote"><code class="docutils literal notranslate"><span class="pre">remote</span></code></a></li>
 </ul>

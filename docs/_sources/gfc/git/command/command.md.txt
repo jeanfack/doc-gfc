@@ -64,24 +64,6 @@ Commit avec push => `git revert <SHA>`
 
 ::::{grid}
 :::{grid-item-card}
-In the event that someone accidentally commits a sensitive API key that is stored in the .secrets folder.\
-What is the appropriate method to remove that information from GitHub ?
-:::
-
-:::{grid-item-card}
-Use git to remove the unwanted commit and update historical references.\
-Then contact GitHub support to run garbage collection and invalidate the Git cache.
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
 Chris Griffin wants to include all the changes made to tracked files in his next commit without explicitly staging them using `git add`.\
 Which command should he use to achieve this ?
 :::
@@ -338,6 +320,30 @@ What tool can be used to remove files from a repository's history if they were a
 :::{grid-item-card}
 * https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github?platform=windows#removing-a-file-that-was-added-in-an-earlier-commit
 * https://git-scm.com/docs/git-filter-branch
+:::
+::::
+
+## Remove sensitive data
+
+::::{grid}
+:::{grid-item-card}
+In the event that someone accidentally commits a sensitive API key that is stored in the `.secrets` folder.\
+What is the appropriate method to remove that information from GitHub ?
+:::
+
+:::{grid-item-card}
+Use `git` to remove the unwanted commit and update historical references.\
+Then contact GitHub support to run garbage collection and invalidate the Git cache.
+:::
+
+:::{grid-item-card}
+Use git to remove the unwanted commit and update historical references. Then contact GitHub support to run garbage collection and invalidate the Git cache. This approach is the correct process to remove the data moving forward. However, if you feel someone can access the key when it's available, you should replace the key with a new one. As a best practice, consider the sensitive data compromised and replace the key.
+
+Deleting the sensitive file from GitHub and then committing an empty file to the same location to overwrite it doesn't remove the sensitive data from your commit history.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
 :::
 ::::
 
