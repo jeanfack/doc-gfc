@@ -285,6 +285,8 @@ The `--hard` option ensures that both the commit history and the working directo
 
 ## `git push`
 
+### rename remote branch
+
 ::::{grid}
 :::{grid-item-card}
 Peter wants to rename his local branch named `feature-1` to `new-feature` on the remote repository named `origin`.\
@@ -300,6 +302,27 @@ Which Git command should he use?
 
 :::{grid-item-card}
 * https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#renaming-branches
+:::
+::::
+
+## delete remote branch
+
+::::{grid}
+:::{grid-item-card}
+Meg wants to delete a branch named `feature-x` from the remote repository named `origin`.\
+Which Git command should she use ?
+:::
+
+:::{grid-item-card}
+`git push origin :feature-x`
+:::
+
+:::{grid-item-card}
+To delete a branch from the remote repository, Meg should use the command `git push origin :feature-x`. The syntax includes a space before the colon `:`, which tells Git to push nothing into `feature-x` on the `origin` remote. This action effectively deletes the branch from the remote repository.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#deleting-a-remote-branch-or-tag
 :::
 ::::
 
