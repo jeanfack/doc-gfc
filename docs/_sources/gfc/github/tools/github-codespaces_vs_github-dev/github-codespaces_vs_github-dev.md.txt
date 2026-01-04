@@ -411,3 +411,20 @@ Which feature is NOT available in the `github.dev` editor compared to GitHub Cod
 * https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#codespaces-and-githubdev
 :::
 ::::
+
+::::{grid}
+:::{grid-item-card}
+What is a distinguishing feature of **GitHub Codespaces** compared to `github.dev`?
+:::
+
+:::{grid-item-card}
+GitHub Codespaces provides access to a dedicated virtual machine for running and debugging code.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#codespaces-and-githubdev
+:::
+::::

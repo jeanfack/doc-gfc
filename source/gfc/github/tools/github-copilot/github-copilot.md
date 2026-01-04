@@ -137,7 +137,7 @@ Who can use GitHub Copilot for free ?
 
 ::::{grid}
 :::{grid-item-card}
-What features are available in GitHub Copilot Business that are not in GitHub Copilot Individual ?
+What features are available in **GitHub Copilot Business** that are not in **GitHub Copilot Individual** ?
 *Choose THREE correct answers.*
 :::
 
@@ -152,6 +152,7 @@ What features are available in GitHub Copilot Business that are not in GitHub Co
 
 :::{grid-item-card}
 * https://github.com/features/copilot/plans
+* https://github.com/features/copilot/plans#compare
 * https://docs.github.com/en/copilot/get-started/plans
 * https://docs.github.com/en/copilot/concepts/billing/individual-plans
 * https://docs.github.com/en/enterprise-cloud@latest/copilot/get-started/what-is-github-copilot#understanding-the-differences-between-copilot-individual-copilot-business-and-copilot-enterprise
@@ -172,6 +173,24 @@ Copilot Individual
 
 :::{grid-item-card}
 * https://docs.github.com/en/copilot/get-started/what-is-github-copilot#understanding-the-differences-between-copilot-individual-copilot-business-and-copilot-enterprise
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+What is the difference between **GitHub Copilot Business** and **GitHub Copilot Enterprise** ?
+:::
+
+:::{grid-item-card}
+GitHub Copilot Enterprise has an extra layer of personalization, with organization utilizing their own codebase to train GitHub Copilot.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://github.com/features/copilot/plans#compare
+* https://docs.github.com/en/enterprise-cloud@latest/copilot/get-started/what-is-github-copilot#understanding-the-differences-between-copilot-business-copilot-individual-and-copilot-enterprise
 :::
 ::::
 

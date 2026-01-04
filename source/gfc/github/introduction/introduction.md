@@ -218,6 +218,26 @@ Local and offline access to the complete project history.
 :::
 ::::
 
+### Advantage
+
+::::{grid}
+:::{grid-item-card}
+In a Distributed Version Control System (DVCS) like Git, what is a significant advantage over centralized systems ?
+:::
+
+:::{grid-item-card}
+Full copy of the project and history.
+:::
+
+:::{grid-item-card}
+In a distributed version control system, every developer has a full copy of the project and project history. Unlike once popular centralized version control systems, DVCSs don't need a constant connection to a central repository. Git is the most popular distributed version control system. Git is commonly used for both open source and commercial software development, with significant benefits for individuals, teams and businesses.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git
+:::
+::::
+
 ### Others Software
 
 ::::{grid}
@@ -403,5 +423,24 @@ To find trending apps on GitHub Marketplace, users can simply navigate to the Ma
 :::{grid-item-card}
 * https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps
 * https://github.com/marketplace?type=apps
+:::
+::::
+
+## GitHub Early Access Feature
+
+::::{grid}
+:::{grid-item-card}
+Which phase of GitHub's release cycle involves heavy development, changing requirements, and no service level agreements (SLAs) ?
+:::
+
+:::{grid-item-card}
+Alpha
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/using-github/exploring-early-access-releases-with-feature-preview#githubs-release-cycle
 :::
 ::::

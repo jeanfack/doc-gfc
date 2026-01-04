@@ -379,6 +379,25 @@ What is the maximum nesting depth for sub-issues in GitHub ?
 
 ## Insights
 
+### Code frequency
+
+::::{grid}
+:::{grid-item-card}
+Why might you not be able to access certain insights in the Code frequency graph ?
+:::
+
+:::{grid-item-card}
+The repository has more than 10,000 commits.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/analyzing-changes-to-a-repositorys-content#visualizing-additions-and-deletion-to-content-in-a-repository
+:::
+::::
+
 ### Network
 
 ::::{grid}

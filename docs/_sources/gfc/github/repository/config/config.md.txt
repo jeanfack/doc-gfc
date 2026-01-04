@@ -76,6 +76,25 @@ Define the repository owner as the owner of the `CODEOWNERS` file.
 
 ::::{grid}
 :::{grid-item-card}
+Peter wants to ensure that code owners receive review requests when a pull request is opened with changes relevant to their assigned files.\
+Where must the `CODEOWNERS` file be located for code owners to receive review requests when a pull request is opened ?
+:::
+
+:::{grid-item-card}
+On the base branch of the pull request.
+:::
+
+:::{grid-item-card}
+The `CODEOWNERS` file must be on the base branch of the pull request for code owners to receive review requests when a pull request with changes relevant to their assigned files is opened.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#codeowners-file-location
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 Meg wants to set up code owners in her GitHub repository.\
 Where should she place the `CODEOWNERS` file to ensure that it assigns the code owners for a specific branch?
 :::

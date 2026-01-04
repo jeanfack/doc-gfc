@@ -101,6 +101,23 @@ GitHub Teams do not allow you to manage an organization account, control permiss
 
 ::::{grid}
 :::{grid-item-card}
+What does GitHub Enterprise Server offer for deployment protection rules in private or internal repositories ?
+:::
+
+:::{grid-item-card}
+GitHub Actions
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/githubs-plans#github-enterprise
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
 What are the two deployment options for GitHub Enterprise ?
 :::
 
@@ -194,6 +211,24 @@ Because you want to centrally manage users and repositories across multiple orga
 
 :::{grid-item-card}
 * https://learn.microsoft.com/en-us/training/modules/github-introduction-products/2-what-are-github-products
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Which of the following can help you create an AI-generated description for a pull request?
+:::
+
+:::{grid-item-card}
+**GitHub Copilot Enterprise**
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://github.com/pricing
+* https://docs.github.com/en/copilot/how-tos/get-code-suggestions/write-pr-descriptions
 :::
 ::::
 

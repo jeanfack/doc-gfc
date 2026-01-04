@@ -128,6 +128,7 @@ What is the main difference between a `private` repository and an `internal` rep
 ```{note}
 You can use `internal` repositories to practice "innersource" within your enterprise.\
 Members of your enterprise can collaborate using open source methodologies without sharing proprietary information publicly.
+```
 :::
 
 :::{grid-item-card}
@@ -193,6 +194,25 @@ When a repository is archived on GitHub, its permissions become read-only. This 
 
 :::{grid-item-card}
 * https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories#about-repository-archival
+:::
+::::
+
+### Unarchive
+
+::::{grid}
+:::{grid-item-card}
+How can Glenn make changes to an archived repository ?
+:::
+
+:::{grid-item-card}
+By unarchiving the repository first whenever you need to make any changes.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories#unarchiving-a-repository
 :::
 ::::
 
@@ -824,5 +844,24 @@ Storing large binary files directly in the repository is not a recommended best 
 
 :::{grid-item-card}
 * https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories
+:::
+::::
+
+## Danger Zone
+
+::::{grid}
+:::{grid-item-card}
+What is the name of the section where you can edit the section where you change the visibility of your Project and delete or close your Project ?
+:::
+
+:::{grid-item-card}
+Danger Zone
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-visibility-of-your-projects#changing-project-visibility
 :::
 ::::

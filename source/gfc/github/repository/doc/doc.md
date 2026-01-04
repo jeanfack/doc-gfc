@@ -237,43 +237,7 @@ The content is hidden but can be restored later.
 
 ## Markdown
 
-### Syntaxe
-
-::::{grid}
-:::{grid-item-card}
-Lois is learning how to format text using Markdown on GitHub.\
-She wants to emphasize certain words or phrases by making them bold.\
-Which of the following examples demonstrates the correct way to bold the middle of a word for emphasis ?
-:::
-
-:::{grid-item-card}
-`Quiz**Experts**PracticeTest`
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
-How can you add a link in a wiki page using Markdown syntax ?
-:::
-
-:::{grid-item-card}
-`[Link Text](URL)`
-:::
-
-:::{grid-item-card}
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links
-:::
-::::
+### Syntax
 
 ::::{grid}
 :::{grid-item-card}
@@ -305,10 +269,68 @@ Which of the following is a valid Markdown syntax ?
 :::
 ::::
 
+#### Emphasize
 
-### Slash command
+::::{grid}
+:::{grid-item-card}
+Lois is learning how to format text using Markdown on GitHub.\
+She wants to emphasize certain words or phrases by making them bold.\
+Which of the following examples demonstrates the correct way to bold the middle of a word for emphasis ?
+:::
 
-#### Primary purpose
+:::{grid-item-card}
+`Quiz**Experts**PracticeTest`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text
+:::
+::::
+
+#### Link
+
+::::{grid}
+:::{grid-item-card}
+How can you add a link in a wiki page using Markdown syntax ?
+:::
+
+:::{grid-item-card}
+`[Link Text](URL)`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links
+:::
+::::
+
+#### Escape
+
+::::{grid}
+:::{grid-item-card}
+Meg Griffin is working on a README file for her project on GitHub. She wants to include an example command that contains an asterisk (*) character without it being interpreted as Markdown formatting. Which approach should Meg use to ensure the asterisk (*) character is not interpreted as Markdown formatting in her README file?
+:::
+
+:::{grid-item-card}
+Use backslashes before the asterisk (*)
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#ignoring-markdown-formatting
+:::
+::::
+
+## Slash command
+
+### Primary purpose
 
 ::::{grid}
 :::{grid-item-card}
@@ -365,9 +387,9 @@ facilitating efficient collaboration and task management.
 :::
 ::::
 
-#### Syntax
+### Syntax
 
-##### /details
+#### /details
 
 ::::{grid}
 :::{grid-item-card}
@@ -408,7 +430,7 @@ This feature is useful for presenting information in a structured and organized 
 :::
 ::::
 
-##### /table
+#### /table
 
 ::::{grid}
 :::{grid-item-card}

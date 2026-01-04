@@ -14,7 +14,7 @@
 :::
 ::::
 
-## Github CLI
+## GitHub CLI
 
 ::::{grid}
 :::{grid-item-card}
@@ -30,6 +30,28 @@ Which command is used to create an issue with GitHub CLI ?
 
 :::{grid-item-card}
 * https://cli.github.com/manual/gh_issue_create
+:::
+::::
+
+## GitHub API
+
+::::{grid}
+:::{grid-item-card}
+What is GitHub API primarily used for ?
+:::
+
+:::{grid-item-card}
+Automating common tasks and creating integrations.
+:::
+
+:::{grid-item-card}
+GitHub API allows users to interact with GitHub programmatically. It's commonly used to automate repetitive tasks, create custom integrations, or build tools that extend GitHub's functionality.
+
+For example, you can use the API to automate the creation of an issue when specific conditions are met or to fetch data for reporting purposes.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/rest/about-the-rest-api/about-the-rest-api
 :::
 ::::
 
