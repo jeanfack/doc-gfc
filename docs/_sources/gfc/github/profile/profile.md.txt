@@ -132,3 +132,22 @@ Where can Lois find the feedback link for a beta feature on GitHub ?
 * https://docs.github.com/en/get-started/using-github/exploring-early-access-releases-with-feature-preview#exploring-beta-releases-with-feature-preview
 :::
 ::::
+
+## README
+
+::::{grid}
+:::{grid-item-card}
+How can you make a README file appear on your GitHub profile automatically ?
+:::
+
+:::{grid-item-card}
+Name the README file after your username.
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme#about-your-profile-readme
+:::
+::::

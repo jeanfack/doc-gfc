@@ -153,3 +153,22 @@ GitHub Advanced Security
 * https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security
 :::
 ::::
+
+## GitHub Secirity Advisories
+
+::::{grid}
+:::{grid-item-card}
+What feature of GitHub allows repository maintainers to privately discuss and fix security vulnerabilities ?
+:::
+
+:::{grid-item-card}
+GitHub Security Advisories
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/code-security/concepts/vulnerability-reporting-and-management/repository-security-advisories
+:::
+::::

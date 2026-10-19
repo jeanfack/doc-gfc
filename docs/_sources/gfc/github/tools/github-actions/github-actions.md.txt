@@ -179,9 +179,10 @@ Where can you define the actions you use in your workflow ?
 :::
 
 :::{grid-item-card}
-* The same repository as your workflow file.
-* A published Docker container image on Docker Hub.
-* Any public repository.
+* {bdg-success}`Correct` The same repository as your workflow file.
+* GitHub Apps.
+* {bdg-success}`Correct` A published Docker container image on Docker Hub.
+* {bdg-success}`Correct` Any public repository.
 :::
 
 :::{grid-item-card}

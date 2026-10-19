@@ -458,46 +458,6 @@ This command stages all changes in the current directory for the next commit.</p
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">Chris Griffin just pushed his latest changes to GitHub but realizes that one of the commits contains a critical error.<br />
-He wants to undo that specific commit.<br />
-What should Chris do to undo the mistaken commit while keeping the commit history intact ?</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">revert</span> <span class="pre">&lt;SHA&gt;</span></code></p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p class="sd-card-text">Commit sans push =&gt; <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">--amend</span></code> <br />
-Commit avec push =&gt; <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">revert</span> <span class="pre">&lt;SHA&gt;</span></code></p>
-</div>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<ul class="simple">
-<li><p class="sd-card-text"><a class="reference external" href="https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-a-public-change">https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-a-public-change</a></p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row docutils">
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
 <p class="sd-card-text">Chris Griffin wants to include all the changes made to tracked files in his next commit without explicitly staging them using <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span></code>.<br />
 Which command should he use to achieve this ?</p>
 </div>
@@ -555,6 +515,44 @@ How can he skip checks for an individual commit when pushing it to his GitHub re
 <div class="sd-card-body docutils">
 <ul class="simple">
 <li><p class="sd-card-text"><a class="reference external" href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#skipping-and-requesting-checks-for-individual-commits">https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#skipping-and-requesting-checks-for-individual-commits</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="git-revert">
+<h2><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">revert</span></code><a class="headerlink" href="#git-revert" title="Link to this heading"></a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Chris Griffin just pushed his latest changes to GitHub but realizes that one of the commits contains a critical error.<br />
+He wants to undo that specific commit.<br />
+What should Chris do to undo the mistaken commit while keeping the commit history intact ?</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">revert</span> <span class="pre">&lt;SHA&gt;</span></code></p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-a-public-change">https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-a-public-change</a></p></li>
 </ul>
 </div>
 </div>
@@ -1384,7 +1382,8 @@ This command pushes changes from your local “main” branch to the “main” 
 <li><a class="reference internal" href="#git-clone"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code></a></li>
 <li><a class="reference internal" href="#git-status"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code></a></li>
 <li><a class="reference internal" href="#git-add"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span></code></a></li>
-<li><a class="reference internal" href="#git-commit"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span></code></a><ul>
+<li><a class="reference internal" href="#git-commit"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span></code></a></li>
+<li><a class="reference internal" href="#git-revert"><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">revert</span></code></a><ul>
 <li><a class="reference internal" href="#message"><code class="docutils literal notranslate"><span class="pre">--message</span></code></a></li>
 </ul>
 </li>

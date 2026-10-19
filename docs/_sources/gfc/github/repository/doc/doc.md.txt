@@ -508,3 +508,30 @@ Which slash command should she use ?
 :::{grid-item-card}
 :::
 ::::
+
+## Types of GitHub Pages
+
+::::{grid}
+:::{grid-item-card}
+Peter, a developer, wants to create a new public repository on GitHub to host his personal website.
+What should Peter name his new public repository ?
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` Peter must name his repository username.github.io, where username is his username on GitHub.
+:::
+
+:::{grid-item-card}
+Peter should name his new public repository on GitHub as "username.github.io," where "username" is his actual GitHub username or organization name. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
+
+
+
+Example:
+
+If Peter's GitHub username is "peter-griffin", he should name his repository as "peter-griffin.github.io" to create a personal website accessible at `https://peter-griffin.github.io`.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#types-of-github-pages-sites
+:::
+::::

@@ -95,30 +95,6 @@ It stages changes to be included in the next commit.
 
 ::::{grid}
 :::{grid-item-card}
-Chris Griffin just pushed his latest changes to GitHub but realizes that one of the commits contains a critical error.\
-He wants to undo that specific commit.\
- What should Chris do to undo the mistaken commit while keeping the commit history intact ?
-:::
-
-:::{grid-item-card}
-`git revert <SHA>`
-:::
-
-:::{grid-item-card}
-
-```{note}
-Commit sans push => `git commit --amend` \
-Commit avec push => `git revert <SHA>`
-```
-:::
-
-:::{grid-item-card}
-* https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-a-public-change
-:::
-::::
-
-::::{grid}
-:::{grid-item-card}
 Chris Griffin wants to include all the changes made to tracked files in his next commit without explicitly staging them using `git add`.\
 Which command should he use to achieve this ?
 :::
@@ -150,6 +126,27 @@ Add the line `skip-checks: true` after commit description, before the closing qu
 
 :::{grid-item-card}
 * https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#skipping-and-requesting-checks-for-individual-commits
+:::
+::::
+
+## `git revert`
+
+::::{grid}
+:::{grid-item-card}
+Chris Griffin just pushed his latest changes to GitHub but realizes that one of the commits contains a critical error.\
+He wants to undo that specific commit.\
+ What should Chris do to undo the mistaken commit while keeping the commit history intact ?
+:::
+
+:::{grid-item-card}
+`git revert <SHA>`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#undo-a-public-change
 :::
 ::::
 

@@ -698,6 +698,46 @@ To categorize and prioritize issues, pull requests, and discussions.
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+What label does a maintainer use to indicate that they require assistance with an issue or pull request ?
+:::
+
+:::{grid-item-card}
+`help wanted`.
+:::
+
+:::{grid-item-card}
+![](../../../_include/gfc/github/issues/issues/img/E1-Q1.png).
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/enterprise-server@3.10/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+The `involves` qualifier is a logical OR between the `author`, `assignee`, `mentions`, and `commenter` qualifiers for a single user.
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` True
+* False
+:::
+
+:::{grid-item-card}
+Example:
+
+`involves:peter` `involves:lois` matches issues either @peter or @lois are involved in.
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests#search-by-a-user-thats-involved-in-an-issue-or-pull-request
+:::
+::::
+
+
 #### default 
 
 ::::{grid}
@@ -707,6 +747,23 @@ Which of the following is **NOT** a default label provided by GitHub in every ne
 
 :::{grid-item-card}
 `feature`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels
+:::
+::::
+
+::::{grid}
+:::{grid-item-card}
+Who can customize the default labels for repositories in their organization ?
+:::
+
+:::{grid-item-card}
+Organization owners
 :::
 
 :::{grid-item-card}

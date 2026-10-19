@@ -352,24 +352,3 @@ For Chris to receive notifications when mentioned by Meg in comments on the orga
 * https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#mentioning-people-and-teams
 :::
 ::::
-
-## Label
-
-::::{grid}
-:::{grid-item-card}
-What label does a maintainer use to indicate that they require assistance with an issue or pull request ?
-:::
-
-:::{grid-item-card}
-`help wanted`.
-:::
-
-:::{grid-item-card}
-![](../../../../_include/gfc/github/issues/issues/img/E1-Q1.png).
-:::
-
-:::{grid-item-card}
-* https://docs.github.com/en/enterprise-server@3.10/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels
-:::
-::::
-
