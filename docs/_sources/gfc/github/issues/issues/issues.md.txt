@@ -361,11 +361,11 @@ What label does a maintainer use to indicate that they require assistance with a
 :::
 
 :::{grid-item-card}
-`help wanted`
+`help wanted`.
 :::
 
 :::{grid-item-card}
-[](../../../../_include/gfc/github/issues/issues/img/E1-Q1.png).
+![](../../../../_include/gfc/github/issues/issues/img/E1-Q1.png).
 :::
 
 :::{grid-item-card}
