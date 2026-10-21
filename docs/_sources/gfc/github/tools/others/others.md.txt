@@ -255,3 +255,77 @@ Manage, triage, and clear notifications from `github.com`.
 * https://docs.github.com/en/get-started/using-github/github-mobile
 :::
 ::::
+
+
+# default label
+[](https://docs.github.com/en/enterprise-server@3.10/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels)
+
+* bug
+* documentation
+* duplicate
+* enhancement
+* good first issue
+* help wanted
+* invalid
+* question
+* wontfix
+
+# defaukt category discussions
+[](https://docs.github.com/en/discussions/managing-discussions-for-your-community/managing-categories-for-discussions#default-categories)
+
+- Announcements
+- General
+- Ideas
+- Polls
+- Q&A
+- Show and tell
+
+# default workflows
+- Item added to project
+- Item reopened
+- Item closed
+- Code changes requested
+- Code review approved
+- Pull request merged
+- Auto-archive items
+- Auto-add to project
+
+
+# slash commands
+https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/about-slash-commands#using-slash-commands
+
+- `/code`
+- `/details`
+- `/save-replies`
+- `/table`
+- `/template`
+
+# repository roles
+https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role
+
+- read
+- write
+- triage
+- maintain
+- admin
+
+# repository visibility
+- public
+- private
+- intern
+
+# type of website:
+- project
+- user
+- organization
+
+# GitHub Actions workflow components
+- jobs
+- actions
+- runners
+
+# Which IDE are supported by GitHub Copilot ?
+- Visual Studio
+- Visual Studio Code
+- Vim
+- JetBrains
