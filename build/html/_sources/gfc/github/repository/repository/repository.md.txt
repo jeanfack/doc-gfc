@@ -507,10 +507,10 @@ What is true about forking and cloning gists on GitHub ?
 :::
 
 :::{grid-item-card}
-* {bdg-success}`Correct` Both forking and cloning gists are possible, even if you aren't the original author.
+* Both forking and cloning gists are possible, even if you aren't the original author.
 * {bdg-success}`Correct` Gists cannot be forked or cloned by anyone other than the original author.
-* {bdg-success}`Correct` Forking gists is possible, but cloning gists is not.
-* {bdg-success}`Correct` Only the original author can fork or clone their own gists.
+* Forking gists is possible, but cloning gists is not.
+* Only the original author can fork or clone their own gists.
 :::
 
 :::{grid-item-card}

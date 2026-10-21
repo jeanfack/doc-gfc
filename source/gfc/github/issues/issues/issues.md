@@ -352,3 +352,30 @@ For Chris to receive notifications when mentioned by Meg in comments on the orga
 * https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#mentioning-people-and-teams
 :::
 ::::
+
+## Template
+
+::::{grid}
+:::{grid-item-card}
+With respect to issue templates and issue forms in GitHub, which of the following statements are true ?
+*Choose TWO correct answers.*
+:::
+
+:::{grid-item-card}
+* {bdg-success}`Correct` Issue templates are predefined structures for issues, while issue forms are customizable forms for capturing specific information about issues.
+* {bdg-success}`Correct` Issue forms are currently in beta and subject to change.
+:::
+
+:::{grid-item-card}
+Issue templates provide predefined structures with placeholders for information that contributors should include when opening issues, such as bug reports or feature requests. On the other hand, issue forms allow repository maintainers to create customizable forms with specific fields to capture relevant details about issues, which can be more tailored to the needs of the project.
+
+Issue templates are managed through  **markdown** files within the repository, where the issue form is defined as a **YAML** configuration file.
+
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+* https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms#converting-a-markdown-issue-template-to-a-yaml-issue-form-template
+:::
+::::
+

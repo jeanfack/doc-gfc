@@ -43,6 +43,24 @@ https://docs.github.com/en/search-github/searching-on-github/searching-for-repos
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+Stewie wants to find repositories on GitHub licensed under the GNU General Public License v3.0.
+Which search query should he use ?
+:::
+
+:::{grid-item-card}
+`license:GPL-3.0`
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository#searching-github-by-license-type
+:::
+::::
+
 
 ## type:issue,pr
 

@@ -358,6 +358,24 @@ Up to 10
 :::
 ::::
 
+::::{grid}
+:::{grid-item-card}
+How many important issues can be pinned above the issues list in a GitHub repository ?
+:::
+
+:::{grid-item-card}
+3
+:::
+
+:::{grid-item-card}
+:::
+
+:::{grid-item-card}
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/administering-issues/pinning-an-issue-to-your-repository
+:::
+::::
+
+
 ### Sub-issues
 
 ::::{grid}
